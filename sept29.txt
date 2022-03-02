@@ -1,0 +1,95 @@
+
+
+>>>> TEXTSEMINARIE 1
+
+Presentation
+
+Struktur
+	Hösten:
+		Fyra textseminarier --- viktigt att genomföra alla uppgifter och delta i alla tillfällen.
+		15e december är deadline för att "genomföra" kursen, annars får man inte gå vidare till examensskrivningen.
+
+		Stilen får vara rätt individuell, men innehållet måste vara bra och gärna använda Oxford som citationssystem.
+
+	Våren:
+		4 timmar individuell handledning som texthandledare
+		15 april --- Examenstexten ska vara klar och inskickad som PDF
+
+		Ventilering i början av maj
+		student ------ konstnärlig examinator ------ textlig examinator ------ studentopponent
+
+		ca 2 veckor senare ska alla revideringar vara färdiga. Då ska den skickas in och den konstnärliga examinatorn
+		ska godkänna både text och musik.
+
+		Konstnärlig examinator = Erik Peters
+
+kursplan / utbildningsplan
+
+	Läs dokumenten för kursen - Examensarbete, samt Självständigt arbete.
+	Läs det som står i utbildningsplanen.
+
+
+
+tidigare arbeten
+
+	Läs arbeten från alla instutitioner, men endast med innehåll av konstnärlig forskning.
+	3 kandidatarbeten och 1 masterarbete.
+	Läs gärna texter från andra skolor också, t ex Konstfack, HDK, Valand HSM osv. bara det är konstnärliga arbeten.
+
+skrivuppgift
+	
+	Essä:  (ska bli ca 2 A4, frikopplad från examensarbetet)
+
+	Första gången jag fick göra något som kan betäcknas som elektronisk musik var när jag hälsade på min faster en gång.
+	Hennes pojkvän hade en dator som hade Ableton Live installerat på sig. Jag fastnade vid den här datorn och
+	fick på nåt vis fri lejd att testa vad den kunde göra. Jag visste inte hur något funkade men hade på något sätt
+	listat ut hur man la in musikfiler från hårddisken till ett spår i programmet. Det var nån låt från Thom Yorkes
+	soloplatta, Errasure? Jag höll sen på i nån timma eller två med att lägga olika resonanseffekter och reverb, dist
+	och allt möjligt annat ovanpå den här låten, vilket manglade den till oigenkännlighet. I små partier kunde man höra
+	originalet som läckte igenom, men i stort hade den fått en helt ny gestalt. Har för mig att det lät kyligt och
+	vasst, på nåt sätt ännu mer suggestivt än originalet. Jag var i alla fall otroligt nöjd, och fick min fasters kille
+	att bouncea ut en fil som jag sedan stolt lade upp på min myspace. Jag hade gjort min första remix. 
+
+	Jag tyckte att det var otroligt häftigt att kunna pajja ett ljud på det viset, att det gick att påverka och 
+	förvränga så himla mycket. Ett tag efter att jag lekt loss hos min faster kom jag över en kopia av Reason 3 som min
+	kusin hade gett mig på ett usb. 
+		Egentligen ville jag ju skriva poplåtar och lära mig skriva text, men Reason var begränsat. Det var bara 
+	fokuserat på mjukvarusyntar och samplingar, de hade inte implementerat ljudinspelning ännu. Att komma runt 
+	denna begränsning var otroligt omständig, och inget som jag som helt grön hade tålamod med. Eftersom jag satt 
+	på mina föräldrars gamla pc, utan tillgång eller kunskap att testa nåt annat sätt, så gjorde jag i det jag kunde 
+	göra, skriva små syntmelodier och klippa i fieldrecordings till små ljudsamplingar. Visste förstås inte vad 
+	begreppet field recording var, men gillade att ha med en zoom när jag var ute, och försökte dokumentera 
+	ljudmiljöer jag tyckte va häftiga, ungefär som med en kamera. 
+	
+	Jag tänker att den här erfarenheten är rätt generell för någon som suttit med en DAW nån gång, men jag tror också 
+	att de begränsningarna som jag jobbade med har satt spår i hur jag jobbar än idag. Jag har i huvudsak gjort 
+	väldigt sequencer-baserad musik, eller använt mig av inspelade ljud och field recordings. Jag har fortfarande 
+	väldigt ofta med en Zoom, för att inte råka missa något ljud. Det har nog format mitt musikskrivande en hel del,
+	vad gäller preferenser i estetik, men också hur formen på den musik jag skriver ser ut. Inte bara i form av 
+	“loop-sjuka” som kommer från att jag suttit och testat ljud med en tvåtaktersloop rullandes i bakgrunden i evighet, 
+	utan även min (över)tro på vad som går att göra med syntar, och vilka komplexa system de är.
+
+
+
+	preliminär plan:
+
+	1 titel + undertitel | + en mening
+
+		Metod för komposition 
+		- Minnesbilder som metod för komponerande.
+
+		Ett gestalatande genom musik som utgår från en upplevelse. 
+
+
+
+	2 längre beskrivning, ungefär en a4, förklarar vad som arbetet ska innehålla
+
+		Jag är intresserad av att skriva om strategier för att komma igång med med ett musikskrivande. Det jag har lust
+		att utforska är om jag kan sätta i system en strategi som jag försökt använda mig av, där jag försöker tonsätta
+		en händelse eller plats. Att hämta inspiration ur en "minnesbild". Perspektivet blir väldigt subjektivt, då
+		kompositionen i sig är ett subjektivt axplock av tolkningar ur en subjektiv upplevelse av en händelse. Att sedan
+		använda detta som ramverk för att skriva musik som beskriver "någonting".
+
+	3 musiken, beskrivning om musiken och vad för musik som ska innefattas i arbetet
+
+		 lite supercollider-musik + ev nåt annat

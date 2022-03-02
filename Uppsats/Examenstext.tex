@@ -1,0 +1,239 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+% Vad jag vill prata om och varför jag tycker att det är intressant.
+% Jag beskriver varför sökt mig till det här ämnet, utifrån min egen känsla av okunskap kring en viss teknik. 
+% Hur jag kunde känna mig begränsad när jag inte behärskade något, och hur det kunde göda en prestationsångest 
+% som jag sedan vidarebefordrade till andra. 
+
+\title{Examensuppsats}
+\author{Viktor Sandström}
+\date{Februari 2022}
+
+\subsection{Inledning}
+
+Under åren 2020-2021 genomgick jag en lång sjukskrivning. Jag spenderade större delen av den här perioden i
+mitt hem, med undantag för sjukhusbesök, ett julfirande och min trettioårsdag. Under den här sjukdomstiden
+började jag vilja skriva musik, mest utav en frustration att plötsligt ha så mycket tid, det som jag tidigare
+klagat på att jag inte haft, som ett skäl för att jag inte orkade göra musik. Min idé var från början att jag
+fattade tycke för de märkliga, bortglömda miljöer som finns på sjukhus och vårdmottagningar, som existerade
+mitt inuti en plats som ständigt var i rörelse, men som själva såg obefolkade och stillastående ut. Som att
+deras funktionalitet gått förlorad. En sån plats som jag starkt reagerat på var de innergårdar, anlagda med
+promenadstråk och icke förvuxna buskar och träd och med monobloc\footnote{\emph{Monobloc (chair)} [wiki],
+https://en.wikipedia.org/wiki/Monobloc\_(chair) (Hämtad 06-02-22)}-stolar som nu var täckta av alger, eller 
+korridorerna med den offentliga konst som var utplacerad genom sjukhuset. Dessa miljöerna fångade mitt
+intresse, men de speglade även min egen tillvaro som, likt dessa platser, kändes stillastående och tidlösa.
+Tanken att tonsätta miljöerna på sjukhus, blev istället ett projekt om att tonsätta och dokumentera min egen
+stillastående vardag.
+
+Det var först när jag efter hand böjrade må bättre som jag hade ork att börja arbeta med den här idén. I och med en
+förbättrning av mitt mående och ett överskott av ledig tid hade jag även bestämt mig för att lära mig
+kompositionsverktyget SuperCollider\footnote{\emph{SuperCollider}, https://supercollider.github.io/ (Hämtad
+06-02-22)}, som jag tidigare haft svårt med. Därav föll det sig naturligt att mycket av musiken jag skrev var
+skriven med detta verktyg. 
+
+När jag skrev musiken reflekterade jag kring hur jag skrivit musik tidigare, främst under min utbildning, att
+ha som utgångspunkt en främst personlig berättelse. Under min utbildning
+kände jag att jag hade jagat ett ideal av vad elektroakustisk konstmusik är. En känsla av att inte hinna lära
+sig alla tekniker är aktuella inom det elektroakustiska fältet, och att ständigt göra musik som en på ett
+eller annat sätt är en del av en lärandeprocess, men som är påeldad av prestationsångest och en känsla av att
+inte veta vad man gör. En insikt var att mycket, om inte allt jag gjort under åren hade varit något likt en
+"tech-demo", ett ljudande exempel på vad denna teknik kan erbjuda, utan att kunna ha en känslomässig
+förankring till materialet. 
+
+Platser som någon gång i tiden haft ett ändamål för både patienter och personal att vistas i, kanske ett
+avbrott från miljön runt omkring. Den offentliga konsten i korridorerna, eller som delade utrymme med en innergård, anlagd med buskar och träd  Dessa platser präglade denna tid, men det flöt även in i min egen tillvaro, då jag i min sjukskrivning
+på något sätt stod still, likt dessa platser. Mitt projekt, som från början var en idé om att tonsätta de här
+platserna, blev istället ett projekt om att tonsätta min egen stillastående vardag. 
+
+
+////////
+
+% Delalande-stycket är inte så fängslande, sätt det efter när jag skriver privat
+I Delalands uppsats om lyssnandebeteenden beskriver han tre unika former av lyssnande\footnote{François
+Delalande (1998) \emph{Music analysis and reception behaviours: Sommeil by Pierre Henry}, Journal of New Music
+Research, 27:1-2, 13-66, DOI: 10.1080/09298219808570738}. Han beskriver dem som det "taxonomiska", det
+"empatiska" och det "figurativa". Det första, det taxonomiska, är det som enligt Delalande förhåller sig
+närmast det traditionellt musikteoretiska analyserandet, att klassificera musikens beståndsdelar, deras
+"morfologiska enheters"\footnote{PIERRE SCHAEFFER!!!}. Det taxonomiska intresserar sig främst om relationerna
+mellan olika identifierbara ljud och klanger och hur de utvecklas över tid. I kontrast till det taxonomiska,
+det empatiska och figurativa skiljer sig just i sin tidsuppfattning av musiken och de tolkar inbördes
+relationer av ljud. Det empatiska lyssnandet, till skillnad från taxonomiskt, intresserar sig med att
+uppfatta musiken horisontellt, det omedelbara samspelet mellan klanger och hur det får en att känna. Istället
+för att höra helheten och dess samspel, insatser och uttoningar, försöker man sätta sig i det emotionella
+tillståndet som musiken, ögonblick för ögonblick försätter en i. 
+
+% Börja här? beskriv det sista lyssnarbeteendet kort, sedan direkt in på min egen berättelse, för att sedan
+% återknyta ordentligt med Delalande.
+
+Det tredje och sista lyssnandebeteendet som
+Delalande identifierat är det figurativa. Den som lyssnar med detta perspektiv är intresserad av att associera
+fritt kring de ljud den hör, likt miljöer som beskriver ett narrativ. Där musiken översätts i lyssnarens huvud
+till att besrkiva en scen eller plats som lyssnaren förnimmer i lyssnandet av musiken. 
+
+Detta klingade väldigt rätt hos mig när jag börjat arbeta med ett projekt som till viss del handlade om en
+sjukskrivning som jag genomgick under vintern och våren av 2021. Det började med att jag fattade tycke för de
+märkliga bortglömda miljöer som finns på sjukhus och mottagningar, där det känns som man kan ana en
+funktionalitet men som gått förlorad. Platser som någon gång i tiden haft ett ändamål att låta både patienter
+och personal tänka på något annat. Den offentliga i korridorer, eller som delade utrymme med
+en innergård, anlagd med buskar och träd och med monobloc\footnote{\emph{Monobloc
+(chair)} [wiki], https://en.wikipedia.org/wiki/Monobloc\_(chair) (Hämtad 06-02-22)}-stolar som nu var täckta av
+alger. Dessa platser präglade denna tid, men det flöt även in i min egen tillvaro, då jag i min sjukskrivning
+på något sätt stod still, likt dessa platser. Mitt projekt, som från början var en idé om att tonsätta de här
+platserna, blev istället ett projekt om att tonsätta min egen stillastående vardag. 
+
+I den här processen, framförallt när jag mådde bättre, började jag arbeta med musiken, framförallt utifrån
+verktyget SuperCollider\footnote{\emph{SuperCollider}, https://supercollider.github.io/ (Hämtad 06-02-22)}.
+När jag skrev musiken reflekterade jag kring hur jag skrivit musik tidigare, främst under min utbildning, och
+att detta utgångsläge, att gestalta något utifrån ett minne eller känsla, var annorlunda. Under min utbildning
+kände jag att jag hade jagat ett ideal av vad elektroakustisk konstmusik är. En känsla av att inte hinna lära
+sig alla tekniker är aktuella inom det elektroakustiska fältet, och att ständigt göra musik som en på ett
+eller annat sätt är en del av en lärandeprocess, men som är påeldad av prestationsångest och en känsla av att
+inte veta vad man gör. En insikt var att mycket, om inte allt jag gjort under åren hade varit något likt en
+"tech-demo", ett ljudande exempel på vad denna teknik kan erbjuda, utan att kunna ha en känslomässig
+förankring till materialet. 
+
+% Vrida lite på första stycket, börja personligt, sedan skapa en ram i inledningens andra del, t ex Delalande,
+% Schaeffer,  Smalley - morfologiska begrepp och teori kring kategorisering av elektroakustisk musik
+% Mark Fisher - kritik mot new public management.
+
+
+
+
+\subsection{Rubriker}
+
+\subsubsection{State of the art}
+  % Som state of the nation - var befinner sig det elektroakustiska fältet just nu? Citat och ev om min egen
+  % musik. 
+
+
+  
+
+\subsection{Diskussionsdel}
+
+
+\subsubsection{Absolute vs Programmatic music.}
+- Joanna Demers - Listening through the noise: om hur man diskuterat vad fokus borde ligga i högre
+  musikutbildningar, och att "absolut" musik har dominerat.
+
+  % Russolo - fokus och intresset kring krigsljud och krigsmaskiner, något som ligger till grund för tidig eam,
+  % som är manligt kodat och fascistiskt.
+
+  Russolo och futuristerna på början av 1900talet var intersserade av maskiner, industri och krig, med tydliga
+  fascistiska konnotationer. Deras arv kan fortfarande höras inom den elektroakusiska genren, med sitt
+  intresse för ljud som kommit som biprodukt ur industri och från maskiner, och stundtals rent aggressiva
+  ljud, som t ex noise. 
+
+  % Kode9 och hans avhandling där han myntar begreppet "sonic warfare", en återkoppling till fascinationen
+  % kring vapen, men här omvänt ur en granskande kritiserande blick från en elektronisk kompositör.
+
+  % Emma Frid - Diverse sounds, kap 2.2 music diversity and inclusion - "Varför ska vi sträva efter diversity?"
+  % s. 18, empowerment through music and technology
+
+
+\subsubsection{Musik som vetenskaplig forskning}
+- vad har det haft för konsekvenser för hur och vilken musik som skrivs, när materialet på utbildningar filtreras
+  genom ett behov av att motivera sig som ett akademiskt ämne. Att detta fokus på att få vara vetenskaplig
+  forskning har satt sitt spår i vad och hur man lär ut komposition, och främst elektronisk musik som är så
+  fokuserad på teknik. 
+
+  Mark Fishers tankar om hur utbildningar behöver motivera sin egen existens, kanske citatet om vilket
+  förhållande lärare (instutition) och elev har, vem som köper en tjänst av vem. Att högre utbildningar
+  köper en tjänst, behöver ha elever som läser för att få ekonomiskt stöd, istället för att eleven köper sin
+  utbildning av instutitionen. 
+
+	
+  % Neo-liberalism och New Public Management
+
+  % Edu-art - konst som är producerad inom akademin, som inte har något värde utanför den världen.
+
+  % som konstnärer behöver man inte ge ifrån sig något som är bra.
+  % som forskare så kan man inte tweaka 
+
+  % Kölnstudion
+  % Parisstudion
+
+  % I came into the studio to make noises speak, I stumbled into music - Pierre Schaeffer
+
+  % Henk Borg - Frailing
+
+  % on, for or in the arts: 
+	% on: musikvetenskap, musikhistoria - forska på musiken själv
+	% for: barockinterpretation - syftet är att spela barock
+	% in: 
+
+	% konstnärlig forskning vad är det?
+
+	% Henri Bergson - Introduction to metaphysics
+
+  % Denis Smalley - om division of labor
+
+  % Simon Emmerson - The relation of language to materials
+
+  % Ens subjekt, ens röst, som man odlar, kontra t ex AI-musik, där du kodar bort ditt eget subjekt
+  % I want to hear someones music, not someones max-patch. i AI är det kanske omvänt
+  % AI är kanske den utlimata kritiken mot det jag kritiserar. 
+
+  % Åsa Stjerna - Before Sound - om att släppa kontrollen om musiken 
+  % Cybernetic manifesto
+
+\subsubsection{Teknik som inspiration}
+- Att inspireras av teknik, dess möjligheter och dess begränsningar. Detta är en viktig rubrik, då det är ett
+  en viktig del av elektronisk musik, och en viktig del av mångas metod. 
+
+  Linus Hillborgs examensarbete. exemplet med metal gear solid
+
+\subsubsection{Tekniken som en börda}
+- Arbetssätt och teknologi som en merit, där ju otillgängligare något är, eller mer obskyrt, desto större vikt
+  har det inom elektronisk musikkretsar. 
+
+  Konceptet gate-keeping, att hålla på "the fruits of your labor" istället för att dela kunskap, för att ha
+  ett övertag över ens jämlikar.
+
+  Maria Horns examensarbete - Om manligt och kvinnligt kodade egenskaper, och hur tekniken varit något som män
+  länge fått höra att de har rätt att använda, för de har rätt att kontrollera världen, medan kvinnor inte har
+  det. Detta har bidragit till att kvinnor inte har lika lätt in i rum som dominerats av män, men en
+  tekno-jargong som passivt (eller aktivt) exkluderar kvinnor. 
+
+  Fokuset på att bygga sitt verktyg, och att man kan gå vilse i den processen. Jean Baudrillard, högre
+  upplösning av mediet, lägre upplösning av innehållet(?). 
+  La Meme Young-podcasten med Jessica Ekomane, där de pratar om den hypotetiska masterstudenten som spenderar
+  2 år att bygga sin enorma \emph{patch}, som ska lösa alla problem och äntligen möjliggöra den där musiken
+  som hen alltid drömt om, för att sedan gå vilse i syftet och tappa siktet på slutmålet, att göra musik. 
+
+  % t ex stycken som brukar extended techniques, men utan att veta varför
+  % Buchla - "we are not limited by our tools but our mindsets"
+
+  % vad är antitesen till "megapatchen"? att aldrig spara något? att göra något i stunden (live-kodning)? 
+  % en skillnad mellan oss och andra instrumentalister.
+
+
+\subsection{Koppling till musiken}
+- Koppla till min musik, till EPn som jag gjorde som start för examensprojektet, och även de experiment som
+  jag gjorde med ljud på sample-nivå. 
+- Började med en idé om att tonsätta och dokumentera platser, de jag såg under min sjukskrivning, framförallt
+  de övergivna offentliga rum som fanns i de miljöerna. Hur det projektet övergick till att dokumenter min
+  egen vardag, som på något sätt länkades ihop med de platserna. Beskriv hur begreppet liminalitet kan
+  användas för att beskriva båda dessa, då det beskriver att vara i tröskeln av någonting. En tröskelplats, en
+  plats på vägen mellan två platser, eller en plats i en övergångsperiod, på väg till att bli något annat.
+  Eller ett tröskeltillstånd, som i ritualen, där det finns ett före och ett efter, men under ritualen
+  befinner man sig i ett mellanläge. Hur min situation som sjukskriven och bunden till mitt hem kunde ses som
+  ett sådant tröskeltillstånd. 
+  
+  (Junk Space - tuffa arkitekten som Malte nämnde)
+
+  Skriv även om hur mitt tröskeltillstånd möjliggjorde att jag orkade lära mig saker som jag tidigare haft en
+  stress för att lära mig, de i mina ögon upphöjda verktygen som jag tidigare hade kastat mig ut för att göra
+  musik med, utan att riktigt veta hur man gjorde, och utan ett lugn kring vad jag ville göra.
+
+
+
+
+
+
+
+
+
+
+\end{document}

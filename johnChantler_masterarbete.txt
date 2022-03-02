@@ -1,0 +1,46 @@
+John Chantler
+
+Hans uppsats tar avstamp i hans portabla ljudinstallation, ett instrument som går att ta med sig till en
+utställningsplats utan större mer utrustning än just själva objekten. 
+Han pratar också om tre platser där hans installation skulle spelas. På Röda Sten i Göteborg, vid E4an och vid
+Järvafältet. Han ställer sig tidigt i uppsatsen frågan om idén om att bygga dessa högtalare, som bottnar i hans intresse
+för infrastruktur, är en undanflykt eller prokrastinering ifrån estetiska och poetiska frågor, men han kommer på att det
+inte är två olika delar av hans praktik utan att de informerar varandra. 
+
+Han diskuterar något som kallas "the minor practice" eller "the minor gesture". Som jag förstår det är det ett sätt att
+ställa sig kritiskt till ens konstnärliga praktik, för att kreatiivt reagera på ens eget uttryck. Han beskriver också
+att hans projekt sprungit ur instutitioners infrastruktur, hans portabla högtalarrigg. Men han söker något från kopplat
+från instutitioner, som kan tillåta för hans projekt att frambringa riktigt deltagande. 
+
+Projektet skulle skapa ett nytt sätt för John Chantler att göra musikaliska framträdanden, som skulle bryta mot hans
+uppfattade stereotyp av framförandet av elektroakustisk musik, den klassiska stol och bord med grejer på-sättningen. 
+Han pratar om den klassiska uppställningen av att stå bakom PAt framför publiken, som begränsar ens upplevelse av ens
+eget framförande, då ljudet som ges en där man står inte motsvarar det som publiken hör. Det blir ofta en bristfällig
+representation. Hur han gick från att sätta sig själv bland publiken och höra ljudet så som publiken hörde det. Men även
+detta kändes begränsande då man blev fixerad på en plats, och det fanns fortfarande en barriär mellan utförare och
+åhörare. Det han är intresserad av är att göra det möjligt att vara en aktiv, i kontrast till passiv, åhörare. Han
+beskriver det han vill skapa som en inbjudande och fostrande miljö med sitt högtalarsystem, i kontrast till en miljö med
+starkt "weaponized sound" och barriärer som skapar avstånd, något som han också tänker kan leda till en avkodning av
+relaterade könskoder. 
+
+Han diskuterar hur live-framträdanden historiskt varit något som elektroniska musiker tampats med, genom att försöka
+uppfinna något nytt. Ett grepp har varit att addera något visuellt. Att visualisera ljudet på något vis, eller
+processen som skapar ljuden. I relation till detta var idén med John Chantlers högtalare att man skulle kunna se och
+känna påverkan av ljudet, en länk mellan rörelse och ljud som blev påtaglig.
+
+Han pratar om klangkupolen och liknande, med deras begränsade "sweet spot", och det motsägelsefulla i en "sann"
+representation av rumsligt ljud där högtalarna och lyssnarna är fixerade. Att det kan vara mer intressant att tänka på
+rumsligt ljud som något dynamiskt och föränderligt, där ljudkällor och lyssnarpositioner är föränderliga. Att hans
+projekt också ska gå emot en kapplöpning i processorkraft mot multikanalteknik "where higher orders of ambisonics are
+waved around like a phallus".
+
+En önskan att komma bort från synlig komplexitet i utförandet, som med spaghettimonstret från ett modulärt system.
+Chantlers högtalare skulle gömma bort den tekniska funktionaliteten hos dem, så den blev osynlig. Att uppmärksamheten
+fokuseras på vad som händer när man flyttar runt dem, istället för själva objektet. 
+
+Han beskriver sedan hur högtalarna är byggda av 2 IKEA-skålar och ett antal fästen som huserar högtalarelementen. Inuti
+sitter minidatorn Raspberry Pi och ett litet ljudkort som driver högtalarna. Mjukvaran som kördes på datorn var ett par
+open-source program, Pure Data och SuperCollider för ljudalstring och hantering av kontrollmeddelanden och Python som
+hjälpte datorn att veta vad den skulle göra varje gång den startade, samt sa åt datorn att lyssna efter gyroskopdata.
+Han beskriver också att han har arbetat med renstämning och frekvensmodulation som grund för det tonala i hans
+ljudalstring.

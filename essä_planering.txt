@@ -1,0 +1,145 @@
+
+Essä:  
+
+Första gången jag fick göra något som kan betäcknas som elektronisk musik var när jag hälsade på min faster en gång.
+Hennes pojkvän hade en dator som hade Ableton Live installerat på sig. Jag fastnade vid den här datorn och
+fick på nåt vis fri lejd att testa vad den kunde göra. Jag visste inte hur något funkade men hade på något sätt
+listat ut hur man la in musikfiler från hårddisken till ett spår i programmet. Det var nån låt från Thom Yorkes
+soloplatta, Errasure? Jag höll sen på i nån timma eller två med att lägga olika resonanseffekter och reverb, dist
+och allt möjligt annat ovanpå den här låten, vilket manglade den till oigenkännlighet. I små partier kunde man höra
+originalet som läckte igenom, men i stort hade den fått en helt ny gestalt. Har för mig att det lät kyligt och
+vasst, på nåt sätt ännu mer suggestivt än originalet. Jag var i alla fall otroligt nöjd, och fick min fasters kille
+att bouncea ut en fil som jag sedan stolt lade upp på min myspace. Jag hade gjort min första remix. 
+
+Jag tyckte att det var otroligt häftigt att kunna pajja ett ljud på det viset, att det gick att påverka och 
+förvränga så himla mycket. Ett tag efter att jag lekt loss hos min faster kom jag över en kopia av Reason 3 som min
+kusin hade gett mig på ett usb. 
+	Egentligen ville jag ju skriva poplåtar och lära mig skriva text, men Reason var begränsat. Det var bara 
+fokuserat på mjukvarusyntar och samplingar, de hade inte implementerat ljudinspelning ännu. Att komma runt 
+denna begränsning var otroligt omständig, och inget som jag som helt grön hade tålamod med. Eftersom jag satt 
+på mina föräldrars gamla pc, utan tillgång eller kunskap att testa nåt annat sätt, så gjorde jag i det jag kunde 
+göra, skriva små syntmelodier och klippa i fieldrecordings till små ljudsamplingar. Visste förstås inte vad 
+begreppet field recording var, men gillade att ha med en zoom när jag var ute, och försökte dokumentera 
+ljudmiljöer jag tyckte va häftiga, ungefär som med en kamera. 
+
+Jag tänker att den här erfarenheten är rätt generell för någon som suttit med en DAW nån gång, men jag tror också 
+att de begränsningarna som jag jobbade med har satt spår i hur jag jobbar än idag. Jag har i huvudsak gjort 
+väldigt sequencer-baserad musik, eller använt mig av inspelade ljud och field recordings. Jag har fortfarande 
+väldigt ofta med en Zoom, för att inte råka missa något ljud. Det har nog format mitt musikskrivande en hel del,
+vad gäller preferenser i estetik, men också hur formen på den musik jag skriver ser ut. Inte bara i form av 
+“loop-sjuka” som kommer från att jag suttit och testat ljud med en tvåtaktersloop rullandes i bakgrunden i evighet, 
+utan även min (över)tro på vad som går att göra med syntar, och vilka komplexa system de är.
+
+
+
+Preliminär plan:
+
+1 titel + undertitel | + en mening
+
+	Metod för komposition 
+	- Minnesbilder som metod för komponerande.
+
+	
+
+2 längre beskrivning, ungefär en a4, förklarar vad som arbetet ska innehålla
+
+Jag vill utforska hur en strategi som baseras på att skriva "beskrivande" musik, där musiken på ett eller annat
+sätt influeras eller ska gestalta en känsla eller minne, kan ge för effekt på generativ, algoritmisk och i
+övrigt syntetisk musik, inom vilken genre man annars ofta lägger stort fokus på hur tekniken bakom är utformad.
+Om man kan skilja på ett beskrivand "subjektivt" perspektivt, och ett mer tekniskt "objektivt" perspektivt, och
+om de gynnas av varann?
+
+Jag har upplevt att jag länge försökt skriva musik utifrån en ny teknik jag lärt mig. Att det är den som har det
+verkliga värdet, den tekniska aspekten av musiken. Jag har också ofta haft det som startposition, att mitt
+komponerande varit ett utforskande av verktyg, snarare än utforskandet av själva musiken som det kan frambringa.
+Att jag, i en kultur som gärna intresserar sig av teknologi, fallit i fällan att tekniken har ett egenvärde.
+Även ett tillräckligt stort värde för att kunna bära den musiken jag skriver. Att det för mig var lätt att då ha
+svårt med frågeställningar som "vad vill musiken säga?" mer än att det då blir en "tech demo". 
+
+Terapeutiskt komponerande? Att utgå ifrån en händelse, som ett ramverk att utgå ifrån när konstnärliga val ska 
+tas. Använda sig av ett figurativt perspektiv för att berätta en historia. 
+
+Jag har, som ett projekt under min sjukskrivning försökt dokumentera den genom att skriva om den, som i en 
+dagbok. Eftersom det har varit en rätt märklig och ovan upplevelse, som också har ändrats under tidens gång, med
+nytt perspektiv i retrospekt, har jag kokat ner de här anteckningarna till någon form av snapshots,
+generaliserade bilder av för mig tydligt avdelningsbara perioder. När jag väl valt ut bilder försökte jag
+kategorisera för mig själv hur jag ville att dessa bilders olika känslor skulle låta, om det handlade om något
+introspektivt eller om miljön och tiden. Tillsammans med en kort sammanfattning skrev jag även ner idéer om
+textur och gestik som jag associerar till den bilden, och detta blev sedan någon slags karta för ett antal
+kompositioner med ett sammanhängande tema, en byggställning för att bygga runt och några första idéer. Det
+gjorde att jag hade något väldigt konkret att arbeta med, men som jag hade en personlig och känslomässig
+koppling till. För mig blev det att jag inte ville lämna projektet för fort, det fanns en motivation att
+fortsätta och fullborda arbetet, även om det inte alls blir som det var tänkt (citat den där examensuppsatsen
+jag läste).
+
+Det som Niklas sa om Linus examensarbete, att det är intressant att delta i ny "emerging" teknologi, som inte än
+har fixerats i nåt normaliserat. Ett uttryck som fortfarande utforskas. Diskuterar han kring om teknologi hämmar
+eller bara lyfter kreativitet? 
+
+Kan teknologin vara något romantiskt? 
+
+Poietisk process		Neutral			   Estesisk process
+Minneanteckning ("ursprung") -> tolkning (producent) -> stycke (medium) -> tolkning (mottagare)
+	Vad för form erhålls från musik 2 steg bortkopplade från objektet den gestaltar? Spelar det någon roll?
+	Vad är kvar? 
+
+Utesluter de två perspektiven varann, eller kompletterar de varann?
+
+Kan det vara värt att utforska Mark Fisher och det han skriver om skolsystem och undervisning under i ett
+kapitalistist samhälle, när han pratar om apati som drabbar studenter i ett system som ibland curlar dem, där
+skolor behöver godkända elever för att få anslag. Har det nåt med nåt att göra eller tycker jag bara det är
+intressant? 
+
+Den elektroakustiska musiken som fält har från sin början motiverat sin existens genom vetenskaplig forskning. 
+Det finns därför en tydlig förankring mellan musiken och teknik och teknologisk utveckling. Detta har banat 
+väg för högre studier inom elektroakustisk musik.
+
+Hur har det bidragit till att forma elektroakustisk musik? På vilka sätt har det bidragit eller begränsat ett uttryck
+eller den sociala läromiljö som högre studier inom komposition innebär? 
+
+Att bli bedömd utifrån ens verktyg, t ex använda logic istället för något med bökigare inlärningskurva (läs
+SuperCollider eller något liknande), kan ses som ett tecken på professionalitet (som visitkorten i American Psycho).
+
+Vad är begreppet DIY? 
+Det dikterar inte att ett hemmabyggt, hemmakodat reverb är bättre än det som kommer färdigt med din DAW. 
+Det handlar mer om en estetik som har en grund i koncept som självlärande och ett gemensamt utforskande (som
+studiecirklar) och deltagande som kan beskrivas som voluntärt, mer än ett strängt förhållningssätt till slagorden "gör
+det själv". 
+
+Ibland kan studier i EAM bli ett utvecklande av ens stora allomfattande Instrument™. I utvecklandet ens Instrument™ har
+man lärt sig mycket, men syftet kan ha försvunnit på vägen, i form av den musiken du föreställde dig att du skulle
+skapa, bara Instrumentet™ var färdigbyggt.
+
+Utforska ett figurativt berättande. Brodera ut kring hur man talar kring eam, varför samtal om tekniska aspekter
+ofta premieras över samtal om en mer emotionell eller poetisk, empatisk eller figurativ grund i musiken. 
+
+Brian Eno - Music For Airports - Audio Culture
+
+Delalande - Modes of listening ( ? ) - om olika lyssnanden, figurativt t ex
+
+Litteratur att kolla in:
+
+Maria Horn - kandidatarbete
+
+Linus Hillborg kandidatarbete
+
+Henrik Frisk om interaktivitet
+
+Jean Baudrilliard (ju högre upplösning av mediet, desto längre upplösning av budskapet)
+
+Jean Molino ( ? )
+
+Mark Fisher - Capitalism - Is there no alternative?
+
+Murray Schafer
+
+John Cage + Rashaan Roland Kirk
+
+La Meme Young - Jessica Ekomane as Guest
+
+
+3 musiken, beskrivning om musiken och vad för musik som ska innefattas i arbetet
+
+ lite supercollider-musik + ev nåt annat
+
+
