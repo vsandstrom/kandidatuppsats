@@ -1,5 +1,8 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage[margin=3cm]{geometry}
+\usepackage{listings}
+\usepackage[framed, numbered]{sclang-prettifier}
 
 \begin{document}
 % Vad jag vill prata om och varför jag tycker att det är intressant.
@@ -39,8 +42,10 @@ kompositionsverktyget SuperCollider\footnote{\emph{SuperCollider}, https://super
 06-02-22)}, som jag tidigare haft svårt med. Därav föll det sig naturligt att mycket av musiken jag skrev var
 skriven med detta verktyg. 
 
-Under processen reflekterade jag kring kompositionsmetoden jag använde för den här musiken, som jag upplevde
-var ett sätt att arbeta som jag inte använt mig av innan. Under min utbildning har det ofta känts
+% Ger detta intrycket att jag inte kunnat göra känslomässig musik tidigare?
+
+Under processen reflekterade jag kring kompositionsmetoden jag använde för den här musiken. Jag upplevde
+ att det var ett annat sätt att arbeta än jag var van vid. Under min utbildning har det ofta känts
 som att jag jagat ett ideal av vad elektroakustisk konstmusik är. En känsla av att inte hinna lära sig alla
 tekniker är aktuella inom det elektroakustiska fältet, och att ständigt göra musik som en på ett eller annat
 sätt är en del av en lärandeprocess, men som är påeldad av prestationsångest och en känsla av att inte veta
@@ -49,30 +54,30 @@ ett ljudande exempel på vad denna teknik kan erbjuda, utan att kunna ha en kän
 materialet. Det var på grund av denna tidigare erfarenhet som kompositionsmetoden kändes ny, det fanns ingen
 baktanke om att musiken bara var ett steg på vägen till att bemästra en teknik. Istället fanns en känsla av
 att kunna få utforska tekniken om nyfikenhet eller ett behov infann sig, men där ett estetiskt uttryck fick
-vara förgrund för processen.
+vara förgrund för processen. 
 
-/////////
+% /////////
 
-EN TES: Hur fokuset på absolut musik inom konstmusik, och i instutitioner runt omkring kan ha format
-elektroakustisk musik och dess inställning till teknik. 
-Att försöka hitta något som är universellt och sant, som överskrider subjektet. Exempel på detta är
-sonifieringsgenren, som i sin strävan av att betraktas som en legitim avbildning av data, bortser från de
-konstnärliga val som görs för att få data att passa in i ett ljudande medium. Finns det en koppling mellan den
-här tanken på Absolut musik, musik som existerar enbart som musik (i kontrast till programmusik, musik som
-berättar en extern historia.) och [ [ TEKNIKFIXERINGEN ] ] hos elektroakustiska kompositörer. 
+% EN TES: Hur fokuset på absolut musik inom konstmusik, och i instutitioner runt omkring kan ha format
+% elektroakustisk musik och dess inställning till teknik. 
+% Att försöka hitta något som är universellt och sant, som överskrider subjektet. Exempel på detta är
+% sonifieringsgenren, som i sin strävan av att betraktas som en legitim avbildning av data, bortser från de
+% konstnärliga val som görs för att få data att passa in i ett ljudande medium. Finns det en koppling mellan den
+% här tanken på Absolut musik, musik som existerar enbart som musik (i kontrast till programmusik, musik som
+% berättar en extern historia.) och [ [ TEKNIKFIXERINGEN ] ] hos elektroakustiska kompositörer. 
 
-Har tekniken fått berätta historier åt oss, hur låter de? Hur mycket förlitar sig elektronisk musik på
-möjligheten att gestalta något, och hur mycket lutar den sig på möjligheterna inom teknologier?
+% Har tekniken fått berätta historier åt oss, hur låter de? Hur mycket förlitar sig elektronisk musik på
+% möjligheten att gestalta något, och hur mycket lutar den sig på möjligheterna inom teknologier?
 
-Teknologier har möjliggjort att vi kan skapa extremt avancerade klanger, som är ovanliga eller omöjliga i
-akustiska rum och resonanser, men hur förvaltar vi det och vart ligger vårt ansvar att göra det mer
-tillgängligt?
+% Teknologier har möjliggjort att vi kan skapa extremt avancerade klanger, som är ovanliga eller omöjliga i
+% akustiska rum och resonanser, men hur förvaltar vi det och vart ligger vårt ansvar att göra det mer
+% tillgängligt?
 
-En rimligare fråga är kanske hur elektroakustisk musik blivit trots instutitionernas ingrodda åsikt om absolut
-och programmusik?
+% En rimligare fråga är kanske hur elektroakustisk musik blivit trots instutitionernas ingrodda åsikt om absolut
+% och programmusik?
 
-Hur har språket om teknik, hur man sett på teknik historiskt och inställningen till den, format hur
-elektronisk musik formas
+% Hur har språket om teknik, hur man sett på teknik historiskt och inställningen till den, format hur
+% elektronisk musik formas
 
 
 % koppla till Joanna Demers text. Hur absolut musik förhärskat inom akademien. Kanske koppla till hur många
@@ -81,7 +86,7 @@ elektronisk musik formas
 
 
 
-////////
+% ////////
 
 % Delalande-stycket är inte så fängslande, sätt det efter när jag skriver privat
 I Delalands uppsats om lyssnandebeteenden beskriver han tre unika former av lyssnande\footnote{François
@@ -194,12 +199,7 @@ förankring till materialet.
 
   % DIY
 
-
-  
-
 \subsection{Diskussionsdel}
-
-
 \subsubsection{Absolute vs Programmatic music.}
 - Joanna Demers - Listening through the noise: Om fokuset på absolut musik i högre
   musikutbildningar, och hur programmusik har hamnat i skymundan.
@@ -306,21 +306,135 @@ förankring till materialet.
   plats på vägen mellan två platser, eller en plats i en övergångsperiod, på väg till att bli något annat.
   Eller ett tröskeltillstånd, som i ritualen, där det finns ett före och ett efter, men under ritualen
   befinner man sig i ett mellanläge. Hur min situation som sjukskriven och bunden till mitt hem kunde ses som
-  ett sådant tröskeltillstånd. 
+  ett sådant tröskeltillstånd. '
+
+  Den ljudande delen av mitt examensarbete består av en EP släppt på kassett på bolaget
+  Kalkatraz\footnote{länk till kalkatraz nånting}, samt en ljudinstallation, som i en omarbetning även blev
+  ett stycke för piano och elektronik.
+
+  Min EP skrevs i huvudsak under min tid som sjukskriven efter min njurtransplantation. De fyra spåren har
+  namn som refererar till tidpunkter eller platser som fastnat tydligt i minnet hos mig. 
+	\subsubsection{DEC}
+	"Dec" var det första stycket jag började arbeta med. Ursprungligen var detta ett stycke som skulle vara en
+	form av ljudläggning av platser på sjukhus ( se inledningen ) som känns bortglömda, med fokus på
+	innergårdar och utrymmen runtomkring och mellan husen, ofta med ett gråaktigt, deprimerande eller illa
+	skött offentlig konst. En komposition om att spendera mycket tid i dessa miljöer. Dock övergick projektet
+	efter hand till att beskriva den första tiden då jag var sjukskriven, när jag abrupt pausade mina studier
+	och påbörjade en tillvaro som var ett typ av mellantillstånd, där varje dag smälte ihop i nästa, avbrutna
+	av läkarbesök. 
+		Jag började arbetet med att fundera över signal- och styrflöde i ett modulärt system jag nyligen hade
+		byggt. Jag hade en plan om att kunna styra synten med MIDI\footnone{MODO} från SuperCollider, och att
+		den sedan skulle efterarbetas i Reaper:
+		\begin{center}
+			% tabular behöver ytterligare argument som visar hur många celler 'c'
+			\begin{tabular}{ c c c c c }
+				% avgränsningen görs med '&' mellan celler och '\\' mellan rader
+				Midi		  & -> & Ljud			& -> & Processering/mastring \\
+				SuperCollider & -> & Eurorack-synth & -> & Reaper
+			\end{tabular}
+		\end{center}
+
+		Till en början var arbetet att få en lösning med MIDI för att skicka ett playback av tonhöjd- och
+		durationsmaterial till synten. Detta var något nytt för mig och jag fick det inte att fungera som jag
+		ville (inte alls), så jag övergav idén för intern playback i synten själv. 
+		Jag arbetade med ett QPAS-filter (Quad Peak Animation System) från tillverkaren Make
+		Noise\footnote{makenoise}. Med detta filter kunde jag arbeta med ytterligare en stämma, genom att
+		framhäva och finstämma vissa övertoner i den styckets klang. Stämman bidrog till variation i en
+		annars väldigt lunkande och stillastående ljudbild, Jag upplevde att den bidrog till mer motrörelse,
+		trots att stämman var en en ton med en statisk relation till de underliggande tonerna. Med denna
+		parameter samt möjligheten att bredda och öppna filtret för att släppa igenom mer ljud, och varsin
+		wavefold-effekt på oscillatorerna, hade jag möjlighet att framföra stycket med ett mått
+		"liveness"\footnote{citat om liveness i elektronisk musik}. Ytterligare hade jag en bruskälla och ett
+		LFO\footnote{LFO} som gick ut från från SuperCollider till synten, för att tillföra ett mått av slump.
+		Jag kunde styra den från samma kontroll som de andra. Detta kändes viktigt då jag tanken var att
+		spela musiken som en solokonsert, och med tanken på min bakgrund som pianist kändes det rätt att ha
+		något att påverka musiken med. 
+
+	\subsubsection{Koltrast}
+	Stycket "Koltrast" skrevs under sommaren 2020, när jag spenderade tid i Göteborg. Stommen i stycket är en
+	lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och
+	inspelningen gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis
+	när det började ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull
+	koltrastar som sjöng över hustaken på Doktor Fries Torg. Fångade det genom att plocka fram en
+	Zoom\footnote{portastudio Zoom} innan jag gick och lade mig igen. 
+		När jag sedan bestämde mig för att skriva ett stycke kring fågelsången, ville jag testa om jag kunde
+	låta inspelningen styra musikaliska parametrar på något vis. Min första tanke var att använda
+	FFT-analys\footnote{FFT-analys} för att kunna följa fågelsångens egen tonhöjd, och tillåta den styra
+	tonhöjden av en synt. Under processen hade jag blev jag dock mycket fäst vid hur inspelningen lät i sig
+	själv och ville inte bygga ett instrument som skulle göra en konstgjord kopia, om än möjligtvis
+	intressant. Istället bestämde jag mig för att bygga ett program i SuperCollider som kunde följa amplituden
+	av fågelsången, och ta beslut kring musikaliska händelser när amplituden översteg ett tröskelvärde. Synten
+	som triggades av dessa event hade en tydlig attack, men om dess eget volymenvelop öppnades upp och tillät
+	för längre toner påminde det om inspelningar jag hört av orgelpipor, där mikrofonen stått mycket nära
+	mekanik och klaffar. Jag bestämde mig då för att det skulle bli något i stil med ett syntetiskt
+	orgelstycke. 
+
+	%%%% SÄTT IN LITE SC-KOD HÄR %%%%
+
+	Jag undersökte även "physical modelling", tekniken att framställa ljud som liknar akustiska klanger på
+	syntetisk väg. Till detta använde jag en färdig klass i SuperCollider som heter DWGBowedTor från
+	biblioteket DWG\footnote{DWG}. Tillsammans med en basstämma fick agera kontrapunktiskt mot den mer
+	stokastiska koltraststämman och dess ackompanjerande synt, de fick vara mer förutsägbara och ha en mer
+	cirkulär form. Här arbetade jag även med att skriva sekvenser med "kontrollstrukturer"\footnote{SC
+	controll structures}, och göra enkla sekvenser som varierade sig baserat på vilket varv vi var på i
+	loopen. 
+
+% \lstset{scsymbolstyle=\color[RGB]{0,113,0}, scenvvarstyle=\color[RGB]{147,70,14},
+% scclassstyle=\color[RGB]{0,40211}}
+	\begin{lstlisting}[style=SuperCollider-IDE, content=Sequencer-exempel]
+	fork{
+		var caust0, caust1, count = 0, cond = 0;
+		var db = 69.3, eb = 77.8, g = 98, ab = 51.9;
+
+		// definierar de två variablerna som bestämmer vilken väg 
+		// sequencern ska ta
+		count = 0;
+		cond = true;
+
+		loop{
+			if(cond == true) 
+			{
+				caust0 = Synth(\caust, 
+					[\freq, db, \t_trig, 1, \rel, 7.5,  \vol, f.faderAt(8).asMap], 
+					addAction: \addToHead);
+				15.wait;
+				cond = false;
+			};
+			cond = true;
+
+			caust0 = Synth(\caust, 
+				[\freq, ab, \t_trig, 1, \rel, 4.25, \vol, f.faderAt(8).asMap],
+				addAction: \addToHead); 
+			7.5.wait;
+
+			caust0 = Synth(\caust,
+				[\freq, eb, \t_trig, 1, \rel, 4.25, \vol, f.faderAt(8).asMap],
+				addAction: \addToHead); 
+			7.5.wait;
+
+			count = count + 1;
+
+			if(count == 4) {
+				caust0 = Synth(\caust, 
+					[\freq, db * 5/4, \t_trig, 1, \rel, 7.5, \vol, f.faderAt(8).asMap],
+					addAction: \addToHead); 
+				15.wait;
+				cond = false;
+				count = 0;
+			}{
+				cond = true;
+			}
+		}
+	};
+	\end{lstlisting}
+
+  Ovanstående stycke visar en stämma av syntar som roterar i all evighet, på grund av "loop"-strukturen på rad
+  5. I övrin
   
-  (Junk Space - tuffa arkitekten som Malte nämnde)
+  % (Junk Space - tuffa arkitekten som Malte nämnde)
 
-  Skriv även om hur mitt tröskeltillstånd möjliggjorde att jag orkade lära mig saker som jag tidigare haft en
-  stress för att lära mig, de i mina ögon upphöjda verktygen som jag tidigare hade kastat mig ut för att göra
-  musik med, utan att riktigt veta hur man gjorde, och utan ett lugn kring vad jag ville göra.
+  % Skriv även om hur mitt tröskeltillstånd möjliggjorde att jag orkade lära mig saker som jag tidigare haft en
+  % stress för att lära mig, de i mina ögon upphöjda verktygen som jag tidigare hade kastat mig ut för att göra
+  % musik med, utan att riktigt veta hur man gjorde, och utan ett lugn kring vad jag ville göra.
 
-
-
-
-
-
-
-
-
-
-\end{document}
+  \end{document}
