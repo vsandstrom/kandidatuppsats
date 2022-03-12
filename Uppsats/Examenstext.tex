@@ -453,7 +453,18 @@ SynthDef(\demandSynth2, {
   Jag ville fånga denna post-ritualistiska extas av febrig energi i ljud, vilket slutligen resulterade i detta
   stycke. Eftersom jag har en förkärlek för långsamma klanger var min första tanke inte att göra något
   rytmiskt intensivt. Jag började istället att försöka skapa ett ljud som kunde gestalta ett sprak av
-  elektrisitet, som konstant överladdning av synapserna, något böljande. 
+  elektrisitet, som konstant överladdning av synapserna, något böljande. Ett ljud som var ostadigt och
+  lynnigt. 
+
+  Ljudet jag kom fram till hittade jag delvis av en slump. Jag experimenterade med ett objekt i
+  SuperCollider vid namn "Fold", som tog vågformer över en viss amplitud och vände dem inåt mot sig själva
+  180° ( se bild ). Det tar en signal som input, samt två värden för tröskelvärdet på den positiva samt
+  negativa polen av signalen. Ljudet blev till när jag av misstag satte en av parametrarna till '0', vilket
+  vände allt ljud in på sig själv i oändlighet, och ena polen av ljudet blev i praktiken bortklippt. Det
+  intressanta med detta var att under vissa omständigheter kunde ljudet få en DC offset\footnote{DC offset}
+  och lägga sig i den bortklippta polen, vilket resulterade i fullständigt bortfall av klang, för att sedan
+  bryta igenom som från bakom en vägg. 
+
 
   
 
