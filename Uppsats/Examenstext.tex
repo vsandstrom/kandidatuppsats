@@ -301,12 +301,12 @@ förankring till materialet.
   jag gjorde med ljud på sample-nivå. 
 - Började med en idé om att tonsätta och dokumentera platser, de jag såg under min sjukskrivning, framförallt
   de övergivna offentliga rum som fanns i de miljöerna. Hur det projektet övergick till att dokumenter min
-  egen vardag, som på något sätt länkades ihop med de platserna. Beskriv hur begreppet liminalitet kan
-  användas för att beskriva båda dessa, då det beskriver att vara i tröskeln av någonting. En tröskelplats, en
-  plats på vägen mellan två platser, eller en plats i en övergångsperiod, på väg till att bli något annat.
-  Eller ett tröskeltillstånd, som i ritualen, där det finns ett före och ett efter, men under ritualen
-  befinner man sig i ett mellanläge. Hur min situation som sjukskriven och bunden till mitt hem kunde ses som
-  ett sådant tröskeltillstånd. '
+  egen vardag, som på något sätt länkades ihop med de platserna. Beskriv hur begreppet
+  liminalitet\footnote{liminalitet} kan användas för att beskriva båda dessa, då det beskriver att vara i
+  tröskeln av någonting. En tröskelplats, en plats på vägen mellan två platser, eller en plats i en
+  övergångsperiod, på väg till att bli något annat. Eller ett tröskeltillstånd, som i ritualen, där det finns
+  ett före och ett efter, men under ritualen befinner man sig i ett mellanläge. Hur min situation som
+  sjukskriven och bunden till mitt hem kunde ses som ett sådant tröskeltillstånd.
 
   Den ljudande delen av mitt examensarbete består av en EP släppt på kassett på bolaget
   Kalkatraz\footnote{länk till kalkatraz nånting}, samt en ljudinstallation, som i en omarbetning även blev
@@ -353,6 +353,9 @@ förankring till materialet.
 	\subsubsection{Koltrast}
 	Stycket "Koltrast" skrevs under sommaren 2020, när jag spenderade tid i Göteborg. Stommen i stycket är en
 	lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och
+	på mig så mycket jag orkade eftersom det skulle skynda på läkning. 
+
+	Efter min operation hade jag haft problem med att sova, och
 	inspelningen gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis
 	när det började ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull
 	koltrastar som sjöng över hustaken på Doktor Fries Torg. Fångade det genom att plocka fram en
@@ -381,55 +384,79 @@ förankring till materialet.
 
 % \lstset{scsymbolstyle=\color[RGB]{0,113,0}, scenvvarstyle=\color[RGB]{147,70,14},
 % scclassstyle=\color[RGB]{0,40211}}
-	\begin{lstlisting}[style=SuperCollider-IDE, content=Sequencer-exempel]
-	fork{
-		var caust0, caust1, count = 0, cond = 0;
-		var db = 69.3, eb = 77.8, g = 98, ab = 51.9;
+	\begin{lstlisting}[style=SuperCollider-IDE, caption=Sequencer-exempel]
 
-		// definierar de två variablerna som bestämmer vilken väg 
-		// sequencern ska ta
-		count = 0;
-		cond = true;
+//// //// //// Struktur av amplitudtriggad synt: //// //// ////
 
-		loop{
-			if(cond == true) 
-			{
-				caust0 = Synth(\caust, 
-					[\freq, db, \t_trig, 1, \rel, 7.5,  \vol, f.faderAt(8).asMap], 
-					addAction: \addToHead);
-				15.wait;
-				cond = false;
-			};
-			cond = true;
+SynthDef(\demandSynth2, {
+	var fund = 69;
+	var trigger, in, sig, env, fade, verb, fadeOut;
 
-			caust0 = Synth(\caust, 
-				[\freq, ab, \t_trig, 1, \rel, 4.25, \vol, f.faderAt(8).asMap],
-				addAction: \addToHead); 
-			7.5.wait;
+	in = A2K.kr(In.ar(\in.kr(55), 2) * 4);
+	fade = Line.kr( 0, 1, \fadeTime.kr(2));
+	trigger = Trig.kr( InRange.kr( Amplitude.kr(A2K.kr(in.lag(1) * 4), 0.2, 0.5), \loTresh.kr(0.01), 0.8 ).lag(0.01));
+	env = EnvGen.kr(
+		Env( 
+			[ 0, 0.01, 1, 0 ],
+			[
+				0.05,
+				\atk.kr(0.1).linexp(0, 1, 0.01, 0.3),
+				\rel.kr(1).linexp(0, 1, 0.01, 0.39) 
+			], curve: -4), trigger);
 
-			caust0 = Synth(\caust,
-				[\freq, eb, \t_trig, 1, \rel, 4.25, \vol, f.faderAt(8).asMap],
-				addAction: \addToHead); 
-			7.5.wait;
+	sig = DPW3Tri.ar( Demand.kr(trigger, 0, demandUGens: Dseq( [ 
+			[ fund, (fund*3) / 2], // Db, Ab
+			[ (fund*5) / 4, (fund*5) / 3], // F, Bb
+			[ (fund*15) / 8, (fund*9) / 8], // C, Eb
+			[ (fund*3) / 2, (fund*45) / 32],  // Ab, G
+			[ (fund*15) / 16, (fund*5) / 4]
+		] * 2, inf) * Dwrand([1, 2, 0.75], [0.6,0.2, 0.1], inf)).lag(0.1));
 
-			count = count + 1;
+	sig = sig * fade * EnvFollow.kr( in ).lag(0.7) * \vol.kr(0.7) ;
+	sig = HPF.ar(sig, \hpf.kr(440));
+	fadeOut = Line.kr(1,0,\fadeTime.kr);
+	verb = NHHall.ar(sig, \verbTime.kr(4).linlin(0, 1, 0, 12), 0.5, 800, 0.5, 2000, 0.2, 0.2, 0.3);
 
-			if(count == 4) {
-				caust0 = Synth(\caust, 
-					[\freq, db * 5/4, \t_trig, 1, \rel, 7.5, \vol, f.faderAt(8).asMap],
-					addAction: \addToHead); 
-				15.wait;
-				cond = false;
-				count = 0;
-			}{
-				cond = true;
-			}
-		}
-	};
+	Out.ar( \out.kr(0), 0.8 * env * sig!2.tanh + ( verb * \verbVol.kr(0.3).linexp(0, 1, 0.01, 0.6)));  
+
+}).add;
 	\end{lstlisting}
 
-  Ovanstående stycke visar en stämma av syntar som roterar i all evighet, på grund av "loop"-strukturen på rad
-  5. I övrin
+  I exemplet ovan visar jag min lösning på hur jag triggade synten på amplitud (på rad 7), samt nedan hur jag
+  hur jag använde många styrparametrar i varje ljud för att kunna påverka ljuden i realtid. Objektet "f"
+  representerar min midikontroller, och "f.faderAt(1)" motsvarar fadern på plats 1.
+
+	\begin{lstlisting}[style=SuperCollider-IDE, content=Sequencer-exempel]
+
+//// //// //// Initiering av synt inklusive styrparametrar: //// //// ////
+
+~follow2 = Synth(\demandSynth2, 
+	[ \loThresh, f.faderAt(1).asMap,
+		\atk, f.faderAt(2).asMap,
+		\rel, f.faderAt(3).asMap,
+		\verbTime, f.faderAt(4).asMap,
+		\verbVol, f.faderAt(5).asMap,
+		\vol, f.faderAt(6).asMap,
+		\hpf, 350],
+		addAction: \addToTail); 
+  
+	\end{lstlisting}
+
+  \subsubsection{K87-89}
+  K87-89 heter sjukhusavdelningen på Huddinge sjukhus där jag och min pappa var efter min operation. Den här
+  perioden, och de kommande veckorna präglades av en väldigt hög energinivå hos mig själv, delvis på grund av
+  ett mycket förbättrat fysiskt mående, men också definitivt på grund av de starka mediciner jag fick.
+  Kopplingen till det liminala var att vi, mitt under Covid19-pandemi, var tvungna att stanna på sjukhus en
+  vecka, med bara varandra och sjukhuspersonal som sällskap. Detta i kombination med hur en operation är en
+  slags ritual, en exorcism av det onda. 
+
+  Jag ville fånga denna post-ritualistiska extas av febrig energi i ljud, vilket slutligen resulterade i detta
+  stycke. Eftersom jag har en förkärlek för långsamma klanger var min första tanke inte att göra något
+  rytmiskt intensivt. Jag började istället att försöka skapa ett ljud som kunde gestalta ett sprak av
+  elektrisitet, som konstant överladdning av synapserna, något böljande. 
+
+  
+
   
   % (Junk Space - tuffa arkitekten som Malte nämnde)
 
