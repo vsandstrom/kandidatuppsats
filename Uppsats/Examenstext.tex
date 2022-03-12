@@ -2,7 +2,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[margin=3cm]{geometry}
 \usepackage{listings}
+\lstset{basicstyle=ttfamily, tabsize=2}
 \usepackage[framed, numbered]{sclang-prettifier}
+
+%%%%% Kompilera med pdflatex!!!!! %%%%%
 
 \begin{document}
 % Vad jag vill prata om och varför jag tycker att det är intressant.
@@ -20,7 +23,7 @@
 	3. Any sufficiently advanced technology is indistinguishable from magic}\footnote{\emph{Arthur C. Clarke,
 "Clarke's Three Laws"}}
 
-\subsection{Inledning}
+\section{Inledning}
 
 Under åren 2020-2021 genomgick jag en lång sjukskrivning. Jag spenderade större delen av den här perioden i
 mitt hem, med undantag för sjukhusbesök, ett julfirande och min trettioårsdag. Under den här sjukdomstiden
@@ -136,12 +139,7 @@ förankring till materialet.
 % Schaeffer,  Smalley - morfologiska begrepp och teori kring kategorisering av elektroakustisk musik
 % Mark Fisher - kritik mot new public management.
 
-
-
-
-\subsection{Rubriker}
-
-\subsubsection{State of the art}
+\section{State of the art}
   % Som state of the nation - var befinner sig det elektroakustiska fältet just nu? Citat och ev om min egen
   % musik. 
 
@@ -199,8 +197,8 @@ förankring till materialet.
 
   % DIY
 
-\subsection{Diskussionsdel}
-\subsubsection{Absolute vs Programmatic music.}
+\section{Diskussionsdel}
+\subsection{Absolute vs Programmatic music.}
 - Joanna Demers - Listening through the noise: Om fokuset på absolut musik i högre
   musikutbildningar, och hur programmusik har hamnat i skymundan.
 
@@ -219,7 +217,7 @@ förankring till materialet.
   % s. 18, empowerment through music and technology
 
 
-\subsubsection{Musik som vetenskaplig forskning}
+\subsection{Musik som vetenskaplig forskning}
 - vad har det haft för konsekvenser för hur och vilken musik som skrivs, när materialet på utbildningar filtreras
   genom ett behov av att motivera sig som ett akademiskt ämne. Att detta fokus på att få vara vetenskaplig
   forskning har satt sitt spår i vad och hur man lär ut komposition, och främst elektronisk musik som är så
@@ -265,13 +263,13 @@ förankring till materialet.
   % Åsa Stjerna - Before Sound - om att släppa kontrollen om musiken 
   % Cybernetic manifesto
 
-\subsubsection{Teknik som inspiration}
+\subsection{Teknik som inspiration}
 - Att inspireras av teknik, dess möjligheter och dess begränsningar. Detta är en viktig rubrik, då det är ett
   en viktig del av elektronisk musik, och en viktig del av mångas metod. 
 
   Linus Hillborgs examensarbete. exemplet med metal gear solid
 
-\subsubsection{Tekniken som en börda}
+\subsection{Tekniken som en börda}
 - Arbetssätt och teknologi som en merit, där ju otillgängligare något är, eller mer obskyrt, desto större vikt
   har det inom elektronisk musikkretsar. 
 
@@ -296,7 +294,7 @@ förankring till materialet.
   % en skillnad mellan oss och andra instrumentalister.
 
 
-\subsection{Koppling till musiken}
+\section{Koppling till musiken}
 - Koppla till min musik, till EPn som jag gjorde som start för examensprojektet, och även de experiment som
   jag gjorde med ljud på sample-nivå. 
 - Började med en idé om att tonsätta och dokumentera platser, de jag såg under min sjukskrivning, framförallt
@@ -314,7 +312,7 @@ förankring till materialet.
 
   Min EP skrevs i huvudsak under min tid som sjukskriven efter min njurtransplantation. De fyra spåren har
   namn som refererar till tidpunkter eller platser som fastnat tydligt i minnet hos mig. 
-	\subsubsection{DEC}
+	\subsection{DEC}
 	"Dec" var det första stycket jag började arbeta med. Ursprungligen var detta ett stycke som skulle vara en
 	form av ljudläggning av platser på sjukhus ( se inledningen ) som känns bortglömda, med fokus på
 	innergårdar och utrymmen runtomkring och mellan husen, ofta med ett gråaktigt, deprimerande eller illa
@@ -323,7 +321,7 @@ förankring till materialet.
 	och påbörjade en tillvaro som var ett typ av mellantillstånd, där varje dag smälte ihop i nästa, avbrutna
 	av läkarbesök. 
 		Jag började arbetet med att fundera över signal- och styrflöde i ett modulärt system jag nyligen hade
-		byggt. Jag hade en plan om att kunna styra synten med MIDI\footnone{MODO} från SuperCollider, och att
+		byggt. Jag hade en plan om att kunna styra synten med MIDI\footnote{MIDI} från SuperCollider, och att
 		den sedan skulle efterarbetas i Reaper:
 		\begin{center}
 			% tabular behöver ytterligare argument som visar hur många celler 'c'
@@ -350,7 +348,7 @@ förankring till materialet.
 		spela musiken som en solokonsert, och med tanken på min bakgrund som pianist kändes det rätt att ha
 		något att påverka musiken med. 
 
-	\subsubsection{Koltrast}
+	\subsection{Koltrast}
 	Stycket "Koltrast" skrevs under sommaren 2020, när jag spenderade tid i Göteborg. Stommen i stycket är en
 	lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och
 	på mig så mycket jag orkade eftersom det skulle skynda på läkning. 
@@ -381,20 +379,23 @@ förankring till materialet.
 	cirkulär form. Här arbetade jag även med att skriva sekvenser med "kontrollstrukturer"\footnote{SC
 	controll structures}, och göra enkla sekvenser som varierade sig baserat på vilket varv vi var på i
 	loopen. 
+	\pagebreak
 
-% \lstset{scsymbolstyle=\color[RGB]{0,113,0}, scenvvarstyle=\color[RGB]{147,70,14},
-% scclassstyle=\color[RGB]{0,40211}}
-	\begin{lstlisting}[style=SuperCollider-IDE, caption=Sequencer-exempel]
-
-//// //// //// Struktur av amplitudtriggad synt: //// //// ////
-
+\begin{lstlisting}[style=SuperCollider-IDE, caption=Amplitudtriggad synt]
 SynthDef(\demandSynth2, {
 	var fund = 69;
 	var trigger, in, sig, env, fade, verb, fadeOut;
 
 	in = A2K.kr(In.ar(\in.kr(55), 2) * 4);
 	fade = Line.kr( 0, 1, \fadeTime.kr(2));
-	trigger = Trig.kr( InRange.kr( Amplitude.kr(A2K.kr(in.lag(1) * 4), 0.2, 0.5), \loTresh.kr(0.01), 0.8 ).lag(0.01));
+	trigger = Trig.kr(
+		InRange.kr( 
+			Amplitude.kr(
+				A2K.kr(in.lag(1) * 4), 0.2, 0.5
+			), \loTresh.kr(0.01), 0.8 
+		).lag(0.01)
+	);
+
 	env = EnvGen.kr(
 		Env( 
 			[ 0, 0.01, 1, 0 ],
@@ -402,7 +403,9 @@ SynthDef(\demandSynth2, {
 				0.05,
 				\atk.kr(0.1).linexp(0, 1, 0.01, 0.3),
 				\rel.kr(1).linexp(0, 1, 0.01, 0.39) 
-			], curve: -4), trigger);
+			], curve: -4
+		), trigger
+	);
 
 	sig = DPW3Tri.ar( Demand.kr(trigger, 0, demandUGens: Dseq( [ 
 			[ fund, (fund*3) / 2], // Db, Ab
@@ -410,25 +413,35 @@ SynthDef(\demandSynth2, {
 			[ (fund*15) / 8, (fund*9) / 8], // C, Eb
 			[ (fund*3) / 2, (fund*45) / 32],  // Ab, G
 			[ (fund*15) / 16, (fund*5) / 4]
-		] * 2, inf) * Dwrand([1, 2, 0.75], [0.6,0.2, 0.1], inf)).lag(0.1));
+			] * 2, inf
+		) * Dwrand([1, 2, 0.75], [0.6,0.2, 0.1], inf)).lag(0.1)
+	);
 
 	sig = sig * fade * EnvFollow.kr( in ).lag(0.7) * \vol.kr(0.7) ;
 	sig = HPF.ar(sig, \hpf.kr(440));
 	fadeOut = Line.kr(1,0,\fadeTime.kr);
-	verb = NHHall.ar(sig, \verbTime.kr(4).linlin(0, 1, 0, 12), 0.5, 800, 0.5, 2000, 0.2, 0.2, 0.3);
+	verb = NHHall.ar(
+		sig, 
+		\verbTime.kr(4).linlin(
+			0, 1, 0, 12
+			), 
+		0.5, 800, 0.5, 2000, 0.2, 0.2, 0.3
+	);
 
-	Out.ar( \out.kr(0), 0.8 * env * sig!2.tanh + ( verb * \verbVol.kr(0.3).linexp(0, 1, 0.01, 0.6)));  
-
+	Out.ar( \out.kr(0), 0.8 * env * sig!2.tanh + ( 
+		verb * \verbVol.kr(0.3).linexp(0, 1, 0.01, 0.6))
+	);  
 }).add;
-	\end{lstlisting}
+\end{lstlisting}
+
 
   I exemplet ovan visar jag min lösning på hur jag triggade synten på amplitud (på rad 7), samt nedan hur jag
   hur jag använde många styrparametrar i varje ljud för att kunna påverka ljuden i realtid. Objektet "f"
   representerar min midikontroller, och "f.faderAt(1)" motsvarar fadern på plats 1.
 
-	\begin{lstlisting}[style=SuperCollider-IDE, content=Sequencer-exempel]
 
-//// //// //// Initiering av synt inklusive styrparametrar: //// //// ////
+\begin{lstlisting}[style=SuperCollider-IDE, caption=Syntens kontrollschema]
+
 
 ~follow2 = Synth(\demandSynth2, 
 	[ \loThresh, f.faderAt(1).asMap,
@@ -440,9 +453,9 @@ SynthDef(\demandSynth2, {
 		\hpf, 350],
 		addAction: \addToTail); 
   
-	\end{lstlisting}
+\end{lstlisting}
 
-  \subsubsection{K87-89}
+  \subsection{K87-89}
   K87-89 heter sjukhusavdelningen på Huddinge sjukhus där jag och min pappa var efter min operation. Den här
   perioden, och de kommande veckorna präglades av en väldigt hög energinivå hos mig själv, delvis på grund av
   ett mycket förbättrat fysiskt mående, men också definitivt på grund av de starka mediciner jag fick.
@@ -463,12 +476,59 @@ SynthDef(\demandSynth2, {
   vände allt ljud in på sig själv i oändlighet, och ena polen av ljudet blev i praktiken bortklippt. Det
   intressanta med detta var att under vissa omständigheter kunde ljudet få en DC offset\footnote{DC offset}
   och lägga sig i den bortklippta polen, vilket resulterade i fullständigt bortfall av klang, för att sedan
-  bryta igenom som från bakom en vägg. 
+  bryta igenom som från bakom en vägg. Jag rättade till mitt miss men effekten fanns kvar, dock inte lika
+  markant, men framträdde mer när jag när jag hade flera i följd, när ljudet passerade genom effektkedjan.
 
+\begin{lstlisting}[style=SuperCollider-IDE, caption=Fold-synt]
+
+SynthDef(\fold, {  // \t_trig, \freq, \fold.
+	var sig, env, out, verb, dirt;
+
+	env = EnvGen.kr(
+		envelope: Env(
+			[0,1,0], [\atk.kr(0.4), \rel.kr(2.6)], curve: \lin
+			), 
+		gate: \t_trig.kr(0), levelScale: 1, timeScale: 1, doneAction: 2);
+
+	dirt = LFDNoise3.kr(25);
+
+	sig = LPF.ar( 
+		Fold.ar(
+			XFade2.ar(
+				SinOsc.ar(\freq.kr(64).midicps), 
+				DPW3Tri.ar(\freq.kr.midicps), \fold.kr(0.1).linlin(0, 1, -1, 1) + dirt.linlin(0, 1, 0, 0.1)
+			),
+			-1 * (\fold.kr + dirt.linexp(0, 1, 0.01, 0.05)),
+			\fold.kr + dirt.linexp(0, 1, 0.01, 0.05)
+		) * env, 5000 );
+
+	Out.ar(\out.kr(0), Splay.ar(sig*\vol.kr(0.1).linlin(0, 1, 0, 0.35))).tanh; // maybe over-did it with .tanh?
+	Out.ar(\out.kr+2, Splay.ar(sig!2*\vol.kr).linlin(0, 1, 0, 0.35)).tanh;
+
+}).add;
+\end{lstlisting}
+
+  \subsection{Metamorfos}
+  Under min sjukskrivning hade jag fått uppmaningen att gå promenader, och jag passade på att spela in ljud i
+  min omgivning. Dessa ljud använde jag senare i ljudinstallationen "Metamorfos", som ställdes ut en helg i
+  februari 2022 på Galleri Resorb i Stockholm. Ljudinstallationen hade börjat som ett experiment på
+  filstrukturen hos en ljudfil, om det skulle vara möjligt att göra bearbetningar på den som skulle vara
+  intressanta. Mitt första experiment var att skriva en "destruction-loop"\footnote{destruction-loop}, som
+  tömde datastrukturen på innehåll, nollställde varje sample en och en. Jag testade sedan samma teknik, men
+  istället använda det som en övergång mellan två ljudfiler, en gradvis transformation från en fil till en
+  annan. Jag fann dock att transformationen var så gradvis att när processen var halvvägs mellan den ena och
+  den andra filen var dess ljud svårt att åtskilja från vitt brus. Min slutgiltiga version tog därför större
+  bitar, "chunks" av kontinuerliga samples, där ljudfilerna gjorde hårda klipp in i varann. Jag fann att med
+  ett antal ljudfiler som blandades in i varandra kunde en effekt uppstå där det kändes som ljudfilerna
+  spelades parallellt, trots att det var omöjligt med tanke på hur programmet var uppbyggt. Vad som hände var
+  en psykoakustisk effekt som jag fann vara mycket intressant. 
 
   
+	
 
-  
+
+
+
   % (Junk Space - tuffa arkitekten som Malte nämnde)
 
   % Skriv även om hur mitt tröskeltillstånd möjliggjorde att jag orkade lära mig saker som jag tidigare haft en
