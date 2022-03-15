@@ -1,9 +1,13 @@
+% kompilera med xelatex
+
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=3cm]{geometry}
+\usepackage{fontspec}
+\setmonofont{Monaco}
 \usepackage{listings}
-\lstset{basicstyle=ttfamily, tabsize=2}
-\usepackage[framed, numbered]{sclang-prettifier}
+\usepackage[T1]{fontenc}
+\lstset{basicstyle=\ttfamily\footnotesize, tabsize=2} \usepackage[framed, numbered]{sclang-prettifier}
 
 %%%%% Kompilera med pdflatex!!!!! %%%%%
 
@@ -521,14 +525,27 @@ SynthDef(\fold, {  // \t_trig, \freq, \fold.
   bitar, "chunks" av kontinuerliga samples, där ljudfilerna gjorde hårda klipp in i varann. Jag fann att med
   ett antal ljudfiler som blandades in i varandra kunde en effekt uppstå där det kändes som ljudfilerna
   spelades parallellt, trots att det var omöjligt med tanke på hur programmet var uppbyggt. Vad som hände var
-  en psykoakustisk effekt som jag fann vara mycket intressant. 
+  en psykoakustisk effekt som jag fann vara mycket intressant. Distributionen av dessa chunks var slumpmässig
+  och beslut togs om distributionen efter varje genomspelning av ljudfilens fulla längd. Eftersom jag arbetade
+  med ett antal ljudfiler, bestämde jag mig för att stycket inte skulle ha någon slutdestination. Det var mer
+  intressant att rotera ljudfiler efter varje genomspelning, och införa nytt material i det reda upphackade
+  materialet. Det bidrog till en ständig rörelse, men också en dekonstruktion av ljudmaterialet, och jag
+  tänkte på något jag läst om fjärilar när de förpuppas. Fjärilslarven löses upp av enzymer och blir till en
+  soppa av proteiner, som sedan byggstenarna som bygger fjärilen. 
 
-  
-	
-
-
-
-
+\begin{lstlisting}[style=SuperCollider-IDE, caption=Funktion för "metamorfos"]
+	~metamorphosis = {|larv, fjril, chunk, x = -1|
+		var rand = rrand(0, larv.size);
+		var i = 0;
+		if (x == rand && larv[rand] == fjril[rand]) {
+			thisFunction.value(larv, fjril, chunk, rand);
+		} {
+			for(0, chunk, {|i|
+				larv.wrapPut((rand + i), fjril.wrapAt((rand + i)));
+			});
+		};
+	};
+\end{lstlisting}
   % (Junk Space - tuffa arkitekten som Malte nämnde)
 
   % Skriv även om hur mitt tröskeltillstånd möjliggjorde att jag orkade lära mig saker som jag tidigare haft en
