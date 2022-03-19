@@ -1,15 +1,20 @@
-% kompilera med xelatex
-
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=3cm]{geometry}
 \usepackage{fontspec}
-\setmonofont{Monaco}
+\setmonofont[Scale=0.7]{Monaco}
 \usepackage{listings}
 \usepackage[T1]{fontenc}
 \lstset{basicstyle=\ttfamily\footnotesize, tabsize=2} \usepackage[framed, numbered]{sclang-prettifier}
 
-%%%%% Kompilera med pdflatex!!!!! %%%%%
+%%%%% Kompilera med xelatex!!!!! %%%%%
+
+%%% TODO : %%%
+% [  ] Skriv klart absolut vs programmusik-kapitlet, koppla russolo till kode9 och Emma Frid (diversifiering)
+% [  ] Musik som Vetenskaplig och konstnärlig forskning - New public management -> formar undervisning och
+%	   musiken genom sitt språk. 
+%
+
 
 \begin{document}
 % Vad jag vill prata om och varför jag tycker att det är intressant.
@@ -24,15 +29,31 @@
 \emph{
 	% 1. When a distinguished but elderly scientist states that something is possible, they are almost certainly right. When they state that something is impossible, they are very probably wrong.
 	% 2. The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
+
+
 	3. Any sufficiently advanced technology is indistinguishable from magic}\footnote{\emph{Arthur C. Clarke,
 "Clarke's Three Laws"}}
 
 \section{Inledning}
+Under min utbildning har det ofta känts som att jag jagat ett ideal av vad elektroakustisk konstmusik är. En
+känsla av att inte hinna lära sig alla tekniker är aktuella inom det elektroakustiska fältet, och att ständigt
+göra musik som en på ett eller annat sätt är en del av en lärandeprocess, men som är påeldad av
+prestationsångest och en känsla av att inte veta vad man gör. En insikt var att mycket, om inte allt jag gjort
+under åren hade varit något likt en "tech-demo", ett ljudande exempel på vad en teknik kan erbjuda, utan att
+kunna ha en känslomässig förankring till materialet.
 
 Under åren 2020-2021 genomgick jag en lång sjukskrivning. Jag spenderade större delen av den här perioden i
 mitt hem, med undantag för sjukhusbesök, ett julfirande och min trettioårsdag. Under den här sjukdomstiden
-började jag vilja skriva musik, mest utav en frustration att plötsligt ha så mycket tid, det som jag tidigare
-klagat på att jag inte haft, som ett skäl för att jag inte orkade göra musik. Min idé var från början att jag
+började jag vilja skriva musik, mest ur en frustration av att plötsligt ha så mycket tid, det som jag tidigare
+klagat över att jag inte haft och använt som ett skäl för att jag inte orkade göra musik. 
+
+Det var först när jag efter hand började må bättre som jag hade ork att börja arbeta med den här idén. I och 
+med en förbättring av mitt mående och ett överskott av ledig tid hade jag även bestämt mig för att lära mig
+at pompositionsverktyget SuperCollider\footnote{\emph{SuperCollider}, https://supercollider.github.io/ (Hämtad
+06-02-22)}, som jag tidigare haft svårt med. Därav föll det sig naturligt att mycket av musiken jag skrev var
+skriven med detta verktyg. 
+
+Min idé var från början att jag
 fattade tycke för de märkliga, bortglömda miljöer som finns på sjukhus och vårdmottagningar, som existerade
 mitt inuti en plats som ständigt var i rörelse, men som själva såg obefolkade och stillastående ut. Som att
 deras funktionalitet gått förlorad. En sån plats som jag starkt reagerat på var de innergårdar, anlagda med
@@ -43,31 +64,60 @@ intresse, men de speglade även min egen tillvaro som, likt dessa platser, känd
 Tanken att tonsätta miljöerna på sjukhus, blev istället ett projekt om att tonsätta och dokumentera min egen
 stillastående vardag.
 
-Det var först när jag efter hand böjrade må bättre som jag hade ork att börja arbeta med den här idén. I och 
-med en förbättrning av mitt mående och ett överskott av ledig tid hade jag även bestämt mig för att lära mig
-kompositionsverktyget SuperCollider\footnote{\emph{SuperCollider}, https://supercollider.github.io/ (Hämtad
-06-02-22)}, som jag tidigare haft svårt med. Därav föll det sig naturligt att mycket av musiken jag skrev var
-skriven med detta verktyg. 
+Den kompositionsmetoden jag använde kändes annorlunda från min erfarenhet från att skriva musik inom
+utbildningens kontext. Musiken var inte ett medel för att uppnå målet att bemästra en ny teknin. Istället
+fanns en känsla av att kunna få utforska tekniken om ett behov fanns, eller av nyfikenhet, men där ett
+estetiskt uttryck fick vara förgrund för processen.
 
-% Ger detta intrycket att jag inte kunnat göra känslomässig musik tidigare?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Under processen reflekterade jag kring kompositionsmetoden jag använde för den här musiken. Jag upplevde
- att det var ett annat sätt att arbeta än jag var van vid. Under min utbildning har det ofta känts
-som att jag jagat ett ideal av vad elektroakustisk konstmusik är. En känsla av att inte hinna lära sig alla
-tekniker är aktuella inom det elektroakustiska fältet, och att ständigt göra musik som en på ett eller annat
-sätt är en del av en lärandeprocess, men som är påeldad av prestationsångest och en känsla av att inte veta
-vad man gör. En insikt var att mycket, om inte allt jag gjort under åren hade varit något likt en "tech-demo",
-ett ljudande exempel på vad denna teknik kan erbjuda, utan att kunna ha en känslomässig förankring till
-materialet. Det var på grund av denna tidigare erfarenhet som kompositionsmetoden kändes ny, det fanns ingen
-baktanke om att musiken bara var ett steg på vägen till att bemästra en teknik. Istället fanns en känsla av
-att kunna få utforska tekniken om nyfikenhet eller ett behov infann sig, men där ett estetiskt uttryck fick
-vara förgrund för processen. 
+% Delalande-stycket är inte så fängslande, sätt det efter när jag skriver privat
+I Delalands uppsats om lyssnandebeteenden beskriver han tre unika former av lyssnande\footnote{François
+Delalande (1998) \emph{Music analysis and reception behaviours: Sommeil by Pierre Henry}, Journal of New Music
+Research, 27:1-2, 13-66, DOI: 10.1080/09298219808570738}. Han beskriver dem som det "taxonomiska", det
+"empatiska" och det "figurativa". Det första, det taxonomiska, är det som enligt Delalande förhåller sig
+närmast det traditionellt musikteoretiska analyserandet, att klassificera musikens beståndsdelar, deras
+"morfologiska enheters"\footnote{PIERRE SCHAEFFER!!!}. Det taxonomiska intresserar sig främst om relationerna
+mellan olika identifierbara ljud och klanger och hur de utvecklas över tid. I kontrast till det taxonomiska,
+det empatiska och figurativa skiljer sig just i sin tidsuppfattning av musiken och de tolkar inbördes
+relationer av ljud. Det empatiska lyssnandet, till skillnad från taxonomiskt, intresserar sig med att
+uppfatta musiken horisontellt, det omedelbara samspelet mellan klanger och hur det får en att känna. Istället
+för att höra helheten och dess samspel, insatser och uttoningar, försöker man sätta sig i det emotionella
+tillståndet som musiken, ögonblick för ögonblick försätter en i. 
 
+% Börja här? beskriv det sista lyssnarbeteendet kort, sedan direkt in på min egen berättelse, för att sedan
+% återknyta ordentligt med Delalande.
+
+Det tredje och sista lyssnandebeteendet som Delalande identifierat är det figurativa. Den som lyssnar med
+detta perspektiv är intresserad av att associera fritt kring de ljud den hör, likt miljöer som beskriver ett
+narrativ. Där musiken översätts i lyssnarens huvud till att besrkiva en scen eller plats som lyssnaren
+förnimmer i lyssnandet av musiken.
+
+Detta klingade väldigt rätt hos mig när jag börjat arbeta med ett projekt som till viss del handlade om en
+sjukskrivning som jag genomgick under vintern och våren av 2021. Det började med att jag fattade tycke för de
+märkliga bortglömda miljöer som finns på sjukhus och mottagningar, där det känns som man kan ana en
+funktionalitet men som gått förlorad. Platser som någon gång i tiden haft ett ändamål att låta både patienter
+och personal tänka på något annat. Den offentliga i korridorer, eller som delade utrymme med
+en innergård, anlagd med buskar och träd och med monobloc\footnote{\emph{Monobloc
+(chair)} [wiki], https://en.wikipedia.org/wiki/Monobloc\_(chair) (Hämtad 06-02-22)}-stolar som nu var täckta av
+alger. Dessa platser präglade denna tid, men det flöt även in i min egen tillvaro, då jag i min sjukskrivning
+på något sätt stod still, likt dessa platser. Mitt projekt, som från början var en idé om att tonsätta de här
+platserna, blev istället ett projekt om att tonsätta min egen stillastående vardag. 
+
+I den här processen, framförallt när jag mådde bättre, började jag arbeta med musiken, framförallt utifrån
+verktyget SuperCollider\footnote{\emph{SuperCollider}, https://supercollider.github.io/ (Hämtad 06-02-22)}.
+När jag skrev musiken reflekterade jag kring hur jag skrivit musik tidigare, främst under min utbildning, och
+att detta utgångsläge, att gestalta något utifrån ett minne eller känsla, var annorlunda. Under min utbildning
+kände jag att jag hade jagat ett ideal av vad elektroakustisk konstmusik är. En känsla av att inte hinna lära
+sig alla tekniker är aktuella inom det elektroakustiska fältet, och att ständigt göra musik som en på ett
+eller annat sätt är en del av en lärandeprocess, men som är påeldad av prestationsångest och en känsla av att
+inte veta vad man gör. En insikt var att mycket, om inte allt jag gjort under åren hade varit något likt en
+"tech-demo", ett ljudande exempel på vad denna teknik kan erbjuda, utan att kunna ha en känslomässig
+förankring till materialet. 
 % /////////
 
 % EN TES: Hur fokuset på absolut musik inom konstmusik, och i instutitioner runt omkring kan ha format
-% elektroakustisk musik och dess inställning till teknik. 
-% Att försöka hitta något som är universellt och sant, som överskrider subjektet. Exempel på detta är
+% elektroakustisk musik och dess inställning till teknik. Att försöka hitta något som är universellt och sant, som överskrider subjektet. Exempel på detta är
 % sonifieringsgenren, som i sin strävan av att betraktas som en legitim avbildning av data, bortser från de
 % konstnärliga val som görs för att få data att passa in i ett ljudande medium. Finns det en koppling mellan den
 % här tanken på Absolut musik, musik som existerar enbart som musik (i kontrast till programmusik, musik som
@@ -95,53 +145,13 @@ vara förgrund för processen.
 
 % ////////
 
-% Delalande-stycket är inte så fängslande, sätt det efter när jag skriver privat
-I Delalands uppsats om lyssnandebeteenden beskriver han tre unika former av lyssnande\footnote{François
-Delalande (1998) \emph{Music analysis and reception behaviours: Sommeil by Pierre Henry}, Journal of New Music
-Research, 27:1-2, 13-66, DOI: 10.1080/09298219808570738}. Han beskriver dem som det "taxonomiska", det
-"empatiska" och det "figurativa". Det första, det taxonomiska, är det som enligt Delalande förhåller sig
-närmast det traditionellt musikteoretiska analyserandet, att klassificera musikens beståndsdelar, deras
-"morfologiska enheters"\footnote{PIERRE SCHAEFFER!!!}. Det taxonomiska intresserar sig främst om relationerna
-mellan olika identifierbara ljud och klanger och hur de utvecklas över tid. I kontrast till det taxonomiska,
-det empatiska och figurativa skiljer sig just i sin tidsuppfattning av musiken och de tolkar inbördes
-relationer av ljud. Det empatiska lyssnandet, till skillnad från taxonomiskt, intresserar sig med att
-uppfatta musiken horisontellt, det omedelbara samspelet mellan klanger och hur det får en att känna. Istället
-för att höra helheten och dess samspel, insatser och uttoningar, försöker man sätta sig i det emotionella
-tillståndet som musiken, ögonblick för ögonblick försätter en i. 
-
-% Börja här? beskriv det sista lyssnarbeteendet kort, sedan direkt in på min egen berättelse, för att sedan
-% återknyta ordentligt med Delalande.
-
-Det tredje och sista lyssnandebeteendet som
-Delalande identifierat är det figurativa. Den som lyssnar med detta perspektiv är intresserad av att associera
-fritt kring de ljud den hör, likt miljöer som beskriver ett narrativ. Där musiken översätts i lyssnarens huvud
-till att besrkiva en scen eller plats som lyssnaren förnimmer i lyssnandet av musiken. 
-
-Detta klingade väldigt rätt hos mig när jag börjat arbeta med ett projekt som till viss del handlade om en
-sjukskrivning som jag genomgick under vintern och våren av 2021. Det började med att jag fattade tycke för de
-märkliga bortglömda miljöer som finns på sjukhus och mottagningar, där det känns som man kan ana en
-funktionalitet men som gått förlorad. Platser som någon gång i tiden haft ett ändamål att låta både patienter
-och personal tänka på något annat. Den offentliga i korridorer, eller som delade utrymme med
-en innergård, anlagd med buskar och träd och med monobloc\footnote{\emph{Monobloc
-(chair)} [wiki], https://en.wikipedia.org/wiki/Monobloc\_(chair) (Hämtad 06-02-22)}-stolar som nu var täckta av
-alger. Dessa platser präglade denna tid, men det flöt även in i min egen tillvaro, då jag i min sjukskrivning
-på något sätt stod still, likt dessa platser. Mitt projekt, som från början var en idé om att tonsätta de här
-platserna, blev istället ett projekt om att tonsätta min egen stillastående vardag. 
-
-I den här processen, framförallt när jag mådde bättre, började jag arbeta med musiken, framförallt utifrån
-verktyget SuperCollider\footnote{\emph{SuperCollider}, https://supercollider.github.io/ (Hämtad 06-02-22)}.
-När jag skrev musiken reflekterade jag kring hur jag skrivit musik tidigare, främst under min utbildning, och
-att detta utgångsläge, att gestalta något utifrån ett minne eller känsla, var annorlunda. Under min utbildning
-kände jag att jag hade jagat ett ideal av vad elektroakustisk konstmusik är. En känsla av att inte hinna lära
-sig alla tekniker är aktuella inom det elektroakustiska fältet, och att ständigt göra musik som en på ett
-eller annat sätt är en del av en lärandeprocess, men som är påeldad av prestationsångest och en känsla av att
-inte veta vad man gör. En insikt var att mycket, om inte allt jag gjort under åren hade varit något likt en
-"tech-demo", ett ljudande exempel på vad denna teknik kan erbjuda, utan att kunna ha en känslomässig
-förankring till materialet. 
 
 % Vrida lite på första stycket, börja personligt, sedan skapa en ram i inledningens andra del, t ex Delalande,
 % Schaeffer,  Smalley - morfologiska begrepp och teori kring kategorisering av elektroakustisk musik
 % Mark Fisher - kritik mot new public management.
+
+
+Hur påverkar vår tilltro till teknologi musiken? 
 
 \section{State of the art}
   % Som state of the nation - var befinner sig det elektroakustiska fältet just nu? Citat och ev om min egen
@@ -152,12 +162,12 @@ förankring till materialet.
   varit möjlig. Med detta menar jag uppfinningar som radion, trådlös och trådburen elektrisk signal,
   magnetband, mikrofoner, datorer och dess språk samt digital signalprocessering\footnote{DSP, Digital Signal
   Processing} etc. Studion som instrument har alltid varit central inom elektronisk musik, idag mer än
-  någonsin, med priset av en persondator som ständigt sjunker som en produkt av en kapplöpning mot "murphys
-  law", processeringsförmåga och nya billigare tillverkningsmetoder. Idag kan en produktionsstudio för
-  hemmabruk rymmas i en dator som ryms på ett enda kretskort, som Raspberry Pi\footnote{Raspberry Pi [https],
-  \emph{https://www.raspberrypi.com/}}, med ett pris som ligger mellan \$15 - 35. Tillgängligheten till en
-  studio, som tidigare var begränsad till instutitioner som nationella radiostationer har gradvis hamnat inom
-  räckhåll för individens händer.
+  någonsin, med priset av en persondator som ständigt sjunker som en produkt av en kapplöpning mot "Moore's
+  law"\footnote{Moore's Law, Ref....}, processeringsförmåga och nya billigare tillverkningsmetoder. Idag kan
+  en produktionsstudio för hemmabruk rymmas i en dator som ryms på ett enda kretskort, som Raspberry
+  Pi\footnote{Raspberry Pi [https], \emph{https://www.raspberrypi.com/}}, med ett pris som ligger mellan \$15
+  - 35. Tillgängligheten till en studio, som tidigare var begränsad till instutitioner som nationella
+  radiostationer har gradvis hamnat inom räckhåll för individens händer.
 
   % Demokratiseringen av studion.
   I och med att denna teknik förflyttats närmare individen har den demokratiserats. Musikteknik har i teorin
@@ -285,6 +295,8 @@ förankring till materialet.
   förhållande lärare (instutition) och elev har, vem som köper en tjänst av vem. Att högre utbildningar
   köper en tjänst, behöver ha elever som läser för att få ekonomiskt stöd, istället för att eleven köper sin
   utbildning av instutitionen. 
+
+  Robin James - Resilience and Melancholy
 
 	
   % Neo-liberalism och New Public Management
@@ -499,8 +511,6 @@ SynthDef(\demandSynth2, {
 
 
 \begin{lstlisting}[style=SuperCollider-IDE, caption=Syntens kontrollschema]
-
-
 ~follow2 = Synth(\demandSynth2, 
 	[ \loThresh, f.faderAt(1).asMap,
 		\atk, f.faderAt(2).asMap,
@@ -510,7 +520,6 @@ SynthDef(\demandSynth2, {
 		\vol, f.faderAt(6).asMap,
 		\hpf, 350],
 		addAction: \addToTail); 
-  
 \end{lstlisting}
 
   \subsection{K87-89}
@@ -538,7 +547,6 @@ SynthDef(\demandSynth2, {
   markant, men framträdde mer när jag när jag hade flera i följd, när ljudet passerade genom effektkedjan.
 
 \begin{lstlisting}[style=SuperCollider-IDE, caption=Fold-synt]
-
 SynthDef(\fold, {  // \t_trig, \freq, \fold.
 	var sig, env, out, verb, dirt;
 
