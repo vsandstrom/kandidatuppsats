@@ -68,7 +68,7 @@ Ett exempel är tekniken Ambisonics\footnote{Roger K. Furness, \emph{"Ambisonics
 audio", då konceptet är svåröversatt, inte att förväxla med "Apple Spatial Audio"), ett koncept som
 innefattar, men som inte är begränsat till surround-ljud, flerkanalsljud och simuleringar av rum. Ambisonics
 har fått stort genomslag inom utbildningar i elektroakustisk musik, och på skolor runt om Europa har speciella
-konsertsalar byggts för att möta de särskilda kraven som ställs av ambisonics.
+konsertsalar byggts för att möta de särskilda kraven som ställs av ambisonics. 
 
 
 Under åren 2020-2021 genomgick jag en lång sjukskrivning. Jag spenderade större delen av den här perioden i
@@ -312,8 +312,23 @@ luften, eller som innefattas inom de regler för ljud-, form- och harmonilära a
 		experience of listening to abstract, nonreferential, unrecognizable sounds?\footnote{Listening Through The Noise}
 \end{quote}
 
+Hon frågar här ifall de ljud som frammanas inom elektroakustisk och akusmatisk musik kan existera utanför sig
+själva, vara självrefererande, eller om de kan existera, likt Pierre Schaeffers teori om
+ljudobjekt\footnote{PIERRE}, som något ursprunget inte längre är urskiljbart. Schaeffer myntar uttrycket
+reducerat lyssnande för att beskriva detta fenomen, som gör att lyssnaren blir fri från ljudets inbyggda
+associativa kraft och nu existerar i sin mest avskalade, "rena" form. Hon ställer hans teori kring ljudobjekt
+emot Trevor Wisharts omtolkning av begreppet. Demers skriver: "Wishart fells that it is impossible to separate
+sounds from their associations, so it is incumbent upon the composer to acknowledge and work with sound
+references rather than repress them". Wishart är i On Sonic Art\footnote{Trevor Wishart (1996), \emph{On Sonic
+Art}, Amsterdam: Harwood} skeptisk till Schaeffers reducerade lyssnade. Wishart menar att ljud aldrig kan vara
+frånskiljda sin associativa kraft, och lägger istället bedömningen om ett ljuds associativa, extramusikaliska
+egenskaper hos lyssnaren, mottagaren av det musikaliska meddelandet. 
 
-Hon beskriver här Pierre Schaeffer och hans ljud objekt, och Trevor Wishart som omformulerade kring
+Wishart delar istället begreppet i reella och icke-reella ljud, samt reella och
+icke-reella rum.
+
+
+och Trevor Wishart som omformulerade kring
 ljudobjekten, som alltid innehåller en extramusikalisk struktur. OSV OSV ---> FYLL UT!!! koppla till det
 extramusikaliska och till LIMINALITET
 
@@ -500,9 +515,6 @@ sig själv.
 	\subsection{Koltrast}
 	Stycket "Koltrast" skrevs under sommaren 2021, när jag spenderade tid i Göteborg. Stommen i stycket är en
 	lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och
-	på mig så mycket jag orkade eftersom det skulle skynda på läkning. 
-
-	Efter min operation hade jag haft problem med att sova, och
 	inspelningen gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis
 	när det började ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull
 	koltrastar som sjöng över hustaken på Doktor Fries Torg. Fångade det genom att plocka fram en
@@ -537,7 +549,7 @@ SynthDef(\demandSynth2, {
 
 	in = A2K.kr(In.ar(\in.kr(55), 2) * 4);
 	fade = Line.kr( 0, 1, \fadeTime.kr(2));
-	trigger = Trig.kr(
+	trigger = Trig.kr(			    // <-- Här sker triggningen
 		InRange.kr( 
 			Amplitude.kr(
 				A2K.kr(in.lag(1) * 4), 0.2, 0.5
@@ -591,8 +603,8 @@ SynthDef(\demandSynth2, {
 
 \begin{lstlisting}[style=SuperCollider-IDE, caption=Syntens kontrollschema]
 ~follow2 = Synth(\demandSynth2, 
-	[ \loThresh, f.faderAt(1).asMap,
-		\atk, f.faderAt(2).asMap,
+	[ \loThresh, f.faderAt(1).asMap, // asMap, annars används bus-numret som värde,
+		\atk, f.faderAt(2).asMap,		   // kan bli apstarkt!
 		\rel, f.faderAt(3).asMap,
 		\verbTime, f.faderAt(4).asMap,
 		\verbVol, f.faderAt(5).asMap,
