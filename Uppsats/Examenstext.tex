@@ -5,6 +5,7 @@
 \setmonofont[Scale=0.7]{Monaco}
 \usepackage{listings}
 \usepackage[T1]{fontenc}
+\renewcommand{\baselinestretch}{1.5}
 \lstset{basicstyle=\ttfamily\footnotesize, tabsize=2} \usepackage[framed, numbered]{sclang-prettifier}
 
 %%%%% Kompilera med xelatex!!!!! %%%%%
@@ -35,24 +36,27 @@
 % [  ] EVENTUELL FORM:
 %		-- Teknologin och Extramusikaliska intryck (Diskussionsdel) ---> Musiken (Resultatdel) ---> Reflektionsdel
 
+\title{Liminal Space - An Aesthetic}
+% \author{Viktor Sandström}
+% \date{Februari 2022}
 
 \begin{document}
+\maketitle
+\tableofcontents
+\newpage
 % Vad jag vill prata om och varför jag tycker att det är intressant.
 % Jag beskriver varför sökt mig till det här ämnet, utifrån min egen känsla av okunskap kring en viss teknik. 
 % Hur jag kunde känna mig begränsad när jag inte behärskade något, och hur det kunde göda en prestationsångest 
 % som jag sedan vidarebefordrade till andra. 
 
-\title{Examensuppsats}
-\author{Viktor Sandström}
-\date{Februari 2022}
 
 	% 1. When a distinguished but elderly scientist states that something is possible, they are almost certainly right. When they state that something is impossible, they are very probably wrong.
 	% 2. The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
 
-\section{Liminal Space - An Aesthetic}
 
 \emph{Any sufficiently advanced technology is indistinguishable from magic\footnote{\emph{Arthur C. Clarke, "Clarke's Three Laws"}}}
-\linebreak
+\newpage
+
 
 Detta kan ses som programbladet till musiken som innefattas av den konstnärliga delen av examensarbetet.
 
@@ -69,7 +73,7 @@ Ett exempel är tekniken Ambisonics\footnote{Roger K. Furness, \emph{"Ambisonics
 audio", då konceptet är svåröversatt, inte att förväxla med "Apple Spatial Audio"), ett koncept som
 innefattar, men som inte är begränsat till surround-ljud, flerkanalsljud och simuleringar av rum. Ambisonics
 har fått stort genomslag inom utbildningar i elektroakustisk musik, och på skolor runt om Europa har speciella
-konsertsalar byggts för att möta de särskilda kraven som ställs av ambisonics. 
+konsertsalar byggts för att möta de särskilda kraven som ställs av ambisonics. \linebreak
 
 
 Under åren 2020-2021 genomgick jag en lång sjukskrivning. Jag spenderade större delen av den här perioden i
@@ -92,7 +96,7 @@ https://en.wikipedia.org/wiki/Monobloc\_(chair) (Hämtad 06-02-22)}-stolar som n
 korridorerna med den offentliga konst som var utplacerad genom sjukhuset. Dessa miljöerna fångade mitt
 intresse, men de speglade även min egen tillvaro som, likt dessa platser, kändes stillastående och tidlösa.
 Tanken att tonsätta miljöerna på sjukhus, blev istället ett projekt om att tonsätta och dokumentera min egen
-stillastående vardag.
+stillastående vardag.\linebreak
 
 Den kompositionsmetoden jag använde kändes annorlunda från min erfarenhet från att skriva musik inom
 utbildningens kontext. Musiken var inte ett medel för att uppnå målet att bemästra en ny teknin. Istället
@@ -121,7 +125,7 @@ tillståndet som musiken, ögonblick för ögonblick försätter en i.
 Det tredje och sista lyssnandebeteendet som Delalande identifierat är det figurativiserande. Den som lyssnar med
 detta perspektiv är intresserad av att associera fritt kring de ljud den hör, likt miljöer som beskriver ett
 narrativ. Där musiken översätts i lyssnarens huvud till att besrkiva en scen eller plats som lyssnaren
-förnimmer i lyssnandet av musiken.
+förnimmer i lyssnandet av musiken.\linebreak
 
 Detta klingade väldigt rätt hos mig när jag börjat arbeta med ett projekt som till viss del handlade om en
 sjukskrivning som jag genomgick under vintern och våren av 2021. Det började med att jag fattade tycke för de
@@ -132,7 +136,7 @@ en innergård, anlagd med buskar och träd och med monobloc\footnote{\emph{Monob
 (chair)} [wiki], https://en.wikipedia.org/wiki/Monobloc\_(chair) (Hämtad 06-02-22)}-stolar som nu var täckta av
 alger. Dessa platser präglade denna tid, men det flöt även in i min egen tillvaro, då jag i min sjukskrivning
 på något sätt stod still, likt dessa platser. Mitt projekt, som från början var en idé om att tonsätta de här
-platserna, blev istället ett projekt om att tonsätta min egen stillastående vardag. 
+platserna, blev istället ett projekt om att tonsätta min egen stillastående vardag. \linebreak
 
 I den här processen, framförallt när jag mådde bättre, började jag arbeta med musiken, framförallt utifrån
 verktyget SuperCollider\footnote{\emph{SuperCollider}, https://supercollider.github.io/ (Hämtad 06-02-22)}.
@@ -317,12 +321,13 @@ Hon frågar här ifall de ljud som frammanas inom elektroakustisk och akusmatisk
 själva, vara självrefererande, eller om de kan existera, likt Pierre Schaeffers teori om
 ljudobjekt\footnote{Pierre Schaeffer (1966), \emph{Traité des Objets Musicaux}}, som något ursprunget inte
 längre är urskiljbart. Begreppet akusmatisk musik har traditionellt använts för att beskriva den tradition som
-Schaeffer teoretiserade kring, och som definieras av att analysera och tolka ljud utifrån dess texturer och
-kvalitéer snarare än dess förmåga att berätta något om källan till ljudet. Schaeffer myntar uttrycket reducerat 
-lyssnande för att beskriva denna analysmetod, som ska göra lyssnaren fri från ljudets inbyggda associationer. 
-Istället se ljudet som det existerar i sin mest avskalade, "rena" form. 
-Hon ställer hans teori kring ljudobjekt emot Trevor Wisharts omtolkning av begreppet. Demers skriver:
-"\emph{Wishart fells that it is impossible to separate sounds from their associations, so it is incumbent upon
+Schaeffer teoretiserade kring, och som definieras av att analysera och tolka ljud utan att se objektet som
+skapar ljudet, och att man då kan tolka ljudet utifrån dess texturer och kvalitéer snarare än dess förmåga att
+berätta något dess källa. Schaeffer myntar uttrycket "reducerat lyssnande" för att beskriva denna
+analysmetod, som ska göra lyssnaren fri från ljudets inbyggda associationer. 
+Istället ska man se ljudet som det existerar i sin mest avskalade, "rena" form. 
+Hon ställer Schaeffers teori kring ljudobjekt mot Trevor Wisharts omtolkning av begreppet. Demers skriver:
+"\emph{Wishart feels that it is impossible to separate sounds from their associations, so it is incumbent upon
 the composer to acknowledge and work with sound references rather than repress them}". Wishart är i On Sonic
 Art\footnote{Trevor Wishart (1996), \emph{On Sonic Art}, Amsterdam: Harwood} skeptisk till Schaeffers
 reducerade lyssnade. Wishart menar att ljud aldrig kan vara frånskiljda en association
@@ -335,7 +340,11 @@ onaturlig, konstgjord källa (ett elektroniskt bearbetat ljud eller synthesizer 
 naturlig, icke konstgjord miljö (ljudets egen resonanta klang från rummet som fastnade på inspelningen) eller
 en konstgjord miljö (artificiella rumsklanger eller onaturliga rumsliga effekter), som sedan samspelar för att
 skapa en ljudande helhet som han liknar vid ett landskap, som beroende på hur man använder sig av de olika
-typerna av ljud han beskriver, kan verka verklig eller overklig. \linebreak
+typerna av ljud han beskriver, kan verka verklig eller overklig. I hans resonemang är det mer intressant att
+bejaka den assiciativa förmågan hos ljud, för att få ett starkare grepp över det man som kompositör vill
+förmedla.\linebreak
+
+EXTRAMUSIKALITET!!!\linebreak
 
 och Trevor Wishart som omformulerade kring
 ljudobjekten, som alltid innehåller en extramusikalisk struktur. OSV OSV ---> FYLL UT!!! koppla till det
@@ -364,7 +373,7 @@ musik.\linebreak
 % opportunistisk eller utilitaristisk feghet."
 
 
-Luigi Russolo lät bygga ett antal musikaliska maskiner, som skulle reproducera stadens ljud i en
+Luigi Russolo lät bygga ett antal maskiner, som skulle reproducera "stadens musik" i en
 konsertsättning. Dessa kan ses som ett tidigt exempel på elektroakustisk musik, men också på musik som ville
 bryta mot den, som Joanna Demers beskriver, förhärskande "absoluta" musiken som lärdes ut på
 konservatorier. Futuristerna ville på ett väldigt bokstavligt sätt få sin musik att handla om något utanför
@@ -379,6 +388,30 @@ sig själv.
 % intresse för ljud som kommit som biprodukt ur industri och från maskiner, och stundtals rent aggressiva
 % ljud, som t ex noise. 
 
+\subsection{Liminality}
+Liminalitet är ett begrepp som föddes ur antropologin och myntades av Arnold van Gennep i hans bok \emph{Rites
+of Passage} (först utgiven 1909), för att beskriva ett mellantillstånd som uppstår inom ritualer som
+utförs i kulturer runt om i världen. Uttrycket är till för hjälpa hans arbete under hans forskning på
+ritualer, för att kunna beskriva gemensamma mönster som vanligtvis återfinns i ritualer från alla kulturer. 
+Han beskriver två ytterligare stadier, en symbolisk (eller i vissa fall religiösa fall verklig) död och
+pånyttfödelse, ett före och ett efter, där det "liminala" är tröskeln mellan de två, där förändringen sker. 
+Gennep skriver:
+\begin{quote}
+\begin{itemize}
+	\item preliminal rites (or rites of separation): This stage involves a metaphorical "death", as the
+		initiate is forced to leave something behind by breaking with previous practices and routines.
+	\item liminal rites (or transition rites): Two characteristics are essential to these rites. First, the
+		rite "must follow a strictly prescribed sequence, where everybody knows what to do and how". Second,
+		everything must be done "under the authority of a master of ceremonies". The destructive nature of
+		this rite allows for considerable changes to be made to the identity of the initiate. This middle
+		stage (when the transition takes place) "implies an actual passing through the threshold that marks
+		the boundary between two phases, and the term 'liminality' was introduced in order to characterize
+		this passage."
+	\item postliminal rites (or rites of incorporation): During this stage, the initiand is re-incorporated
+		into society with a new identity, as a "new" being.\footnote{Arnold van Gennep (1977), \emph{The Rites
+		of Passage} s. 21,  London}
+\end{itemize}
+\end{quote}
 
 % Emma Frid - Diverse sounds, kap 2.2 music diversity and inclusion - "Varför ska vi sträva efter diversity?"
 % s. 18, empowerment through music and technology
