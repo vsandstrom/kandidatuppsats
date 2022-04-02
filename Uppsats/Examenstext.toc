@@ -1,14 +1,13 @@
 \babel@toc {swedish}{}
 \contentsline {section}{\numberline {1}Inledning}{3}{}%
-\contentsline {section}{\numberline {2}Bakgrund}{5}{}%
-\contentsline {subsection}{\numberline {2.1}Absolute vs Programmatic music.}{7}{}%
-\contentsline {subsection}{\numberline {2.2}Liminality}{9}{}%
-\contentsline {subsection}{\numberline {2.3}Musik som vetenskaplig forskning}{9}{}%
-\contentsline {subsection}{\numberline {2.4}Teknik som inspiration}{10}{}%
-\contentsline {subsection}{\numberline {2.5}Tekniken som en börda}{10}{}%
-\contentsline {section}{\numberline {3}Koppling till musiken}{10}{}%
-\contentsline {subsection}{\numberline {3.1}DEC}{11}{}%
-\contentsline {subsection}{\numberline {3.2}Koltrast}{12}{}%
-\contentsline {subsection}{\numberline {3.3}K87-89}{14}{}%
-\contentsline {subsection}{\numberline {3.4}Metamorfos}{16}{}%
-\contentsline {section}{\numberline {4}Diskussionsdel}{17}{}%
+\contentsline {section}{\numberline {2}Bakgrund}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Absolute vs Programmatic music.}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Liminality}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Teknik som inspiration}{9}{}%
+\contentsline {subsection}{\numberline {2.4}Tekniken som en börda}{9}{}%
+\contentsline {section}{\numberline {3}Koppling till musiken}{9}{}%
+\contentsline {subsection}{\numberline {3.1}DEC}{10}{}%
+\contentsline {subsection}{\numberline {3.2}Koltrast}{11}{}%
+\contentsline {subsection}{\numberline {3.3}K87-89}{13}{}%
+\contentsline {subsection}{\numberline {3.4}Metamorfos}{15}{}%
+\contentsline {section}{\numberline {4}Diskussionsdel}{16}{}%
