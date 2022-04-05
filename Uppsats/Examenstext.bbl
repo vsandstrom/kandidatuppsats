@@ -1,0 +1,348 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{PierreSchaeffer}{book}{}
+      \name{author}{1}{}{%
+        {{hash=319b34a2e0d628fc8b5fc00a78f409e4}{%
+           family={Schaeffer},
+           familyi={S\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Édition du Seuil}%
+      }
+      \strng{namehash}{319b34a2e0d628fc8b5fc00a78f409e4}
+      \strng{fullhash}{319b34a2e0d628fc8b5fc00a78f409e4}
+      \strng{bibnamehash}{319b34a2e0d628fc8b5fc00a78f409e4}
+      \strng{authorbibnamehash}{319b34a2e0d628fc8b5fc00a78f409e4}
+      \strng{authornamehash}{319b34a2e0d628fc8b5fc00a78f409e4}
+      \strng{authorfullhash}{319b34a2e0d628fc8b5fc00a78f409e4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Traité des Objets Musicaux}
+      \field{year}{1966}
+    \endentry
+    \entry{ArthurCClarkeMagic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=452594b6b83de749f9e37c5c150c6470}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={Arthur\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{452594b6b83de749f9e37c5c150c6470}
+      \strng{fullhash}{452594b6b83de749f9e37c5c150c6470}
+      \strng{bibnamehash}{452594b6b83de749f9e37c5c150c6470}
+      \strng{authorbibnamehash}{452594b6b83de749f9e37c5c150c6470}
+      \strng{authornamehash}{452594b6b83de749f9e37c5c150c6470}
+      \strng{authorfullhash}{452594b6b83de749f9e37c5c150c6470}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{title}{Clarke's Third Law on UFO's}
+      \field{volume}{159}
+      \field{year}{1968}
+      \verb{doi}
+      \verb 10.1126/science.159.3812.255-b
+      \endverb
+    \endentry
+    \entry{Gennep}{book}{}
+      \name{author}{1}{}{%
+        {{hash=92bfdb890ac8eabd445fae54447b19dc}{%
+           family={Gennep},
+           familyi={G\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{92bfdb890ac8eabd445fae54447b19dc}
+      \strng{fullhash}{92bfdb890ac8eabd445fae54447b19dc}
+      \strng{bibnamehash}{92bfdb890ac8eabd445fae54447b19dc}
+      \strng{authorbibnamehash}{92bfdb890ac8eabd445fae54447b19dc}
+      \strng{authornamehash}{92bfdb890ac8eabd445fae54447b19dc}
+      \strng{authorfullhash}{92bfdb890ac8eabd445fae54447b19dc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thr Rites of Passage}
+      \field{year}{1977}
+    \endentry
+    \entry{TrevorWishart}{book}{}
+      \name{author}{2}{}{%
+        {{hash=81812ffd6a91ca7b5bf4a77a7cfb4194}{%
+           family={Wishart},
+           familyi={W\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=05e10c4a093008ad16e11e53a258c1c0}{%
+           family={Emmerson},
+           familyi={E\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{9a6bb6527b3565070c2c57b8904c0b59}
+      \strng{fullhash}{9a6bb6527b3565070c2c57b8904c0b59}
+      \strng{bibnamehash}{9a6bb6527b3565070c2c57b8904c0b59}
+      \strng{authorbibnamehash}{9a6bb6527b3565070c2c57b8904c0b59}
+      \strng{authornamehash}{9a6bb6527b3565070c2c57b8904c0b59}
+      \strng{authorfullhash}{9a6bb6527b3565070c2c57b8904c0b59}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On Sonic Art}
+      \field{year}{1996}
+      \verb{doi}
+      \verb 10.4324/9781315077895
+      \endverb
+    \endentry
+    \entry{Delalande1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=73aa31c5baf52363a1621db3a807a680}{%
+           family={Delalande},
+           familyi={D\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{73aa31c5baf52363a1621db3a807a680}
+      \strng{fullhash}{73aa31c5baf52363a1621db3a807a680}
+      \strng{bibnamehash}{73aa31c5baf52363a1621db3a807a680}
+      \strng{authorbibnamehash}{73aa31c5baf52363a1621db3a807a680}
+      \strng{authornamehash}{73aa31c5baf52363a1621db3a807a680}
+      \strng{authorfullhash}{73aa31c5baf52363a1621db3a807a680}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of New Music Research}
+      \field{number}{1-2}
+      \field{title}{Music analysis and reception behaviours: Sommeil by Pierre Henry}
+      \field{volume}{27}
+      \field{year}{1998}
+      \field{pages}{13\bibrangedash 66}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.1080/09298219808570738
+      \endverb
+    \endentry
+    \entry{Eno}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=657d94604f282ee1c80e8a5d0fb1e944}{%
+           family={Eno},
+           familyi={E\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=53ad1530deb076989bc3908aee809f77}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=544c498dc8bdead40fb340560921f51f}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Continuum}%
+      }
+      \strng{namehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{fullhash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{bibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authorbibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authornamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authorfullhash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{editorbibnamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
+      \strng{editornamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
+      \strng{editorfullhash}{11f3739fb2647ac2f7e37d6ae01135f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Audio Culture}
+      \field{title}{Ambient Music}
+      \field{year}{2004}
+      \field{pages}{149\bibrangedash 193}
+      \range{pages}{45}
+    \endentry
+    \entry{Arpad}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ecb527652801bea150e0027d12105d9c}{%
+           family={Szakolczai},
+           familyi={S\bibinitperiod},
+           given={Arpad},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecb527652801bea150e0027d12105d9c}
+      \strng{fullhash}{ecb527652801bea150e0027d12105d9c}
+      \strng{bibnamehash}{ecb527652801bea150e0027d12105d9c}
+      \strng{authorbibnamehash}{ecb527652801bea150e0027d12105d9c}
+      \strng{authornamehash}{ecb527652801bea150e0027d12105d9c}
+      \strng{authorfullhash}{ecb527652801bea150e0027d12105d9c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Political Anthropology}
+      \field{number}{1}
+      \field{title}{Liminality and Experience}
+      \field{volume}{2}
+      \field{year}{2009}
+    \endentry
+    \entry{JoannaDemers}{book}{}
+      \name{author}{1}{}{%
+        {{hash=97219df6130044f77e007a21634c9426}{%
+           family={Demers},
+           familyi={D\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {New York}%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{97219df6130044f77e007a21634c9426}
+      \strng{fullhash}{97219df6130044f77e007a21634c9426}
+      \strng{bibnamehash}{97219df6130044f77e007a21634c9426}
+      \strng{authorbibnamehash}{97219df6130044f77e007a21634c9426}
+      \strng{authornamehash}{97219df6130044f77e007a21634c9426}
+      \strng{authorfullhash}{97219df6130044f77e007a21634c9426}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Listening Through the Noise: The Aesthetic of Experimental Music}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780195387650.001.0001
+      \endverb
+    \endentry
+    \entry{Fisher}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f0864881d931f2f32dce82025b36ad6e}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Repeater Books}%
+      }
+      \strng{namehash}{f0864881d931f2f32dce82025b36ad6e}
+      \strng{fullhash}{f0864881d931f2f32dce82025b36ad6e}
+      \strng{bibnamehash}{f0864881d931f2f32dce82025b36ad6e}
+      \strng{authorbibnamehash}{f0864881d931f2f32dce82025b36ad6e}
+      \strng{authornamehash}{f0864881d931f2f32dce82025b36ad6e}
+      \strng{authorfullhash}{f0864881d931f2f32dce82025b36ad6e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Weird and the Eerie}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1080/0950236X.2017.1358704
+      \endverb
+    \endentry
+    \entry{LaMemeYoung}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f8f37a403e4dc5f6f3e44e53fe3e4178}{%
+           family={Alper},
+           familyi={A\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8f37a403e4dc5f6f3e44e53fe3e4178}
+      \strng{fullhash}{f8f37a403e4dc5f6f3e44e53fe3e4178}
+      \strng{bibnamehash}{f8f37a403e4dc5f6f3e44e53fe3e4178}
+      \strng{authorbibnamehash}{f8f37a403e4dc5f6f3e44e53fe3e4178}
+      \strng{authornamehash}{f8f37a403e4dc5f6f3e44e53fe3e4178}
+      \strng{authorfullhash}{f8f37a403e4dc5f6f3e44e53fe3e4178}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Podcast]}
+      \field{title}{THE JESSICA EKOMANE TALK}
+      \field{year}{2021}
+    \endentry
+    \entry{LinusHillborg}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=150cd89cd59cc66409af690c30744d5c}{%
+           family={Hillborg},
+           familyi={H\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Kungliga Musikhögskolan}%
+      }
+      \strng{namehash}{150cd89cd59cc66409af690c30744d5c}
+      \strng{fullhash}{150cd89cd59cc66409af690c30744d5c}
+      \strng{bibnamehash}{150cd89cd59cc66409af690c30744d5c}
+      \strng{authorbibnamehash}{150cd89cd59cc66409af690c30744d5c}
+      \strng{authornamehash}{150cd89cd59cc66409af690c30744d5c}
+      \strng{authorfullhash}{150cd89cd59cc66409af690c30744d5c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Återbruk och återgivning}
+      \field{type}{mathesis}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
