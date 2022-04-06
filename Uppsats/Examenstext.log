@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  5 APR 2022 22:50
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  6 APR 2022 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,11 +689,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 62.
-
-
-LaTeX Warning: No \author given.
-
-[1
+ [1
 
 ] (./Examenstext.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -714,8 +710,10 @@ Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
 [10]
-Missing character: There is no “ ("201C) in font ec-lmr10!
-Missing character: There is no ’ ("2019) in font ec-lmr10!
+
+Package biblatex Warning: No driver for entry type 'convolut'.
+(biblatex)                Using fallback driver on input line 482.
+
 Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
@@ -726,18 +724,23 @@ Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no ‘ ("2018) in font ec-lmr10!
 Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no ’ ("2019) in font ec-lmr10!
-[11] [12] [13]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 612.
+[11] [12] [13] [14]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 628.
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 612.
+(Font)              scaled to size 6.99997pt on input line 628.
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 614.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 630.
 
 LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-(Font)              scaled to size 6.99997pt on input line 615.
-[14] [15] [16] [17] (./Examenstext.aux)
+(Font)              scaled to size 6.99997pt on input line 631.
+[15] [16] [17]
+
+Package biblatex Warning: No driver for entry type 'convolut'.
+(biblatex)                Using fallback driver on input line 805.
+
+[18] (./Examenstext.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -748,12 +751,12 @@ Package logreq Info: Writing requests to 'Examenstext.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21450 strings out of 476179
- 419404 string characters out of 5809545
- 1512874 words of memory out of 5000000
- 41978 multiletter control sequences out of 15000+600000
+ 21458 strings out of 476179
+ 419596 string characters out of 5809545
+ 1512937 words of memory out of 5000000
+ 41986 multiletter control sequences out of 15000+600000
  520805 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,8n,77p,744b,5314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Examenstext.xdv (17 pages, 137108 bytes).
+Output written on Examenstext.xdv (18 pages, 139660 bytes).

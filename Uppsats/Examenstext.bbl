@@ -200,6 +200,7 @@
       \strng{editorbibnamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
       \strng{editornamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
       \strng{editorfullhash}{11f3739fb2647ac2f7e37d6ae01135f6}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -207,8 +208,6 @@
       \field{booktitle}{Audio Culture}
       \field{title}{Ambient Music}
       \field{year}{2004}
-      \field{pages}{149\bibrangedash 193}
-      \range{pages}{45}
     \endentry
     \entry{Arpad}{article}{}
       \name{author}{1}{}{%
@@ -341,6 +340,30 @@
       \field{title}{Återbruk och återgivning}
       \field{type}{mathesis}
       \field{year}{2021}
+    \endentry
+    \entry{Airports}{convolut}{}
+      \name{author}{1}{}{%
+        {{hash=657d94604f282ee1c80e8a5d0fb1e944}{%
+           family={Eno},
+           familyi={E\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Polydor}%
+      }
+      \strng{namehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{fullhash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{bibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authorbibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authornamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authorfullhash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ambient 1, Music For Airports}
     \endentry
   \enddatalist
 \endrefsection
