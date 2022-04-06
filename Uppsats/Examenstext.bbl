@@ -264,50 +264,6 @@
       \field{title}{The Disintegration Loops}
       \field{year}{2002}
     \endentry
-    \entry{Eno}{incollection}{}
-      \name{author}{1}{}{%
-        {{hash=657d94604f282ee1c80e8a5d0fb1e944}{%
-           family={Eno},
-           familyi={E\bibinitperiod},
-           given={Brian},
-           giveni={B\bibinitperiod}}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=53ad1530deb076989bc3908aee809f77}{%
-           family={Cox},
-           familyi={C\bibinitperiod},
-           given={Christoph},
-           giveni={C\bibinitperiod}}}%
-        {{hash=544c498dc8bdead40fb340560921f51f}{%
-           family={Warner},
-           familyi={W\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Continuum}%
-      }
-      \strng{namehash}{657d94604f282ee1c80e8a5d0fb1e944}
-      \strng{fullhash}{657d94604f282ee1c80e8a5d0fb1e944}
-      \strng{bibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
-      \strng{authorbibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
-      \strng{authornamehash}{657d94604f282ee1c80e8a5d0fb1e944}
-      \strng{authorfullhash}{657d94604f282ee1c80e8a5d0fb1e944}
-      \strng{editorbibnamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
-      \strng{editornamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
-      \strng{editorfullhash}{11f3739fb2647ac2f7e37d6ae01135f6}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Audio Culture}
-      \field{title}{Ambient Music}
-      \field{year}{2004}
-    \endentry
     \entry{Arpad}{article}{}
       \name{author}{1}{}{%
         {{hash=ecb527652801bea150e0027d12105d9c}{%
@@ -331,6 +287,32 @@
       \field{title}{Liminality and Experience}
       \field{volume}{2}
       \field{year}{2009}
+    \endentry
+    \entry{Thomassen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e146c36a980b0791b0a9f3f73afab7f7}{%
+           family={Thomassen},
+           familyi={T\bibinitperiod},
+           given={Bjørn},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{e146c36a980b0791b0a9f3f73afab7f7}
+      \strng{fullhash}{e146c36a980b0791b0a9f3f73afab7f7}
+      \strng{bibnamehash}{e146c36a980b0791b0a9f3f73afab7f7}
+      \strng{authorbibnamehash}{e146c36a980b0791b0a9f3f73afab7f7}
+      \strng{authornamehash}{e146c36a980b0791b0a9f3f73afab7f7}
+      \strng{authorfullhash}{e146c36a980b0791b0a9f3f73afab7f7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Political Anthropology}
+      \field{number}{1}
+      \field{title}{The Uses and Meanings of Liminality}
+      \field{volume}{2}
+      \field{year}{2009}
+      \field{pages}{5\bibrangedash 27}
+      \range{pages}{23}
     \endentry
     \entry{JoannaDemers}{book}{}
       \name{author}{1}{}{%
@@ -392,6 +374,51 @@
       \verb{doi}
       \verb 10.1080/0950236X.2017.1358704
       \endverb
+    \endentry
+    \entry{Eno}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=657d94604f282ee1c80e8a5d0fb1e944}{%
+           family={Eno},
+           familyi={E\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=53ad1530deb076989bc3908aee809f77}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=544c498dc8bdead40fb340560921f51f}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Bloomsbury Publishing}%
+      }
+      \strng{namehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{fullhash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{bibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authorbibnamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authornamehash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{authorfullhash}{657d94604f282ee1c80e8a5d0fb1e944}
+      \strng{editorbibnamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
+      \strng{editornamehash}{11f3739fb2647ac2f7e37d6ae01135f6}
+      \strng{editorfullhash}{11f3739fb2647ac2f7e37d6ae01135f6}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Audio Culture}
+      \field{isbn}{9781501318368}
+      \field{title}{Ambient Music}
+      \field{year}{2017}
     \endentry
     \entry{LaMemeYoung}{misc}{}
       \name{author}{1}{}{%
