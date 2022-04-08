@@ -333,7 +333,7 @@ det liminala, där förändringen från barn till vuxen sker. Strukturen kan app
 slutligen ett återinträde och inkorporering i en professionell karaktär.
 
 % Liminality and Experience??
-Antropologen Björn Thomassen föreslår i sin text \emph{The Uses and Meanings of
+Antropologen Bjørn Thomassen föreslår i sin text \emph{The Uses and Meanings of
 Liminality}\footcite[12-13]{Thomassen} att man kan använda liminalitet som begrepp på flera plan, över
 subjekt, tid och rum. Han lägger fram en modell där subjekt sträcker sig från individ till civilisation, tid
 mellan ögonblick och epok och rum mellan ett specifikt objekt till länder och kontinenter. Med hans
@@ -505,7 +505,6 @@ stycket, med dynamiska kurvor. Eftersom jag redan placerat stycket i en årstid 
 snöstorm, med ett vinande och brusande och böljande, men det kan också handla om hur märklig och obehagligt
 det var att vara sjukskriven under den här perioden.
 
-
 % \begin{center}
 % 	% tabular behöver ytterligare argument som visar hur många celler 'c'
 % 	\begin{tabular}{ c c c c c }
@@ -514,8 +513,6 @@ det var att vara sjukskriven under den här perioden.
 % 		SuperCollider & -> & Eurorack-synth & -> & Reaper
 % 	\end{tabular}
 % \end{center}
-
-
 
 % Med denna parameter samt möjligheten att bredda och öppna filtret för att släppa igenom mer ljud, och varsin
 % wavefold-effekt på oscillatorerna, hade jag möjlighet att framföra stycket med ett mått
@@ -530,32 +527,34 @@ Stycket \emph{Koltrast} skrevs under sommaren 2021, när jag spenderade tid i G�
 lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och inspelningen
 gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis när det började
 ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull koltrastar som
-sjöng över hustaken på Doktor Fries Torg. Fångade det genom att plocka fram en
+sjöng över hustaken på Doktor Fries Torg. Jag fångade det genom att sätta igång en inspelning på en  
 Zoom\footnote{\url{https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder}} innan
-jag gick och lade mig igen. När jag sedan bestämde mig för att skriva ett stycke kring fågelsången, ville jag
+jag gick och lade mig igen. 
+
+När jag sedan bestämt mig för att skriva ett stycke kring fågelsången, ville jag
 testa om jag kunde låta inspelningen styra musikaliska parametrar på något vis. Min första tanke var att
 använda FFT-analys\footnote{\url{https://sv.wikipedia.org/wiki/Snabb\_fouriertransform}} för att kunna följa
 fågelsångens egen tonhöjd, och tillåta den styra tonhöjden av en synt. Under processen hade jag blev jag dock
 mycket fäst vid hur inspelningen lät i sig själv och ville inte bygga ett instrument som skulle göra en
 konstgjord kopia, om än möjligtvis intressant. Istället bestämde jag mig för att bygga ett program i
 SuperCollider som kunde följa amplituden av fågelsången, och ta beslut kring musikaliska händelser när
-amplituden översteg ett tröskelvärde. Synten som triggades av dessa event hade en tydlig attack, men om dess
-eget volymenvelop öppnades upp och tillät för längre toner påminde det om inspelningar jag hört av orgelpipor,
-där mikrofonen stått mycket nära mekanik och klaffar. Jag bestämde mig då för att det skulle bli något i stil
-med ett syntetiskt orgelstycke.
-
-%%%% SÄTT IN LITE SC-KOD HÄR %%%%
+amplituden översteg ett tröskelvärde. Synten som triggades av dessa händelser hade en tydlig attack på grund
+utav syntens utformning, men om dess eget volymenvelop öppnades upp och tillät för längre toner påminde det om
+inspelningar jag hade hört av orgelpipor, där mikrofonen stått mycket nära mekanik och klaffar. 
+Jag bestämde mig då för att utforma stycket så det skulle bli något i stil med ett syntetiskt orgelstycke.
 
 Jag undersökte även ``physical modelling'', tekniken att framställa ljud som liknar akustiska klanger på
-syntetisk väg. Till detta använde jag en färdig klass i SuperCollider som heter DWGBowedTor från
-biblioteket DWG\footnote{\url{https://doc.sccode.org/classes/dwgbowedtor.html}}. Tillsammans med en basstämma fick agera kontrapunktiskt mot den mer
-stokastiska koltraststämman och dess ackompanjerande synt, de fick vara mer förutsägbara och ha en mer
-cirkulär form. Här arbetade jag även med att skriva sekvenser med ``kontrollstrukturer''\footnote{\url{https://doc.sccode.org/Reference/Control-Structures.html}}, och göra enkla sekvenser som varierade sig baserat på vilket varv vi var på i
-loopen. 
+syntetisk väg. Till detta använde jag en färdig klass i SuperCollider som heter DWGBowedTor från biblioteket
+DWG\footnote{\url{https://doc.sccode.org/classes/dwgbowedtor.html}}. Denna typen av physical modelling skulle
+härma stråkinstrument och simulera resonanser inuti instrumentet. Tillsammans med en basstämma fick agera
+kontrapunktiskt mot den mer stokastiska koltraststämman och dess ackompanjerande synt, de fick vara mer
+förutsägbara och ha en mer cirkulär form. Här arbetade jag även med att skriva sekvenser med
+``kontrollstrukturer''\footnote{\url{https://doc.sccode.org/Reference/Control-Structures.html}}, och göra
+enkla sekvenser som varierade sig baserat på vilket varv vi var på i loopen.
 \pagebreak
 
 \renewcommand{\baselinestretch}{1}
-\begin{lstlisting}[style=SuperCollider-IDE, caption=SynthDef för amplitudtriggning från Koltrast]
+\begin{lstlisting}[style=SuperCollider-IDE, caption=SynthDef för amplitudtriggning från \emph{Koltrast}]
 SynthDef(\demandSynth2, {
 	var fund = 69;
 	var trigger, in, sig, env, fade, verb, fadeOut;
@@ -631,13 +630,16 @@ SynthDef(\demandSynth2, {
 
 \subsection{K87-89}
 K87-89 heter sjukhusavdelningen på Huddinge sjukhus där jag och min pappa var efter min operation. Den här
-perioden, och de kommande veckorna präglades av en väldigt hög energinivå hos mig själv, delvis på grund av
-ett mycket förbättrat fysiskt mående, men också definitivt på grund av de starka mediciner jag fick.
-Kopplingen till det liminala var att vi, mitt under Covid19-pandemi, var tvungna att stanna på sjukhus en
-vecka, med bara varandra och sjukhuspersonal som sällskap. Detta i kombination med hur en operation är en
-slags ritual, en exorcism av det onda. 
+perioden, och de kommande veckorna präglades av en väldigt hög energinivå hos mig, delvis på grund av
+ett förbättrat fysiskt mående, men också på grund av de starka mediciner jag fick. 
 
-Jag ville fånga denna post-ritualistiska extas av febrig energi i ljud, vilket slutligen resulterade i detta
+Eftersom det var mitt under Covid19-pandemin var tvungna att stanna på sjukhusavdelningen i en
+vecka, med bara varandra och sjukhuspersonal som sällskap. Under denna veckan hade jag ofta
+ljudhallucinationer, vilka yttrade sig i att det fanns betydligt fler ljudkällor i rummet än vad det faktiskt
+var. Varje gång jag blundade lät det som att det var tjugo personer runt omkring mig som pratade i mun på
+varann. Jag drömde även väldigt invecklade och tydliga drömmar under den här perioden. 
+
+Jag ville fånga denna smått maniska extas av febrig energi i ljud, vilket slutligen resulterade i detta
 stycke. Eftersom jag har en förkärlek för långsamma klanger var min första tanke inte att göra något
 rytmiskt intensivt. Jag började istället att försöka skapa ett ljud som kunde gestalta ett sprak av
 elektrisitet, som konstant överladdning av synapserna, något böljande. Ett ljud som var ostadigt och

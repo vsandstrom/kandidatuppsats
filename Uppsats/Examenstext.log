@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  8 APR 2022 16:02
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  8 APR 2022 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,42 +728,41 @@ Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no ’ ("2019) in font ec-lmr10!
 [11] [12] [13] [14]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 558.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 557.
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 558.
+(Font)              scaled to size 6.99997pt on input line 557.
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 560.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 559.
 
 LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-(Font)              scaled to size 6.99997pt on input line 561.
+(Font)              scaled to size 6.99997pt on input line 560.
 [15] [16]
-
-Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 694.
-
 
 Package biblatex Warning: No driver for entry type 'music'.
 (biblatex)                Using fallback driver on input line 696.
 
-[17]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 738.
+(biblatex)                Using fallback driver on input line 698.
 
-[18]
-
-Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 738.
-
+[17] [18]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 738.
+(biblatex)                Using fallback driver on input line 740.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 738.
+(biblatex)                Using fallback driver on input line 740.
+
+
+Package biblatex Warning: No driver for entry type 'music'.
+(biblatex)                Using fallback driver on input line 740.
+
+
+Package biblatex Warning: No driver for entry type 'music'.
+(biblatex)                Using fallback driver on input line 740.
 
 [19] (./Examenstext.aux)
 
@@ -784,4 +783,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  73i,8n,77p,744b,5314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Examenstext.xdv (19 pages, 157484 bytes).
+Output written on Examenstext.xdv (19 pages, 158084 bytes).
