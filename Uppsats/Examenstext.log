@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  7 APR 2022 11:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  8 APR 2022 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,18 +703,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [2]
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
 (Font)              scaled to size 5.59998pt on input line 77.
- [3]
+ [3] [4]
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 103.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 163.
 
-[4]
-LaTeX Font Info:    Font shape `TU/Monaco(0)/m/it' will be
-(Font)              scaled to size 5.59998pt on input line 156.
- [5] [6] [7] [8] [9]
+[5] [6] [7] [8] [9]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 364.
+(biblatex)                Using fallback driver on input line 365.
 
 Missing character: There is no — ("2014) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
@@ -722,7 +719,7 @@ Missing character: There is no ” ("201D) in font ec-lmr10!
 [10]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 390.
+(biblatex)                Using fallback driver on input line 391.
 
 Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no — ("2014) in font ec-lmr10!
@@ -731,42 +728,42 @@ Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no ’ ("2019) in font ec-lmr10!
 Missing character: There is no ’ ("2019) in font ec-lmr10!
 [11] [12] [13] [14]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 544.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 558.
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 544.
+(Font)              scaled to size 6.99997pt on input line 558.
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 546.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 560.
 
 LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-(Font)              scaled to size 6.99997pt on input line 547.
+(Font)              scaled to size 6.99997pt on input line 561.
 [15] [16]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 680.
+(biblatex)                Using fallback driver on input line 694.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 682.
+(biblatex)                Using fallback driver on input line 696.
 
 [17]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 724.
+(biblatex)                Using fallback driver on input line 738.
 
 [18]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 724.
+(biblatex)                Using fallback driver on input line 738.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 724.
+(biblatex)                Using fallback driver on input line 738.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 724.
+(biblatex)                Using fallback driver on input line 738.
 
 [19] (./Examenstext.aux)
 
@@ -779,12 +776,12 @@ Package logreq Info: Writing requests to 'Examenstext.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21476 strings out of 476179
- 420134 string characters out of 5809545
+ 21475 strings out of 476179
+ 420111 string characters out of 5809545
  1513153 words of memory out of 5000000
- 42004 multiletter control sequences out of 15000+600000
+ 42003 multiletter control sequences out of 15000+600000
  520805 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,8n,77p,744b,5314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Examenstext.xdv (19 pages, 157940 bytes).
+Output written on Examenstext.xdv (19 pages, 157484 bytes).
