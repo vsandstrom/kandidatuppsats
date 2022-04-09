@@ -1,15 +1,15 @@
 # Fdb version 3
-["biber Examenstext"] 1649340738 "Examenstext.bcf" "Examenstext.bbl" "Examenstext" 1649514567
+["biber Examenstext"] 1649530401 "Examenstext.bcf" "Examenstext.bbl" "Examenstext" 1649531385
   "./examen.bib" 1649340737 2702 9aa8bd371267f97195d941730a8b0277 ""
-  "Examenstext.bcf" 1649514566 108783 b4b7d0e823b385bd4f51b8fa364a02de "xelatex"
+  "Examenstext.bcf" 1649531384 108783 b4b7d0e823b385bd4f51b8fa364a02de "xelatex"
   (generated)
   "Examenstext.bbl"
   "Examenstext.blg"
-["xdvipdfmx"] 1649514566 "Examenstext.xdv" "Examenstext.pdf" "Examenstext" 1649514567
-  "Examenstext.xdv" 1649514566 160492 56492812aa45ab95196ef9e23bb5fb2b "xelatex"
+["xdvipdfmx"] 1649531384 "Examenstext.xdv" "Examenstext.pdf" "Examenstext" 1649531385
+  "Examenstext.xdv" 1649531384 161212 6360ed7794daadb27525fcfffb614774 "xelatex"
   (generated)
   "Examenstext.pdf"
-["xelatex"] 1649514564 "Examenstext.tex" "Examenstext.xdv" "Examenstext" 1649514567
+["xelatex"] 1649531382 "Examenstext.tex" "Examenstext.xdv" "Examenstext" 1649531385
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -76,6 +76,9 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-unicode.def" 1609451401 3786 1f89d14780f0ad89ab94652b37f4e9b8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/verbose.cbx" 1566680006 7000 4261e96dab8f0ca4833171e0deae04a3 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/swedish.lbx" 1643926307 26958 de043212a4e0403f2409dd074fc8ee1a ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty" 1647548653 54291 b8e5c600d4aa37b48a740dd2a6c26163 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty" 1647548653 71241 d2cd3a1c5acef9cb31f945b93c0bb6e3 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty" 1645391520 11546 6c5257d230d8c5626812b45bc2f31212 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1429144587 7068 06f8d141725d114847527a66439066b6 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def" 1614030765 20781 dc1bec6693d5466d8972ecc6b81f9f0b ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty" 1614030765 62518 6e0d74482f5cb16b3b0755031e72faf1 ""
@@ -84,8 +87,12 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty" 1642282977 1656 7e824878bad4df5a3e8bba4e463d9126 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def" 1616189247 15263 06bfc49e20bdfcb827e011063ecb4ae6 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty" 1622581934 18399 7e40f80366dffb22c0e7b70517db5cb4 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty" 1636758526 7996 a8fb260d598dcaf305a7ae7b9c3e3229 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty" 1636758526 4009 187ea2dc3194cd5a76cd99a8d7a6c4d0 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty" 1580250785 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def" 1645564115 45016 0a35faa45750bcb80114f8df2443e9c1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty" 1645564115 220999 6145ea83914c186e178d1d31c50b37df ""
@@ -109,13 +116,15 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1649153372 5419899 0a5d1638b587257431aa04870550672f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Examenstext.aux" 1649514566 5733 1cbf25275e5832bd69ea8e2df10d04eb "xelatex"
-  "Examenstext.bbl" 1649340740 17473 bb61b57a8f834ecb083d4a3ccd268973 "biber Examenstext"
-  "Examenstext.out" 1649514566 1209 2d7da581477596c485088ae47e4dda65 "xelatex"
-  "Examenstext.run.xml" 1649514566 2422 ac3b68c6967418173bb44dcb01719252 "xelatex"
-  "Examenstext.tex" 1649514562 51892 388ff742665b1ec9879c363f0cce1e62 ""
-  "Examenstext.toc" 1649514566 806 cf6e9aa87c6e30ccef5a64dc5d324bba "xelatex"
+  "Examenstext.aux" 1649531384 5924 6e58a2b9cfcab61b71a78e2ccc33a237 "xelatex"
+  "Examenstext.bbl" 1649530404 17473 bb61b57a8f834ecb083d4a3ccd268973 "biber Examenstext"
+  "Examenstext.out" 1649531384 1209 2d7da581477596c485088ae47e4dda65 "xelatex"
+  "Examenstext.run.xml" 1649531384 2422 ac3b68c6967418173bb44dcb01719252 "xelatex"
+  "Examenstext.tex" 1649531381 52370 59620430ff7d5e08cc7d40225f2ee430 ""
+  "Examenstext.toc" 1649531384 806 cf6e9aa87c6e30ccef5a64dc5d324bba "xelatex"
   "geometry.sty" 1647031740 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "img//innergaard1.jpg" 1649527803 621344 d68a2f03d87c8c274e328aa4ecc09fdf ""
+  "img//innergaard2.jpg" 1649528264 361068 9238d5fd56cae036636cac629050c484 ""
   "sclang-prettifier.sty" 1647031740 5189 c885c371c5a160b6b513b3063b6ac6c8 ""
   "textcomp.sty" 1647031740 10017 491c5544a827203e4c5c9771dc044673 ""
   "xcolor.sty" 1647031740 56029 3f7889dab51d620aa43177c391b7b190 ""
