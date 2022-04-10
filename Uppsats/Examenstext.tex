@@ -7,11 +7,15 @@
 \setmonofont[Scale=0.7]{Monaco}
 \usepackage[backend=biber, sorting=ynt, style=verbose]{biblatex}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 \bibliography{./examen.bib}
 \usepackage{listings}
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
 \usepackage[swedish]{babel}
+\graphicspath{ {./img/} }
 \renewcommand{\baselinestretch}{1.5}
 \lstset{basicstyle=\ttfamily\footnotesize, tabsize=2} \usepackage[framed, numbered]{sclang-prettifier}
 \interfootnotelinepenalty=10000
@@ -19,26 +23,26 @@
 %%%%% Kompilera med xelatex!!!!! %%%%%
 
 %%% TODO : %%%
-% [  ] Skriv klart absolut vs programmusik-kapitlet, koppla russolo till kode9 och Emma Frid (diversifiering)
+% [ X ] Skriv klart absolut vs programmusik-kapitlet, koppla russolo till kode9 och Emma Frid (diversifiering)
 %
 % [  ] Musik som Vetenskaplig och konstnärlig forskning - New public management -> formar undervisning och
 %	   musiken genom sitt språk. 
 %
-% [  ] Skriv en frågeställning, förenkla!!! Skriv om det liminala, om transformation och limbo som källa till
+% [ X ] Skriv en frågeställning, förenkla!!! Skriv om det liminala, om transformation och limbo som källa till
 %	   inspiration
 %
-% [  ] Utveckla "figurativiserande"-konceptet och din egen musik, att använda analysmetoden generativt som
+% [ X ] Utveckla "figurativiserande"-konceptet och din egen musik, att använda analysmetoden generativt som
 %	   kompositionsmetod
 %
-% [  ] Utveckla vad Moore's Law ära
+% [ X ] Utveckla vad Moore's Law
 %
-% [  ] Granska Joanna Demers-citatet, vad är det egentligen hon syftar på?
+% [ X ] Granska Joanna Demers-citatet, vad är det egentligen hon syftar på?
 %
-% [  ] Använd ett citat ur Linus Hillborgs uppsats som du sedan kan sammanfatta.
+% [ X ] Använd ett citat ur Linus Hillborgs uppsats som du sedan kan sammanfatta.
 %	   Bekräfta hans citat med andra referenser - kika i hans text.
 % [  ] Se över Russolo - behöver inte prata om att han var misogyn.
 %
-% [  ] Skriv Liminal Space-stycket --- Finns det ett liminalt utrymme mellan teknologin och det
+% [ X ] Skriv Liminal Space-stycket --- Finns det ett liminalt utrymme mellan teknologin och det
 %	   extramusikaliska?
 
 % [  ] Fundera på Arthur C Clarke citatet, vad har det för koppling till det jag vill säga. 
@@ -84,23 +88,23 @@
 % ny inledning:
 Under åren 2020-2021 genomgick jag en lång sjukskrivning. Jag spenderade större delen av den här perioden i
 mitt hem, med undantag för sjukhusbesök, ett julfirande och min trettioårsdag. Under den här sjukdomstiden
-började jag vilja skriva musik, mest ur en frustration av att plötsligt ha så mycket tid, något som jag tidigare
-klagat över att jag inte hade haft. Eftersom min vardag bestod av repitition var min impuls att skriva om det jag
-såg. Jag hade fattat tycke för de märkliga, bortglömda miljöerna som finns på sjukhus och vårdmottagningar,
-som existerade mitt i en plats som aldrig sov, som ständigt var i rörelse, men där miljöerna själva såg
-obefolkade och stillastående ut, som att deras funktionalitet hade gått förlorad. En sådan typ av plats som
-jag hade reagerat starkt på var de innergårdar, som anlagda med promenadstråk, icke förvuxna buskar och träd
-och små konstellationer av parkmöbler övervuxna med alger, som låg insprängda mellan sjukhusbyggnaderna, eller
-korridorerna med offentlig konst som var utplacerad genom sjukhuset. Min ursprungliga idé var att tonsätta de
-här sjukhusmiljöerna, men miljöerna speglade även min egen tillvaro som, likt dessa platser, kändes
-stillastående och tidlös. Projektet började över tid frångå den första idén, för att istället handla om att
-dokumentera min egen stillastående vardag.
+började jag skriva musik, mest ur en frustration av att plötsligt ha så mycket tid, något som jag
+tidigare klagat över att jag inte hade haft. Eftersom min vardag bestod av repitition var min impuls att
+skriva om det jag såg. Jag hade fattat tycke för de märkliga, bortglömda miljöerna som finns på sjukhus och
+vårdmottagningar, som existerade mitt i en plats som aldrig sov, som ständigt var i rörelse, men där miljöerna
+själva såg obefolkade och stillastående ut, som att deras funktionalitet hade gått förlorad. En sådan typ av
+plats som jag reagerade starkt på var de innergårdar, som var anlagda med promenadstråk, välskötta buskar
+och träd och små konstellationer av parkmöbler övervuxna med alger, som låg insprängda mellan
+sjukhusbyggnaderna, eller korridorerna med offentlig konst som var utplacerad genom sjukhuset. Min
+ursprungliga idé var att tonsätta de här sjukhusmiljöerna, men miljöerna speglade även min egen tillvaro som,
+likt dessa platser, kändes stillastående och tidlös. Projektet började över tid frångå den första idén, för
+att istället handla om att dokumentera min egen stillastående vardag.
 
 % När jag började må bättre ...
 När jag började må bättre fann jag att det inte hade varit tid utan ork jag hade saknat tidigare, och det var
-först då som jag hade orken att ta mig för att börja arbeta med den här idén. I och med en förbättring av
+först då som jag hade orken att ta mig ann att börja arbeta med den här idén. I och med en förbättring av
 mitt mående och ett överskott av ledig tid kunde jag ta mig an att lära mig programmeringsspråket 
-SuperCollider\footnote{\emph{\url{https://supercollider.github.io}}}, ett språk utvecklat för ljudbehandling och
+SuperCollider\footnote{\url{https://supercollider.github.io}}, ett språk utvecklat för ljudbehandling och
 komposition, ett verktyg som jag tidigare önskat lära mig men inte orkat. I och med detta och ett ökat
 intresse för datorprogrammering i allmänhet föll det sig naturligt att mycket av musiken jag skrev blev
 skriven med hjälp av detta verktyget.
@@ -109,23 +113,24 @@ Under min utbildning har det ofta känts som att jag jagat ett ideal av vad elek
 känsla av att inte hinna lära sig alla tekniker som är aktuella inom det elektroakustiska fältet, och att
 ständigt göra musik som på ett eller annat sätt är en del av en lärandeprocess, men som är påeldad av
 prestationsångest och en känsla av att inte veta vad man gör. En insikt var att mycket, om inte allt jag gjort
-under åren varit något likt en ``tech-demo'', ett ljudande exempel på vad en teknik kan erbjuda, utan att ha en
-känslomässig förankring till materialet.
+under åren varit något likt en ``tech-demo'', ett ljudande exempel på vad en teknik kan erbjuda, utan att ha
+en känslomässig förankring till materialet.
 
 Den kompositionsmetod jag använde kändes annorlunda från min erfarenhet från att skriva musik inom
 utbildningens kontext. Musiken var inte ett medel för att uppnå målet att bemästra en ny teknik. Istället
 fanns en känsla av att kunna få utforska tekniken om ett behov fanns, eller av nyfikenhet, men där ett
 estetiskt uttryck fick vara förgrund för processen. 
 
-I uppsatsen om lyssnarbeteenden \footcite{Delalande1998} av François Delalande hittade jag ett uttryck som kunde beskriva min metod. Han
-beskriver tre olika typer av lyssnarbeteenden, eller analysmetoder, och använder Sommeil av Pierre Henri som
-material för hans studie. Delalande definierar tre olika beteenden, det \emph{taxonomiska}, det
-\emph{empatiska} och det \emph{figurativiserande}. Det \emph{taxonomiska} påminner om traditionell
-musikanalys, att försöka strukturera och klassificera ljud längs en tidslinje. Det \emph{empatiska}
-intresserade sig för det känslointryck som musiken gav i stunden, utan att tänka så mycket på form. Det var
-det tredje, \emph{figurativiserande} som relaterade till hur jag skrev musik. Den som lyssnar med detta
-perspektiv tillåts associera fritt kring de ljud den hör, använda ljuden som scener som beskriver ett
-narrativ. Lyssnaren förnimmer narrativet eller scenen genom musiken. 
+I \emph{François Delalandes} uppsats \emph{Music Analysis and Reception Behaviours: Sommeil by Pierre Henry}
+\footcite[26, 38, 52]{Delalande1998} definierar han tre typer av lyssnarbeteenden, eller analysmetoder, det
+\emph{taxonomiska}, det \emph{empatiska} och det \emph{figurativiserande}. Det \emph{taxonomiska} påminner om
+traditionell musikanalys, att försöka strukturera och klassificera ljud längs en tidslinje. Det
+\emph{empatiska} intresserade sig för det känslointryck som musiken gav i stunden, utan att tänka så mycket på
+form. Det var det tredje, \emph{figurativiserande}, som relaterade till hur jag skrev musik. Den som lyssnar
+med detta perspektiv tillåts associera fritt kring de ljud den hör, använda ljuden som scener som beskriver
+ett narrativ. Lyssnaren förnimmer narrativet eller scenen genom musiken. De grupperar liknande ljud,
+men motsatt till det \emph{taxonomiska}, kopplas ljudet till en entitet, ett ting eller något levande, och
+tolkas som rörelse istället för en serie händelser.
 
 % Koppla Delalande till generativ process
 Delalandes text handlar främst om analys av elektroakustisk musik, och vilka roller olika lyssnare sätter sig
@@ -147,23 +152,21 @@ textur och struktur.
 % Schaeffer,  Smalley - morfologiska begrepp och teori kring kategorisering av elektroakustisk musik
 % Mark Fisher - kritik mot new public management.
 
-
 \section{Bakgrund}
 Elektronisk musik har alltid varit intresserat av, och haft ett intimt förhållande till teknologi. Utan nya
 upptäckter under 1800-talet och vidare under 1900-talet, hade elektronisk musik som vi hör den idag, inte
-varit möjlig. Uppfinningar som radion, trådlös och trådburen elektrisk signal, magnetband,
-mikrofoner, datorer och dess språk samt digital
-signalprocessering\footnote{\emph{\url{https://en.wikipedia.org/wiki/Digital\_signal\_processor}}} etc, har på ett eller
-annat sätt möjliggjort och utvecklat musiken. Studion som instrument
-%bygg ut med Brian Eno bl andra. 
-har alltid varit central inom elektronisk musik, idag mer än någonsin, med
-det ständigt sjunkande priset av en kapabel persondator, som en produkt av en kapplöpning mellan ``Moore's
-law''\footnote{Moore's Law, En av grundarna för Intel som hävdar att processorer kommer dubbla sin kapacitet
-varannat år.}, processeringsförmåga och nya billigare tillverkningsmetoder. Idag kan en produktionsstudio för
-hemmabruk rymmas i en dator som ryms på ett enda kretskort, som Raspberry Pi\footnote{
-\emph{\url{https://www.raspberrypi.com/}}}, med ett pris som ligger mellan \$15 - 35. Tillgängligheten till en studio,
-som tidigare var begränsad till institutioner som nationella radiostationer har gradvis hamnat inom räckhåll
-för individen.
+varit möjlig. Uppfinningar som radion, trådlös och trådburen elektrisk signal, magnetband, mikrofoner, datorer
+och dess språk samt digital
+signalprocessering\footnote{\url{https://en.wikipedia.org/wiki/Digital\_signal\_processor}} etc, har på
+ett eller annat sätt möjliggjort och utvecklat musiken. Studion som instrument %bygg ut med Brian Eno bli
+har alltid varit central inom elektronisk musik, idag mer än någonsin, med det ständigt sjunkande
+priset av en kapabel persondator, som en produkt av en kapplöpning mellan ``Moore's law''\footnote{Moore's
+Law, En av grundarna för Intel som hävdar att processorer kommer dubbla sin kapacitet varannat år.},
+processeringsförmåga och nya billigare tillverkningsmetoder. Idag kan en produktionsstudio för hemmabruk
+rymmas i en dator som ryms på ett enda kretskort, som Raspberry Pi\footnote{
+xx\emph{\url{https://www.raspberrypi.com/}}}, med ett pris som ligger mellan 150 - 350kr. Tillgängligheten till en
+studio, som tidigare var begränsad till institutioner som nationella radiostationer har gradvis hamnat inom
+räckhåll för individen.
 
   % Demokratiseringen av studion.
 I och med att denna teknik förflyttats närmare individen har den demokratiserats. Musikteknik har i teorin
@@ -173,35 +176,37 @@ fickan på sin användare.
 % Bygg ut, vad finns det för några hjälpmedel / verktyg idag? Garageband etc
 Trots denna tillgänglighet finns det fortfarande barriärer. Hinder i form av svårtillgänglig information,
 eller avskräckande konfigurationssteg som förutsätter en hög grad av förkunskap för att du ska kunna få
-tillgång till funktionaliteten du egentligen vill komma åt. Den tidigare nämnda
-Raspberry Pi-mikrodatorn stämmer in på den beskrivningen, som trots sitt överkomliga pris förutsätter att du
-är bekväm att lämna etablerade operativsystemsparadigmer som Windows och MacOS, kunna utföra kommandon i en
-"shell"-miljö\footnote{\emph{\url{https://en.wikipedia.org/wiki/Unix\_shell}}}, och kunna felsöka när installationer eller konfigurationer inte genomförs som de ska i tidigare
-nämnda shell-miljö, eftersom dessa kommandon kan vara mycket obskyra för den oinvigde.
+tillgång till funktionaliteten du egentligen vill komma åt. Den tidigare nämnda Raspberry Pi-mikrodatorn
+stämmer in på den beskrivningen, som trots sitt överkomliga pris förutsätter att du är bekväm att lämna
+etablerade operativsystemsparadigmer som Windows och MacOS, kunna utföra kommandon i en
+``shell''-miljö\footnote{\url{https://en.wikipedia.org/wiki/Unix\_shell}}, och kunna felsöka när
+installationer eller konfigurationer inte genomförs
+%som de ska i tidigare nämnda shell-miljö, 
+eftersom dessa kommandon kan vara mycket obskyra för den oinvigde.
 	
   % Skyll på att det är den fria marknadens fel att vi inte använder open source
 På detta vis är vi också fast i en marknad där dessa open source-verktyg drunknar på grund av sin egen
 otillgänglighet, verktyg\footnote{Jag använder termen ``verktyg'' för att prata om musikutrustning och
 teknologier i en bred bemärkelse, från hårdvara till mjukvara} som annars skulle kunna öppna dörrar för många
-till experimentell, algoritmisk elektronisk musik, och musikproduktion i stort. Denna marknad består av musikteknologi som säljs för höga summor, något som med open
-source-teknologi skulle kunna vara mycket lätt att ersätta, men som marknadsförs till oss som en "easy fix",
-något som inte bara underlättar och överbryggar tröskeln till det tekniska, men också till det estetiska.
-Dessa verktyg säljs med idén om att du bara behöver skaffa dig en sista pryl för att få
-kreativiteten ett flöda.
-Tidigare banbrytade verktygstillverkare, som Moog, eller Dave Smith Instruments, säljer nu sina instrument
-om high-end-utrustning. De är brukbara och låter väldigt bra, men de är så dyra att priset stänger dörren för
-den som som försöker ge sig in i musiken, eller är demoraliserande för den som tänker att verktyget kommer
-lösa dess problem. De är otillgängliga ekonomiskt men ur ett popkulturellt perspektiv mycket tillgängliga,
-eftersom populära verktyg blir synonyma med ett ljud, en stil, en kultur och med musikalisk och ekonomisk
-framgång. Ett exempel på detta är den legendariska TB303\footnote{\emph{\url{https://www.vintagesynth.com/roland/303.php}}}-synten från Roland, som genom sitt
-stilbildande ljud, känt genom Detroit-techno, idag är synonymt med elektronisk dansmusik, som idag är värld
-säljs för mellan 2 - 5 gånger sitt säljpris, år 1982 (Originalpris: \$395.00 . Efter inflationskompensation:
-\$1,161.32. På Ebay 2022: \$5,543.64). Det här fenomenet kallas för \emph{G.A.S.} - \emph{Gear acquisision
-syndrome} (eller på svenska \emph{utrustningsanskaffningssyndrom}), och yttrar sig i att man fullständigt
+till experimentell, algoritmisk elektronisk musik, och musikproduktion i stort. Denna marknad består av
+musikteknologi som säljs för höga summor, något som med open source-teknologi skulle kunna vara mycket lätt
+att ersätta, men som marknadsförs till oss som en ``easy fix'', något som inte bara underlättar och överbryggar
+tröskeln till det tekniska, men också till det estetiska. Dessa verktyg säljs med idén att om du bara behöver
+skaffa dig en sista pryl kommer kreativiteten att flöda. Tidigare banbrytade verktygstillverkare, som
+Moog, eller Dave Smith Instruments, säljer nu sina instrument om high-end-utrustning. De är brukbara och låter
+väldigt bra, men de är så dyra att priset stänger dörren för den som som försöker ge sig in i musiken, eller
+är demoraliserande för den som tänker att verktyget kommer lösa dess problem. De är otillgängliga ekonomiskt
+men ur ett popkulturellt perspektiv mycket tillgängliga, eftersom populära verktyg blir synonyma med ett ljud,
+en stil, en kultur och med musikalisk och ekonomisk framgång. Ett exempel på detta är den legendariska
+TB303\footnote{\url{https://www.vintagesynth.com/roland/303.php}}-synten från Roland, som genom sitt
+stilbildande ljud, känt genom Detroit-techno, idag är synonymt med elektronisk dansmusik, som idag säljs för
+mellan 2 - 5 gånger sitt säljpris, år 1982 (Originalpris: \$395.00 . Efter inflationskompensation: \$1,161.32.
+På Ebay 2022: \$5,543.64). Det här fenomenet kallas för \emph{G.A.S.} - \emph{Gear acquisision syndrome}
+(eller på svenska \emph{utrustningsanskaffningssyndrom}), och innebär i praktiken att man fullständigt
 accepterat det narrativ som säljs till en. Om ett företag säljer ett nytt verktyg, med en effektiv
 marknadsföring bakom sig, kommer forum och trådar på sociala medier fyllas med ivriga entusiaster som
-proklammerar att de \emph{``behöver detta!''}. Inom marknaden för hårdvara, som synthar och studioutrustning, är
-det här en stark köpargrupp och det går inflation i instrument som är innovativa. Istället säljs i hög grad
+proklammerar att de \emph{``behöver detta!''}. Inom marknaden för hårdvara, som synthar och studioutrustning,
+är det här en stark köpargrupp och det går inflation i instrument som är innovativa. Istället säljs i hög grad
 verktyg som är kopior av tidigare erkända verktyg. Ett tydligt exempel på detta är Behringer, som till synes
 baserat sin affärsmodell på kraften hos \emph{G.A.S.}, då de släpper kopior av instrument som tidigare varit
 ouppnåeliga, och gör det på så sätt möjligt för många med \emph{utrustningsanskaffningssyndrom} att
@@ -222,7 +227,7 @@ hårdvarusynt, kan du nu skriva ljudprocesseringsalgoritmer själv och på egen 
 resurser. Här kan \emph{G.A.S.} yttra sig annorlunda, framförallt inom en utbildningar av elektroakustisk
 musik. Visserligen möjliggör sådan teknik större flexibilitet och en inspirationkälla i att utforska tidigare
 onåbara delar av ett ljudprogram, icke-linjära strukturer av musik och möjligheten att påverka ljud i ett
-"close to the metal"-perspektiv, bearbetningar av dess data och form nere på en processorcykelnivå. Dock kan
+``close to the metal''-perspektiv, bearbetningar av dess data och form nere på en processorcykelnivå. Dock kan
 detta bli en fälla, då man istället för att använda färdigbyggda verktyg som hjälpmedel, envisas med att göra
 det själv. 
 
@@ -233,7 +238,7 @@ student på masternivå arbetar under hela sin studietid med att bygga sitt verk
 alla aspekter och reder ut alla buggar och grafiska fulheter, för att sedan avsluta utbildningen utan att ha
 skrivit musiken det här instrumentet skulle hjälpa till med att skriva. Hur instrumentet i sig blivit så
 omfattande och invecklat att det är svåröverskådligt hur ett komponerande med det ens skulle se ut. Joanna Demers
-skriver i "Listening Through The Noise: \emph{``The sheer freedom of electroacoustic music constitutes both
+skriver i Listening Through The Noise: \emph{``The sheer freedom of electroacoustic music constitutes both
 its strength and its burden.''}\footcite{JoannaDemers} Joanna Demers pratar om den oslagbara friheten hos
 elektronisk musik. Klangvärlden hos elektronisk musik har till synes oändlig potential, som trots vad detta
 utlovar, kan vara till dess nackdel. I Linus Hillborgs uppsats Återbruk och
@@ -248,17 +253,16 @@ i ljuset.
 % Brian Eno - studion som instrument. 
 
 \subsection{Absolute vs Programmatic music.}
-Demers diskuterar hur man som elektroakustisk kompositör kan
-förhålla sig till extramusikaliska referenser. Hon hävdar att inom konservatorier har ``absolut musik''
-historiskt sett fått störst spelrum och har ansetts som norm. Det är en modernistisk stil som speglar den
-modernistiska synen på objektivitet, där musiken eller konsten ska stå för sig själv som något sant och
-fullkomligt. Likaså är den ``absoluta'' musiken en musik vars mening och syfte är sprunget ur dess egen
-fullkomlighet, istället för att hänvisa eller berätta om något extramusikaliskt
-\footnote{Med extramusikaliskt menas något som ligger utanför musiken, ``lying outside the province of
-music'', strikt tolkat allt som inte innefattas inom det fysikaliska i ljudvågor som sammanfaller i
-luften, eller som innefattas inom de regler för ljud-, form- och harmonilära används för att beskriva
-musik. \\
-Merriam-Webster, \emph{\url{https://www.merriam-webster.com/dictionary/extramusical}}, [Uppslagsverk] (Hämtad 29-03-2022)}.
+Demers diskuterar hur man som elektroakustisk kompositör kan förhålla sig till extramusikaliska referenser.
+Hon hävdar att inom konservatorier har ``absolut musik'' historiskt sett fått störst spelrum och har ansetts
+som norm. Det är en modernistisk stil som speglar den modernistiska synen på objektivitet, där musiken eller
+konsten ska stå för sig själv som något sant och fullkomligt. Likaså är den ``absoluta'' musiken en musik vars
+mening och syfte är sprunget ur dess egen fullkomlighet, istället för att hänvisa eller berätta om något
+extramusikaliskt \footnote{Med extramusikaliskt menas något som ligger utanför musiken, ``lying outside the
+province of music'', strikt tolkat allt som inte innefattas inom det fysikaliska i ljudvågor som sammanfaller
+i luften, eller som innefattas inom de regler för ljud-, form- och harmonilära används för att beskriva musik.
+\\ Merriam-Webster, \url{https://www.merriam-webster.com/dictionary/extramusical}, [Uppslagsverk]
+(Hämtad 29-03-2022)}.
 
 Idag benämns motsatsen till den ``absoluta musiken'' som ``programmusik''. Det härstammar från när
 kompositörer skrev musik som ville gestalta något extramusikaliskt, där musiken var det bärande berättande
@@ -267,41 +271,40 @@ elementet, där programbladet på en sådan konsert var en viktig bilaga för at
 Demers frågar sig var den elektroakustiska musiken platsar in mellan dessa två motstridiga begrepp och
 benämner två kompositörer som har varit viktiga för teoretiserandet kring elektroakustisk musik, \emph{Pierre
 Schaeffer} och \emph{Trevor Wishart}. Hon menar även att den elektroakustiska musiken andra förutsättningar än
-traditionell, akustisk musik, på grund utav dess ljudliga frihet och frågar sig
-vad det innebär för dess associativa förmåga. ``
-\emph{Are sounds always referential? Is it possible to hear sound before it has been laden with the
-associations of culture, history, or society?}''.\footcite[23]{JoannaDemers}
+traditionell, akustisk musik, på grund utav dess ljudliga frihet och frågar sig vad det innebär för dess
+associativa förmåga. `` \emph{Are sounds always referential? Is it possible to hear sound before it has been
+laden with the associations of culture, history, or society?}''.\footcite[23]{JoannaDemers}
 
-Kan de ljud som frammanas inom elektroakustisk och akusmatisk musik existera utanför sig
-själva, vara självrefererande, eller om de kan existera, likt Pierre Schaeffers teori om
-ljudobjekt
-\footcite{PierreSchaeffer}
-, som ett ljud där ursprunget inte längre är urskiljbart? 
+Kan de ljud som frammanas inom elektroakustisk och akusmatisk musik existera utanför sig själva? Kan de vara
+självrefererande, eller om de kan existera, likt Pierre Schaeffers teori om ljudobjekt
+\footcite{PierreSchaeffer} , som ett ljud där ursprunget inte längre är urskiljbart?
 
 Begreppet akusmatisk härstammar från Pythagoras\footnote{Oxford English Dictionary, \emph{Acousmatic
 (adjective)}, \url{https://www.lexico.com/definition/acousmatic}, (Hämtad 04-04-2022)} och var en teknik som
-användes under hans föreläsningar där han pratade från bakom en skynke för att inte distraheras av det
-visuella. Det har inom den elektroakustiska traditionen använts för att beskriva de
-teorier Schaeffer lade fram, kring att analysera och tolka ljud utan att se objektet som skapar ljudet.
-Det ska då gå att tolka ljudet utifrån dess texturer och kvalitéer snarare än dess förmåga att berätta något om dess
-källa. Schaeffer myntade uttrycket ``reducerat lyssnande'' för att beskriva denna analysmetod, som ska göra
-lyssnaren fri från ljudets inbyggda associationer. Istället ska man se ljudet som det existerar i sin mest
-avskalade, ``sanna'' form. Demers ställer Schaeffers teori kring ljudobjekt mot Trevor Wisharts omtolkning av
-begreppet. Demers skriver: ``\emph{Wishart feels that it is impossible to separate sounds from their
-associations, so it is incumbent upon the composer to acknowledge and work with sound references rather than
-repress them}''. Wishart utveckar detta i On Sonic Art\footcite{TrevorWishart} där han ställer sig skeptisk 
-till Schaeffers reducerade lyssnade. Wishart menar att ljud aldrig kan vara frånskiljda en association.
-Wishart använder sig istället av begrepp som reella och icke-reella ljud, reella och icke-reella rum samt
-något som han benämner som imaginärt/surrealistiskt, för att prata om musik som
+användes under hans föreläsningar där han pratade från bakom en skynke för att hans lärlingar inte skulle
+distraheras av det visuella. Det har inom den elektroakustiska traditionen använts för att beskriva de teorier
+Schaeffer lade fram, kring att analysera och tolka ljud utan att se objektet som skapar ljudet.
+
+Det ska då gå att tolka ljudet utifrån dess texturer och kvalitéer snarare än dess förmåga att berätta något
+om dess källa. Schaeffer myntade uttrycket ``reducerat lyssnande'' för att beskriva denna analysmetod, som ska
+göra lyssnaren fri från ljudets inbyggda associationer. Istället ska man se ljudet som det existerar i sin
+mest avskalade, ``sanna'' form. Demers ställer Schaeffers teori kring ljudobjekt mot Trevor Wisharts
+omtolkning av begreppet. Demers skriver: ``\emph{Wishart feels that it is impossible to separate sounds from
+their associations, so it is incumbent upon the composer to acknowledge and work with sound references rather
+than repress them}''. Wishart utveckar detta i On Sonic Art\footcite{TrevorWishart} där han ställer sig
+skeptisk till Schaeffers reducerade lyssnade. Wishart menar att ljud aldrig kan vara frånskiljda en
+association. Wishart använder sig istället av begrepp som reella och icke-reella ljud, reella och icke-reella
+rum samt något som han benämner som imaginärt/surrealistiskt, för att prata om musik som
 landskap\footcite[144-147]{TrevorWishart}. Det han menar med reella och icke-reella är att de kan vara
 naturligt förekommande (röst, traditionella musikinstrument eller naturen etc.) eller från en onaturlig,
 konstgjord källa (ett elektroniskt bearbetat ljud eller synthesizer etc), som sedan placeras i en naturlig,
 icke konstgjord miljö (ljudets egen resonanta klang från rummet som fastnade på inspelningen) eller en
 konstgjord miljö (artificiella rumsklanger eller onaturliga rumsliga effekter), som sedan samspelar för att
-skapa en ljudande helhet som han liknar vid ett landskap. Beroende på hur man använder sig av de olika
-typerna av ljud han beskriver, kan detta landskap verka verkligt eller overkligt. I hans resonemang är det mer
-intressant att bejaka den associativa förmågan hos ljud och att det är nödvändigt för kompositören att ta hänsyn
-till ljudens förmåga att referera. Genom det får man ett starkare grepp över det man som kompositör vill förmedla.
+skapa en ljudande helhet som han liknar vid ett landskap. Beroende på hur man använder sig av de olika typerna
+av ljud han beskriver, kan detta landskap verka verkligt eller overkligt. I hans resonemang är det mer
+intressant att bejaka den associativa förmågan hos ljud och att det är nödvändigt för kompositören att ta
+hänsyn till ljudens förmåga att referera. Genom det får man ett starkare grepp över det man som kompositör
+vill förmedla.
 
 Det akusmatiska lyssnandet, likt den absoluta musiken, bygger på att musik och ljud kan ha ett värde i sig själv. 
 På samma sätt är programmusik besläktat med det associativa, refererande lyssnandet, där ljudets berättande
@@ -312,30 +315,29 @@ förmåga får stå i fokus, ett arbete som delvis även överlämnas till lyssn
 Liminalitet är ett begrepp som föddes ur antropologin och myntades av Arnold van Gennep i hans bok \emph{Rites
 of Passage}\footcite{Gennep} (först utgiven 1909) Uttrycket kom till under hans forskning kring ritualer, där
 han försökte hitta ett sätt att beskriva gemensamma mönster som han ansåg återfanns i ritualer från alla
-kulturer. Det \emph{liminala} beskriver ett mellantillstånd som uppstår under en ritual. Han definierade ytterligare
-två stadier, en symbolisk (eller i vissa fall verklig) död och pånyttfödelse, ett före och ett efter, där det
-``liminala'' är tröskeln mellan de två, där förändringen sker. Gennep skriver:
+kulturer. Det \emph{liminala} beskriver ett mellantillstånd som uppstår under en ritual. Han definierade
+ytterligare två stadier, en symbolisk (eller i vissa fall verklig) död och pånyttfödelse, ett före och ett
+efter, där det ``liminala'' är tröskeln mellan de två, där förändringen sker. Gennep skriver:
 
 \begin{quote}
 I propose to call the rites of separation from a previous world, preliminal rites, those executed during the
 transitional stage 'liminal (or threshold) rites, and the ceremonies of incorporation into the new world
-	postliminal rites.\footcite[21]{Gennep}
+postliminal rites.\footcite[21]{Gennep}
 \end{quote}
 
-
 I texten \emph{Liminality and Experience} beskriver Arpad Szakolczai etymologin av ordet liminalitet, som
-sprunget latinska ordet limen/limit, som betyder tröskel eller gräns\footcite[147-148]{Arpad}. 
-Han förtydligar begreppen pre- och postliminalitet, som en metaforisk död, separationen från sitt tidigare
-liv, och en pånyttfödsel, där man återförs till världen förändrad av ritualen. Ett exempel som Gennep tar upp
-är ritualen som återfinns i många kulturer kring att bli vuxen. Oavsett hur detaljerna kring en sådan ritual
-ser ut återfinns nästan alltid strukturen av ett stadie av separation från världen och sin nuvarande form och
-ett stadie av återinträdande i världen pånyttfödd i en ny form. I den här strukturen finns även
-tröskelstadiet, det liminala, där förändringen från barn till vuxen sker. Strukturen kan appliceras på något
-så banalt som att åka till jobbet, en förberedelse och separation från det privata, ett liminalt tillstånd av
-transport och slutligen ett återinträde och inkorporering i en professionell karaktär. 
+sprunget latinska ordet limen/limit, som betyder tröskel eller gräns\footcite[147-148]{Arpad}. Han förtydligar
+begreppen pre- och postliminalitet, som en metaforisk död, separationen från sitt tidigare liv, och en
+pånyttfödsel, där man återförs till världen förändrad av ritualen. Ett exempel som Gennep tar upp är ritualen
+som återfinns i många kulturer kring att bli vuxen. Oavsett hur detaljerna kring en sådan ritual ser ut
+återfinns nästan alltid strukturen av ett stadie av separation från världen och sin nuvarande form och ett
+stadie av återinträdande i världen pånyttfödd i en ny form. I den här strukturen finns även tröskelstadiet,
+det liminala, där förändringen från barn till vuxen sker. Strukturen kan appliceras på något så banalt som att
+åka till jobbet, en förberedelse och separation från det privata, ett liminalt tillstånd av transport och
+slutligen ett återinträde och inkorporering i en professionell karaktär.
 
 % Liminality and Experience??
-Antropologen Björn Thomassen föreslår i sin text \emph{The Uses and Meanings of
+Antropologen Bjørn Thomassen föreslår i sin text \emph{The Uses and Meanings of
 Liminality}\footcite[12-13]{Thomassen} att man kan använda liminalitet som begrepp på flera plan, över
 subjekt, tid och rum. Han lägger fram en modell där subjekt sträcker sig från individ till civilisation, tid
 mellan ögonblick och epok och rum mellan ett specifikt objekt till länder och kontinenter. Med hans
@@ -370,29 +372,29 @@ musik om landskapen där han växt upp. Fisher skriver:
 
 \begin{quote}
 The shift into sound opens up the eerie. There is an intrinsically eerie dimension to acousmatic sound — sound
-that is detached from a visible source — and one of the most unsettling tracks on On Land is "Shadow”, which
+that is detached from a visible source — and one of the most unsettling tracks on On Land is ``Shadow'', which
 features a quietly distressing whimper that could be a human voice, an animal sobbing, or an aural
-	hallucination produced by the movement of wind.\footcite[81]{Fisher}
+hallucination produced by the movement of wind.\footcite[81]{Fisher}
 \end{quote}
 
 Här sammankopplar han det \emph{liminala / the Eerie} med det akusmatiska, och definierar det akusmatiska,
-reducerade lyssnandet som närvaron hos ljudets källa som uteblir. Han nämner spåret "Shadow" som särskilt
+reducerade lyssnandet som närvaron hos ljudets källa som uteblir. Han nämner spåret ``Shadow'' som särskilt
 \emph{Eerie} och att det framkallar ett antal associationer hos honom när han tolkar de akusmatiska ljuden.
 Känslan av \emph{the Eerie} kan då framställas av det akusmatiska, en avsaknad av kontext, och denna avsaknad
 öppnar för ytterligare association hos lyssnaren.
 
 % Brian Eno - Music For Airports
 % Ett ljud kan vara en miljö, en möbel, "a sonic environment"
-Brian Eno skriver i sin text Ambient Music\footcite[149-153]{Eno} om serien av album vid namn \emph{Ambient 1-4}. Han
-beskriver musiken som en konsekvens av att studion mer och mer använts som ett instrument, där
+Brian Eno skriver i sin text Ambient Music\footcite[149-153]{Eno} om serien av album vid namn \emph{Ambient
+1-4}. Han beskriver musiken som en konsekvens av att studion mer och mer använts som ett instrument, där
 produktionen av musiken blir likvärdig komponerandet. En inspelnings- och produktionsstudio erbjöd en plats
 där ljud gick att vrida och tänja på, och detta gav upphov till det som Eno beskriver som ``en ny musik''.
 
 Den nya musiken, ``Ambient'', var en musik vars uppgift var att agera som en bakgrundsmusik, eller
 möbelmusik\footnote{Ett begrepp myntat av Erik Satie}, som skulle vara ``as ignorable as it is
 interesting''\footcite{Airports}. Musiken skulle vara omslutande och tillåta ens uppmärksamhet att sticka
-iväg, men skulle ändå kunna fånga ens uppmärksamhet om man tillät den.
-Eno beskriver musikens karaktär som en ``plats, en känsla, ett omslutande färgfilter på min ljudliga miljö''. 
+iväg, men skulle ändå kunna fånga ens uppmärksamhet om man tillät den. Eno beskriver musikens karaktär som en
+``plats, en känsla, ett omslutande färgfilter på min ljudliga miljö''.
 
 Han beskriver en upplevelse på Colognes flygplats, som skulle ligga till grund för \emph{Ambient: 1, Music for
 Airports}, en fundering över vilken musik som skulle fungera i den miljön. Han nämner några kriterier att ta
@@ -443,92 +445,120 @@ internationell knytpunkt med förbindelser och människor från hela världen.
   % Cybernetic manifesto
 
 \section{Koppling till musiken}
-- Koppla till min musik, till EPn som jag gjorde som start för examensprojektet, och även de experiment som
-  jag gjorde med ljud på sample-nivå. 
-- Började med en idé om att tonsätta och dokumentera platser, de jag såg under min sjukskrivning, framförallt
-  de övergivna offentliga rum som fanns i de miljöerna. Hur det projektet övergick till att dokumenter min
-  egen vardag, som på något sätt länkades ihop med de platserna. Beskriv hur begreppet
-  liminalitet kan användas för att beskriva båda dessa, då det beskriver att vara i
-  tröskeln av någonting. En tröskelplats, en plats på vägen mellan två platser, eller en plats i en
-  övergångsperiod, på väg till att bli något annat. Eller ett tröskeltillstånd, som i ritualen, där det finns
-  ett före och ett efter, men under ritualen befinner man sig i ett mellanläge. Hur min situation som
-  sjukskriven och bunden till mitt hem kunde ses som ett sådant tröskeltillstånd.
+Den ljudande delen till det här arbetet består av tre stycken från en EP, ett urval som tydligast beskriver
+mitt projekt, samt en ljudinstaltion. EP:n uruppfördes i sin helhet på Skaiv, en scen i Stockholm för
+konstmusik, elektronsk musik och imporvisation, den 6e november 2021. EP:n är planerad att dokumenteras som en
+kassett på bolaget \emph{Kalkatraz Cassettes}\footnote{\url{https://kalkatrazcassettes.bandcamp.com}} under hösten 2022.
+Ljudinstallationen, vid namn \emph{Metamorfos}, presenterades under 18-20 februari i lokalen \emph{Galleri
+Resorb} vid Hornstull i Stockholm. 
 
-  Den ljudande delen av mitt examensarbete består av en EP släppt på kassett på bolaget
-  Kalkatraz\footnote{\emph{\url{https://kalkatrazcassettes.bandcamp.com}}}, samt en ljudinstallation, som i en omarbetning även blev
-  ett stycke för piano och elektronik.
+Arbetet med musiken och installationen påbörjades under en sjukskrivning till följd av ett hastigt
+insjuknande av en tidigare oupptäckt kronisk njursjukdom, och påföljande njurtransplantation. Som jag skriver
+i inledningen till denna uppsats var min ambition att skriva musik om min upplevelse av sjukhus och
+sjukhusmiljöer. Under den här tiden skrev jag små anteckningar, som en dagbok, kring mina upplevelser som
+sjukskriven. Dessa anteckningar blev grunden för EP:n, där varje spår försöker referera till en tidpunkt eller
+period under den här tiden. Dessa referenser var ursprungligen bara till för mig i mitt komponerande, men med
+tanke på att detta faller inom ramen för ämnet av denna uppsats nämner jag det här. 
 
-  Min EP skrevs i huvudsak under min tid som sjukskriven efter min njurtransplantation. De fyra spåren har
-  namn som refererar till tidpunkter eller platser som fastnat tydligt i minnet hos mig. 
+
+% - Koppla till min musik, till EPn som jag gjorde som start för examensprojektet, och även de experiment som
+%   jag gjorde med ljud på sample-nivå. 
+% - Började med en idé om att tonsätta och dokumentera platser, de jag såg under min sjukskrivning, framförallt
+%   de övergivna offentliga rum som fanns i de miljöerna. Hur det projektet övergick till att dokumenter min
+%   egen vardag, som på något sätt länkades ihop med de platserna. Beskriv hur begreppet
+%   liminalitet kan användas för att beskriva båda dessa, då det beskriver att vara i
+%   tröskeln av någonting. En tröskelplats, en plats på vägen mellan två platser, eller en plats i en
+%   övergångsperiod, på väg till att bli något annat. Eller ett tröskeltillstånd, som i ritualen, där det finns
+%   ett före och ett efter, men under ritualen befinner man sig i ett mellanläge. Hur min situation som
+%   sjukskriven och bunden till mitt hem kunde ses som ett sådant tröskeltillstånd.
+
+  % Den ljudande delen av mitt examensarbete består av en EP släppt på kassett på bolaget
+  %  samt en ljudinstallation, som i en omarbetning även blev
+  % ett stycke för piano och elektronik.
+
+  % Min EP skrevs i huvudsak under min tid som sjukskriven efter min njurtransplantation. De fyra spåren har
+  % namn som refererar till tidpunkter eller platser som fastnat tydligt i minnet hos mig. 
 
 \subsection{DEC}
-\emph{Dec} var det första stycket jag började arbeta med. Ursprungligen var detta ett stycke som skulle
-vara en form av ljudläggning av platser på sjukhus ( se inledningen ) som känns bortglömda, med fokus på
-innergårdar och utrymmen runtomkring och mellan husen, ofta med ett gråaktigt, deprimerande eller illa
-skött offentlig konst. En komposition om att spendera mycket tid i dessa miljöer. Dock övergick projektet
-efter hand till att beskriva den första tiden då jag var sjukskriven, när jag abrupt pausade mina studier
-och påbörjade en tillvaro som var ett typ av mellantillstånd, där varje dag smälte ihop i nästa, avbrutna
-av läkarbesök.
-Jag började arbetet med att fundera över signal- och styrflöde i ett modulärt system jag nyligen hade
-byggt. Jag hade en plan om att kunna styra synten med MIDI\footnote{\emph{\url{https://midi.org}}} från SuperCollider, och att
-den sedan skulle efterarbetas i Reaper:
-\begin{center}
-	% tabular behöver ytterligare argument som visar hur många celler 'c'
-	\begin{tabular}{ c c c c c }
-		% avgränsningen görs med '&' mellan celler och '\\' mellan rader
-		Midi		  & -> & Ljud			& -> & Processering/mastring \\
-		SuperCollider & -> & Eurorack-synth & -> & Reaper
-	\end{tabular}
-\end{center}
+\emph{Dec} var det första stycket jag började arbeta med. Det skulle ursprungligen vara en form av ljudläggning
+av platser på sjukhus som känns bortglömda, med fokus på innergårdar och utrymmen runtomkring och mellan
+husen, ofta med ett gråaktigt, deprimerande eller illa skött offentlig konst. En komposition om att spendera
+mycket tid i dessa miljöer. Dock övergick projektet efter hand till att beskriva den första tiden då jag var
+sjukskriven, när jag abrupt pausade mina studier och påbörjade en tillvaro som var ett form av
+mellantillstånd, där varje dag smälte ihop i nästa. Den här perioden saknade strukturen jag var van vid och
+det var en surrealistisk känsla där det kändes som att tiden stod still.
 
-Till en början var arbetet att få en lösning med MIDI för att skicka ett playback av tonhöjd- och
-durationsmaterial till synten. Detta var något nytt för mig och jag fick det inte att fungera som jag
-ville (inte alls), så jag övergav idén för intern playback i synten själv. 
-Jag arbetade med ett QPAS-filter\footnote{\emph{\url{https://makenoisemusic.com/modules/qpas}}}(Quad Peak Animation System) från tillverkaren Make
-Noise. Med detta filter kunde jag arbeta med ytterligare en stämma, genom att
-framhäva och finstämma vissa övertoner i den styckets klang. Stämman bidrog till variation i en
-annars väldigt lunkande och stillastående ljudbild, Jag upplevde att den bidrog till mer motrörelse,
-trots att stämman var en en ton med en statisk relation till de underliggande tonerna. Med denna
-parameter samt möjligheten att bredda och öppna filtret för att släppa igenom mer ljud, och varsin
-wavefold-effekt på oscillatorerna, hade jag möjlighet att framföra stycket med ett mått
-"liveness"\footnote{citat om liveness i elektronisk musik}. Ytterligare hade jag en bruskälla och ett
-LFO\footnote{\emph{\url{https://sv.wikipedia.org/wiki/Lågfrekvensoscillator}}} som gick ut från från SuperCollider till synten, för att tillföra ett mått av slump.
-Jag kunde styra den från samma kontroll som de andra. Detta kändes viktigt då jag tanken var att
-spela musiken som en solokonsert, och med tanken på min bakgrund som pianist kändes det rätt att ha
-något att påverka musiken med. 
+Musiken skrevs först senare, när jag återbesökte min ursprungliga idé. Det började med en process där jag hade
+tänkt att använda en modulärsynt som förlängning av min dator och SuperCollider, genom
+MIDI\footnote{\url{https://midi.org}}- och styrsignal. 
+Dock skrevs själva tonmaterialet på ett piano, som sedan fick vidarearbetas i modulärsynten. Det var
+tvåstämmigt, och jag tänkte på det som en duett mellan två oscillatorer. En sequencer i modulärsynten styrde 
+tonhöjd, tonlängd och även förändringar i texturen. 
+
+Det tonala har en mycket långsam puls och styckets form är en väldigt tydlig AB-form med omtag. Orsaken till
+den utdragna pulsen har att göra med styckets tema, men nästan lika mycket med min egen förkärlek för långsamt
+utvecklande klanger. Jag har tänkt på vinterns mörker, där även dagen är i halvskymning, som något dovt och
+molande, och använde från början rena sinustoner i instrumenteringen. Jag arbetade med ett
+QPAS-filter\footnote{\url{https://makenoisemusic.com/modules/qpas}}(Quad Peak Animation System) från
+tillverkaren Make Noise. Med detta filter kunde jag arbeta med ytterligare en stämma, genom att framhäva och
+finstämma vissa övertoner i den styckets klang. Stämman bidrog till variation i en annars väldigt lunkande och
+stillastående ljudbild, Jag upplevde att den bidrog till mer motrörelse, trots att stämman var en en ton med
+en statisk relation till de underliggande tonerna. Tillsammans med filtret och en
+waveshaper\footnote{\url{en.wikipedia.org/wiki/waveshaper}}-effekt kunde jag arbeta med en dramaturgi i
+stycket, med dynamiska kurvor. Eftersom jag redan placerat stycket i en årstid var det lätt att tänka
+snöstorm, med ett vinande och brusande och böljande, men det kan också handla om hur märklig och obehagligt
+det var att vara sjukskriven under den här perioden.
+
+% \begin{center}
+% 	% tabular behöver ytterligare argument som visar hur många celler 'c'
+% 	\begin{tabular}{ c c c c c }
+% 		% avgränsningen görs med '&' mellan celler och '\\' mellan rader
+% 		Midi		  & -> & Ljud			& -> & Processering/mastring \\
+% 		SuperCollider & -> & Eurorack-synth & -> & Reaper
+% 	\end{tabular}
+% \end{center}
+
+% Med denna parameter samt möjligheten att bredda och öppna filtret för att släppa igenom mer ljud, och varsin
+% wavefold-effekt på oscillatorerna, hade jag möjlighet att framföra stycket med ett mått
+% "liveness"\footnote{citat om liveness i elektronisk musik}. Ytterligare hade jag en bruskälla och ett
+% LFO\footnote{\url{https://sv.wikipedia.org/wiki/Lågfrekvensoscillator}} som gick ut från från SuperCollider till synten, för att tillföra ett mått av slump.
+% Jag kunde styra den från samma kontroll som de andra. Detta kändes viktigt då jag tanken var att
+% spela musiken som en solokonsert, och med tanken på min bakgrund som pianist kändes det rätt att ha
+% något att påverka musiken med. 
 
 \subsection{Koltrast}
-Stycket \emph{Koltrast} skrevs under sommaren 2021, när jag spenderade tid i Göteborg. Stommen i stycket
-är en lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och
-inspelningen gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis
-när det började ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull
-koltrastar som sjöng över hustaken på Doktor Fries Torg. Fångade det genom att plocka fram en
-Zoom\footnote{\emph{\url{https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder}}} innan
-jag gick och lade mig igen. När jag sedan bestämde mig för att skriva ett stycke kring fågelsången, ville
-jag testa om jag kunde låta inspelningen styra musikaliska parametrar på något vis. Min första tanke var
-att använda FFT-analys\footnote{\emph{\url{https://sv.wikipedia.org/wiki/Snabb\_fouriertransform}}} för att kunna följa
-fågelsångens egen tonhöjd, och tillåta den styra
-tonhöjden av en synt. Under processen hade jag blev jag dock mycket fäst vid hur inspelningen lät i sig
-själv och ville inte bygga ett instrument som skulle göra en konstgjord kopia, om än möjligtvis
-intressant. Istället bestämde jag mig för att bygga ett program i SuperCollider som kunde följa amplituden
-av fågelsången, och ta beslut kring musikaliska händelser när amplituden översteg ett tröskelvärde. Synten
-som triggades av dessa event hade en tydlig attack, men om dess eget volymenvelop öppnades upp och tillät
-för längre toner påminde det om inspelningar jag hört av orgelpipor, där mikrofonen stått mycket nära
-mekanik och klaffar. Jag bestämde mig då för att det skulle bli något i stil med ett syntetiskt
-orgelstycke.
+Stycket \emph{Koltrast} skrevs under sommaren 2021, när jag spenderade tid i Göteborg. Stommen i stycket är en
+lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och inspelningen
+gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis när det började
+ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull koltrastar som
+sjöng över hustaken på Doktor Fries Torg. Jag fångade det genom att sätta igång en inspelning på en  
+Zoom\footnote{\url{https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder}} innan
+jag gick och lade mig igen. 
 
-%%%% SÄTT IN LITE SC-KOD HÄR %%%%
+När jag sedan bestämt mig för att skriva ett stycke kring fågelsången, ville jag
+testa om jag kunde låta inspelningen styra musikaliska parametrar på något vis. Min första tanke var att
+använda FFT-analys\footnote{\url{https://sv.wikipedia.org/wiki/Snabb\_fouriertransform}} för att kunna följa
+fågelsångens egen tonhöjd, och tillåta den styra tonhöjden av en synt. Under processen hade jag blev jag dock
+mycket fäst vid hur inspelningen lät i sig själv och ville inte bygga ett instrument som skulle göra en
+konstgjord kopia, om än möjligtvis intressant. Istället bestämde jag mig för att bygga ett program i
+SuperCollider som kunde följa amplituden av fågelsången, och ta beslut kring musikaliska händelser när
+amplituden översteg ett tröskelvärde. Synten som triggades av dessa händelser hade en tydlig attack på grund
+utav syntens utformning, men om dess eget volymenvelop öppnades upp och tillät för längre toner påminde det om
+inspelningar jag hade hört av orgelpipor, där mikrofonen stått mycket nära mekanik och klaffar. 
+Jag bestämde mig då för att utforma stycket så det skulle bli något i stil med ett syntetiskt orgelstycke.
 
 Jag undersökte även ``physical modelling'', tekniken att framställa ljud som liknar akustiska klanger på
-syntetisk väg. Till detta använde jag en färdig klass i SuperCollider som heter DWGBowedTor från
-biblioteket DWG\footnote{\emph{\url{https://doc.sccode.org/classes/dwgbowedtor.html}}}. Tillsammans med en basstämma fick agera kontrapunktiskt mot den mer
-stokastiska koltraststämman och dess ackompanjerande synt, de fick vara mer förutsägbara och ha en mer
-cirkulär form. Här arbetade jag även med att skriva sekvenser med ``kontrollstrukturer''\footnote{\emph{\url{https://doc.sccode.org/Reference/Control-Structures.html}}}, och göra enkla sekvenser som varierade sig baserat på vilket varv vi var på i
-loopen. 
+syntetisk väg. Till detta använde jag en färdig klass i SuperCollider som heter DWGBowedTor från biblioteket
+DWG\footnote{\url{https://doc.sccode.org/classes/dwgbowedtor.html}}. Denna typen av physical modelling skulle
+härma stråkinstrument och simulera resonanser inuti instrumentet. Tillsammans med en basstämma fick agera
+kontrapunktiskt mot den mer stokastiska koltraststämman och dess ackompanjerande synt, de fick vara mer
+förutsägbara och ha en mer cirkulär form. Här arbetade jag även med att skriva sekvenser med
+``kontrollstrukturer''\footnote{\url{https://doc.sccode.org/Reference/Control-Structures.html}}, och göra
+enkla sekvenser som varierade sig baserat på vilket varv vi var på i loopen.
 \pagebreak
 
 \renewcommand{\baselinestretch}{1}
-\begin{lstlisting}[style=SuperCollider-IDE, caption=SynthDef för amplitudtriggning från Koltrast]
+\begin{lstlisting}[style=SuperCollider-IDE, caption=SynthDef för amplitudtriggning från \emph{Koltrast}]
 SynthDef(\demandSynth2, {
 	var fund = 69;
 	var trigger, in, sig, env, fade, verb, fadeOut;
@@ -604,13 +634,16 @@ SynthDef(\demandSynth2, {
 
 \subsection{K87-89}
 K87-89 heter sjukhusavdelningen på Huddinge sjukhus där jag och min pappa var efter min operation. Den här
-perioden, och de kommande veckorna präglades av en väldigt hög energinivå hos mig själv, delvis på grund av
-ett mycket förbättrat fysiskt mående, men också definitivt på grund av de starka mediciner jag fick.
-Kopplingen till det liminala var att vi, mitt under Covid19-pandemi, var tvungna att stanna på sjukhus en
-vecka, med bara varandra och sjukhuspersonal som sällskap. Detta i kombination med hur en operation är en
-slags ritual, en exorcism av det onda. 
+perioden, och de kommande veckorna präglades av en väldigt hög energinivå hos mig, delvis på grund av
+ett förbättrat fysiskt mående, men också på grund av de starka mediciner jag fick. 
 
-Jag ville fånga denna post-ritualistiska extas av febrig energi i ljud, vilket slutligen resulterade i detta
+Eftersom det var mitt under Covid19-pandemin var tvungna att stanna på sjukhusavdelningen i en
+vecka, med bara varandra och sjukhuspersonal som sällskap. Under denna veckan hade jag ofta
+ljudhallucinationer, vilka yttrade sig i att det fanns betydligt fler ljudkällor i rummet än vad det faktiskt
+var. Varje gång jag blundade lät det som att det var tjugo personer runt omkring mig som pratade i mun på
+varann. Jag drömde även väldigt invecklade och tydliga drömmar under den här perioden. 
+
+Jag ville fånga denna smått maniska extas av febrig energi i ljud, vilket slutligen resulterade i detta
 stycke. Eftersom jag har en förkärlek för långsamma klanger var min första tanke inte att göra något
 rytmiskt intensivt. Jag började istället att försöka skapa ett ljud som kunde gestalta ett sprak av
 elektrisitet, som konstant överladdning av synapserna, något böljande. Ett ljud som var ostadigt och
@@ -622,11 +655,12 @@ SuperCollider vid namn ``Fold'', som tog vågformer över en viss amplitud och v
 negativa polen av signalen. Ljudet blev till när jag av misstag satte en av parametrarna till '0', vilket
 vände allt ljud in på sig själv i oändlighet, och ena polen av ljudet blev i praktiken bortklippt. Det
 intressanta med detta var att under vissa omständigheter kunde ljudet få en DC
-offset\footnote{\emph{\url{https://en.wikipedia.org/wiki/DC\_bias}}}
+offset\footnote{\url{https://en.wikipedia.org/wiki/DC\_bias}}
 och lägga sig i den bortklippta polen, vilket resulterade i fullständigt bortfall av klang, för att sedan
 bryta igenom som från bakom en vägg. Jag rättade till mitt miss men effekten fanns kvar, dock inte lika
 markant, men framträdde mer när jag när jag hade flera i följd, när ljudet passerade genom effektkedjan.
 
+\pagebreak
 \renewcommand{\baselinestretch}{1}
 \begin{lstlisting}[style=SuperCollider-IDE, caption=Fold-SynthDef från K87-89]
 SynthDef(\fold, {  // \t_trig, \freq, \fold.
@@ -703,9 +737,78 @@ som sedan byggstenarna som bygger fjärilen.
 \renewcommand{\baselinestretch}{1.5}
 
 \section{Diskussionsdel}
-  % Skriv även om hur mitt tröskeltillstånd möjliggjorde att jag orkade lära mig saker som jag tidigare haft en
-  % stress för att lära mig, de i mina ögon upphöjda verktygen som jag tidigare hade kastat mig ut för att göra
-  % musik med, utan att riktigt veta hur man gjorde, och utan ett lugn kring vad jag ville göra.
+% Skriv även om hur mitt tröskeltillstånd möjliggjorde att jag orkade lära mig saker som jag tidigare haft en
+% stress för att lära mig, de i mina ögon upphöjda verktygen som jag tidigare hade kastat mig ut för att göra
+% musik med, utan att riktigt veta hur man gjorde, och utan ett lugn kring vad jag ville göra.
+
+Det liminala kan kopplas till nästan all typ av musik. Jag kan inte se ett scenario där man inte skulle kunna
+motivera att ens musik på något sätt innehåller strukturer eller referenser som kan beskrivas som liminala.
+Musik, och processen av komponerande handlar mycket om hur man förhåller sig till övergångar, harmoniska och
+rytmiska moduleringar, konsonans och dissonans, tvetydighet och förlösning. Deras gemensamma tråd är att de
+tangerar Genneps ritualmodell, ett före och ett efter, men framförallt övergången, som känns mest intressant
+för de flesta kompositörer. På så sätt är det ett väldigt tacksamt begrepp, men kan förlora sin sin
+besrkivande funktion om man inte gör en smalare definition av vad det innebär i en särskild kontext.
+
+% hur sitter det liminala och associativa ihop med kompositionsmetoden.
+Med denna ``disclaimer'' avklarad, vill jag prata om hur jag definierat det liminala i relation till min musik.
+Jag använt det som ett extramusikaliskt \emph{ramverk} för att luta musikaliska idéer mot. Jag ville arbeta
+gestaltande, men inte beskrivande. Distinktionen mellan dem handlar om att jag inte hade en avsikt att göra
+naturtrogna återgivningar av ljudmiljöer på de platser jag inspirerats av. Jag tolkar begreppet gestalt som en
+struktur, eller skepnad, som går att skönja men vars detaljer inte är tydliga. Det är ett sätt för att
+avgränsa uttrycken som ska rymmas i en komposition, och detta \emph{ramverk} kan bestå av av associationer och
+intryck. 
+
+% Kopplingen till Mark Fisher - möjligtvis lite tam
+Det jag identifierat som en liminal association är, likt Mark Fishers definition av \emph{the Eerie};
+``avsaknaden av närvaro, eller en närvaro där vi inte förväntar oss den''. En sådan plats var Huddinge sjukhus,
+en enorm betongbyggnad 8 våningar hög, där hela väggsidor var utan fönster. Det såg ut som ett dystopiskt fort
+från science fiction-film.
+
+
+% Sätt in ett par fotografier från sjukhus här. 
+
+\begin{figure}
+	\centering
+	\includegraphics[keepaspectratio, width=0.83\textwidth]{innergaard2} \\
+
+	\vspace*{-0.3mm}
+
+	\includegraphics[keepaspectratio, width=0.83\textwidth]{innergaard1}
+	\caption{Huddinge Sjukhus}
+\end{figure}
+
+% META-dogm
+Ett viktigt karaktärsdrag för den här metoden var för mig att den ska vara avhängig. Den ska inte behöva
+följas strikt, likt något form av dogma, ifall den inte intresserar. ((Detta kan vara en meta-dogm eventuellt)). Den behöver heller inte ha en tydlig musikalisk koppling,
+snarare är det bra om \emph{ramverket} saknar musikaliska konnotationer.
+
+% beskriv det cybernetiska - hur genom att förflytta fokus från teknologin till något extern så blev
+% teknologin mer förkroppsligad.
+Jag upplevde en förändring kring min relation till teknologi. I och med att jag använde mig av en extern,
+extramusikalisk referensram var det lättare att använda tekniska verktyg. Det var som att ju mer jag hade
+använt tekniken i sig själv som referensram för den musik jag skrev, desto mer otillgänglig och
+svårgenomtränglig blev tekniken. Genom att ha fokuset på något externt blev även verktygen mer tillgängliga.
+Genom att inte behandla tekniken som ett ideal i sig utan som ett hjälpmedel kunde jag inkorporera teknologin
+i mig själv. Det var inte längre relationen mellan mig och teknologin som skulle utforskas, snarare relationen
+mellan mig själv/teknologin och det externa. 
+
+% Metoden som mycket subjektiv, för kompositören i första hand, men med hoppet om att den ger något av det som
+% kompositören gestaltar tillbaka till lyssnaren
+Genom den här metoden har jag arbetat aktivt med att fundera över associationer som ljud kan ha, men oftast ur
+ett poiesiskt\footnote{Poiesisk, Neutral, Estesisk} perspektiv, utan en tanke på, eller snarare en önskan om
+att det inte skulle kunna kommuniceras genom musiken. Jag tänkte att vissa \emph{figurativiseringar} var
+privata eller för banala för att jag skulle vara bekväm att visa upp den delen av kompositionen. Det var som
+styrkan med metoden var snarare att jag kunde luta mig på den, hur förhåller sig mitt ljudlandskap till ett
+associativt landskap. Tanken var att musiken skulle kunna få vara mer lågmäld med vad den gestaltar. En
+fundering var ifall metoden då skulle tillåta ett mer \emph{figurativiserande} lyssnande hos åhöraren.
+
+% koppla tydligare till wishart
+Kan åhöraren förnimma ett narrativ, eller av är det som förmedlas genom musiken? Jag gjorde ingen undersökning
+kring detta , men använde det som en del av mitt ramverk vid kompositionen. Min tanke var ifall en
+``filtrerad'' version, på något sätt frånkopplad sin källa, ett landskap av associationer och  
+förmedla något liknande. Att lyssnaren kunde förnimma gestalten av ett sånt landskap, men inte innehållet. 
+
+\pagebreak
 
 \printbibliography[heading=subbibliography, title={Litteratur}, nottype=music]
 \printbibliography[heading=subbibliography, title={Musik}, type=music]
