@@ -228,8 +228,8 @@ resurser. Här kan \emph{G.A.S.} yttra sig annorlunda, framförallt inom en utbi
 musik. Visserligen möjliggör sådan teknik större flexibilitet och en inspirationkälla i att utforska tidigare
 onåbara delar av ett ljudprogram, icke-linjära strukturer av musik och möjligheten att påverka ljud i ett
 ``close to the metal''-perspektiv, bearbetningar av dess data och form nere på en processorcykelnivå. Dock kan
-detta bli en fälla, då man istället för att använda färdigbyggda verktyg som hjälpmedel, envisas med att göra
-det själv. 
+detta bli till en fälla, då man istället för att använda färdigbyggda verktyg som hjälpmedel, envisas med att
+göra det själv.
 
 % La Meme Young
 I podcasten \emph{La Meme Young}\footcite{LaMemeYoung} har Max Alper och Jessica Ekomane ett samtal
@@ -565,7 +565,7 @@ SynthDef(\demandSynth2, {
 
 	in = A2K.kr(In.ar(\in.kr(55), 2) * 4);
 	fade = Line.kr( 0, 1, \fadeTime.kr(2));
-	trigger = Trig.kr(			    // <-- Här sker triggningen
+	trigger = Trig.kr(
 		InRange.kr( 
 			Amplitude.kr(
 				A2K.kr(in.lag(1) * 4), 0.2, 0.5
@@ -633,38 +633,37 @@ SynthDef(\demandSynth2, {
 % \renewcommand{\baselinestretch}{1.5}
 
 \subsection{K87-89}
-K87-89 heter sjukhusavdelningen på Huddinge sjukhus där jag och min pappa var efter min operation. Den här
-perioden, och de kommande veckorna präglades av en väldigt hög energinivå hos mig, delvis på grund av
-ett förbättrat fysiskt mående, men också på grund av de starka mediciner jag fick. 
+K87-89 heter sjukhusavdelningen på Huddinge sjukhus där jag och min pappa låg inne efter vår operation. 
+Eftersom det var mitt under Covid19-pandemin var tvungna att stanna på sjukhusavdelningen i en vecka, med bara
+varandra och sjukhuspersonal som sällskap. Det hela var en rätt unik upplevelse på flera sätt, som jag inte
+kommer göra rättvisa genom att beskriva här. 
 
-Eftersom det var mitt under Covid19-pandemin var tvungna att stanna på sjukhusavdelningen i en
-vecka, med bara varandra och sjukhuspersonal som sällskap. Under denna veckan hade jag ofta
-ljudhallucinationer, vilka yttrade sig i att det fanns betydligt fler ljudkällor i rummet än vad det faktiskt
-var. Varje gång jag blundade lät det som att det var tjugo personer runt omkring mig som pratade i mun på
-varann. Jag drömde även väldigt invecklade och tydliga drömmar under den här perioden. 
+Denna period präglades av en hög energinivå hos mig, delvis på grund av ett förbättrat fysiskt mående, men
+också på grund av de starka mediciner jag fick. Under denna veckan hade jag ofta ljudhallucinationer vilka
+yttrade sig i att det lät som att rummet var fullt med folk, eller att ljuden ute i korridoren eller av
+maskiner förstärktes. Varje gång jag blundade lät det som att det var tjugo personer runt omkring mig som
+pratade i mun på varann. Jag drömde även väldigt livliga drömmar med långa narrativ. 
 
-Jag ville fånga denna smått maniska extas av febrig energi i ljud, vilket slutligen resulterade i detta
-stycke. Eftersom jag har en förkärlek för långsamma klanger var min första tanke inte att göra något
+I det här stycket ville fånga denna smått maniska extas av febrig energi i ljud, vilket slutligen resulterade
+i detta stycke. Eftersom jag har en förkärlek för långsamma klanger var min första tanke inte att göra något
 rytmiskt intensivt. Jag började istället att försöka skapa ett ljud som kunde gestalta ett sprak av
-elektrisitet, som konstant överladdning av synapserna, något böljande. Ett ljud som var ostadigt och
-lynnigt. 
+elektrisitet, som konstant överladdning av synapserna, något böljande. Ett ljud som var ostadigt och lynnigt.
 
-Ljudet jag kom fram till hittade jag delvis av en slump. Jag experimenterade med ett objekt i
-SuperCollider vid namn ``Fold'', som tog vågformer över en viss amplitud och vände dem inåt mot sig själva
-180° ( se bild ). Det tar en signal som input, samt två värden för tröskelvärdet på den positiva samt
-negativa polen av signalen. Ljudet blev till när jag av misstag satte en av parametrarna till '0', vilket
-vände allt ljud in på sig själv i oändlighet, och ena polen av ljudet blev i praktiken bortklippt. Det
-intressanta med detta var att under vissa omständigheter kunde ljudet få en DC
-offset\footnote{\url{https://en.wikipedia.org/wiki/DC\_bias}}
-och lägga sig i den bortklippta polen, vilket resulterade i fullständigt bortfall av klang, för att sedan
-bryta igenom som från bakom en vägg. Jag rättade till mitt miss men effekten fanns kvar, dock inte lika
-markant, men framträdde mer när jag när jag hade flera i följd, när ljudet passerade genom effektkedjan.
+Ljudet kom till delvis av en slump. Jag experimenterade med ett objekt i SuperCollider vid namn ``Fold'', som
+tog vågformer över en viss amplitud och vände dem inåt mot sig själva 180° ( se bild ). Det tar en signal som
+input, samt två värden för tröskelvärdet på den positiva samt negativa polen av signalen. Ljudet blev till när
+jag av misstag satte en av parametrarna till '0', vilket vände allt ljud in på sig själv i oändlighet, och ena
+polen av ljudet blev i praktiken bortklippt. Det intressanta med detta var att under vissa omständigheter
+kunde ljudet få en DC offset\footnote{\url{https://en.wikipedia.org/wiki/DC\_bias}} och lägga sig i den
+bortklippta polen, vilket resulterade i fullständigt bortfall av klang, för att sedan bryta igenom som från
+bakom en vägg. Jag rättade till mitt miss men effekten fanns kvar, dock inte lika markant, men framträdde mer
+när jag när jag hade flera i följd, när ljudet passerade genom effektkedjan.
 
 \pagebreak
 \renewcommand{\baselinestretch}{1}
 \begin{lstlisting}[style=SuperCollider-IDE, caption=Fold-SynthDef från K87-89]
-SynthDef(\fold, {  // \t_trig, \freq, \fold.
-	var sig, env, out, verb, dirt;
+SynthDef(\fold, {
+	var sig, env, dirt;
 
 	env = EnvGen.kr(
 		envelope: Env(
@@ -678,14 +677,14 @@ SynthDef(\fold, {  // \t_trig, \freq, \fold.
 		Fold.ar(
 			XFade2.ar(
 				SinOsc.ar(\freq.kr(64).midicps), 
-				DPW3Tri.ar(\freq.kr.midicps), \fold.kr(0.1).linlin(0, 1, -1, 1) + dirt.linlin(0, 1, 0, 0.1)
+				DPW3Tri.ar(\freq.kr.midicps), \fold.kr(0.1).linlin(0, 1, -1, 1) + (dirt * 0.1)
 			),
 			-1 * (\fold.kr + dirt.linexp(0, 1, 0.01, 0.05)),
 			\fold.kr + dirt.linexp(0, 1, 0.01, 0.05)
 		) * env, 5000 );
 
-	Out.ar(\out.kr(0), Splay.ar(sig*\vol.kr(0.1).linlin(0, 1, 0, 0.35))).tanh; // maybe over-did it with .tanh?
-	Out.ar(\out.kr+2, Splay.ar(sig!2*\vol.kr).linlin(0, 1, 0, 0.35)).tanh;
+	Out.ar(\out.kr(0), Splay.ar(sig*(\vol.kr(0.1) * 0.35))).tanh;
+	Out.ar(\out.kr+2, Splay.ar(sig*(\vol.kr * 0.35))).tanh;
 
 }).add;
 \end{lstlisting}
@@ -700,25 +699,25 @@ intressanta.
 
 Mitt första experiment var att skriva en ``Disintegration loop''\footcite{Basinski} (kända
 exempel är William Basinskys \emph{Disintegration Loops}, eller Alvin Luciers \emph{I am sitting in a
-room}\footcite{Lucier}), som
-tömde datastrukturen på innehåll, nollställde varje sample en och en. Effekten blev att jag långsamt
-tillintetgjorde det inspelade ljudet i filen. Transienter hos ljudet försvann och ljudfilen fick en mer och
-mer homogen textur.
+room}\footcite{Lucier}), som tömde datastrukturen på innehåll, nollställde varje sample en och en. Effekten
+blev att jag långsamt tillintetgjorde det inspelade ljudet i filen. Transienter hos ljudet försvann och
+ljudfilen fick en mer och mer homogen, brusig textur. Tillslut försvann det helt och hållet.
 
-Jag testade sedan samma teknik, men istället för att ``tömma'' en ljudfil använde jag metoden för att göra en
-övergång mellan två ljudfiler, en gradvis transformation från en fil till en annan. Jag fann dock att
-transformationen var så gradvis att när processen var halvvägs mellan den ena och den andra filen var dess
-ljud svårt att åtskilja från vitt brus. Min slutgiltiga version tog därför större bitar, ``chunks'' av
-kontinuerliga samples, där ljudfilerna gjorde hårda klipp in i varann. Jag fann att med ett antal ljudfiler
-som blandades in i varandra kunde en effekt uppstå där det kändes som ljudfilerna spelades parallellt, trots
-att det var omöjligt med tanke på hur programmet var uppbyggt. Vad som hände var en psykoakustisk effekt som
-jag fann vara mycket intressant. Distributionen av dessa ``chunks'' var slumpmässig och beslut togs om
-distributionen efter varje genomspelning av ljudfilens fulla längd. Eftersom jag arbetade med ett antal
-ljudfiler, bestämde jag mig för att stycket inte skulle ha någon slutdestination. Det var mer intressant att
-rotera ljudfiler efter varje genomspelning, och införa nytt material i det reda upphackade materialet. Det
-bidrog till en ständig rörelse, men också en dekonstruktion av ljudmaterialet, och jag tänkte på något jag
-läst om fjärilar när de förpuppas. Fjärilslarven löses upp av enzymer och blir till en soppa av proteiner,
-som sedan byggstenarna som bygger fjärilen.
+Jag testade sedan en liknande teknik, men istället för att ``tömma'' en ljudfil gjorde jag en övergång
+mellan två ljudfiler, en gradvis transformation från en fil till en annan. Jag fann dock att
+transformationen var så gradvis när den gick sample för sample, att när processen var halvvägs mellan den ena
+och den andra filen återstod bara vitt brus. 
+
+Min slutgiltiga version tog därför större bitar, ``chunks'' av kontinuerliga samples, där ljudfilerna gjorde
+hårda klipp in i varann. Jag fann att med ett antal ljudfiler som blandades in i varandra kunde en effekt
+uppstå där det kändes som ljudfilerna spelades parallellt, trots att det var omöjligt med tanke på hur
+programmet var uppbyggt. Vad som hände var en psykoakustisk effekt som jag fann vara mycket intressant.
+Distributionen av dessa ``chunks'' var slumpmässig och beslut togs om distributionen efter varje genomspelning
+av ljudfilens fulla längd. Eftersom jag arbetade med ett antal ljudfiler, bestämde jag mig för att stycket
+inte skulle ha någon slutdestination. Det var mer intressant att rotera ljudfiler efter varje genomspelning,
+och införa nytt material i det reda upphackade materialet. Det bidrog till en ständig rörelse, men också en
+dekonstruktion av ljudmaterialet, och jag tänkte på något jag läst om fjärilar när de förpuppas. Fjärilslarven
+löses upp av enzymer och blir till en soppa av proteiner, som sedan byggstenarna som bygger fjärilen.
 
 \renewcommand{\baselinestretch}{1}
 \begin{lstlisting}[style=SuperCollider-IDE, caption=Funktion från \emph{Metamorfos}]
@@ -741,6 +740,21 @@ som sedan byggstenarna som bygger fjärilen.
 % stress för att lära mig, de i mina ögon upphöjda verktygen som jag tidigare hade kastat mig ut för att göra
 % musik med, utan att riktigt veta hur man gjorde, och utan ett lugn kring vad jag ville göra.
 
+% [  ] Tekniken ur ett fokus som inte var teknikbaserat -> mer tillgång till tekniken.
+% [  ] pga sjukskrivning men också det extramusikala, kunde jag lära mig ett extremt tekniskt verktyg
+% [  ] Det modernistiskt "sanna" kontra det extramusikaliskt (postmodernistiskt) "osanna"
+% [  ] "Are sounds always referential? Is it possible to hear sound before it has been laden with the
+%		associations of culture, history, or society?"
+% [  ] Trevor Wisharts "landskaps"-begrepp
+% [  ] Min musik som en konstgjord/surrealistisk ljudmiljö / landskap
+% [  ] Hur har min musik varit refererande till det liminala
+% [ X ] Liminalitet på flera sätt
+% [  ] Brian Enos Ambient 4: On Land, som känns mer suggestiv än de andra tre, mindre möbelmusik och mer
+% påtaglig. Ett personligt djup?
+% [  ] Jag har fått göra upp med att verktyget inte gör min egen konst heller, jag behöver något annat för att
+%	   det ska rulla
+
+% komposition som inspireras av liminalitet på något vis
 Det liminala kan kopplas till nästan all typ av musik. Jag kan inte se ett scenario där man inte skulle kunna
 motivera att ens musik på något sätt innehåller strukturer eller referenser som kan beskrivas som liminala.
 Musik, och processen av komponerande handlar mycket om hur man förhåller sig till övergångar, harmoniska och
@@ -750,7 +764,14 @@ för de flesta kompositörer. På så sätt är det ett väldigt tacksamt begrep
 besrkivande funktion om man inte gör en smalare definition av vad det innebär i en särskild kontext.
 
 % hur sitter det liminala och associativa ihop med kompositionsmetoden.
-Med denna ``disclaimer'' avklarad, vill jag prata om hur jag definierat det liminala i relation till min musik.
+Med denna ``disclaimer'' avklarad, vill jag prata om hur jag definierat det extramusikaliska och liminala i
+relation till mitt musikskrivande. Under kompositionsprocessen av de olika styckena hade jag tydliga bilder,
+platser eller känslor som var förknippade med vart och ett. Det var som att varje stycke var en scen, som
+skulle abstraheras i musiken. Bilderna använde jag som ett ramverk för att kunna bolla idéer mot. Jag kunde
+fråga mig, ``Vilka ljud ryms i det här rummet?'' eller ``Hur låter det här intrycket?'', och kunna komma fram
+till ett godtyckligt svar, som trots det kunde föra processen vidare. 
+
+
 Jag använt det som ett extramusikaliskt \emph{ramverk} för att luta musikaliska idéer mot. Jag ville arbeta
 gestaltande, men inte beskrivande. Distinktionen mellan dem handlar om att jag inte hade en avsikt att göra
 naturtrogna återgivningar av ljudmiljöer på de platser jag inspirerats av. Jag tolkar begreppet gestalt som en
@@ -779,8 +800,9 @@ från science fiction-film.
 
 % META-dogm
 Ett viktigt karaktärsdrag för den här metoden var för mig att den ska vara avhängig. Den ska inte behöva
-följas strikt, likt något form av dogma, ifall den inte intresserar. ((Detta kan vara en meta-dogm eventuellt)). Den behöver heller inte ha en tydlig musikalisk koppling,
-snarare är det bra om \emph{ramverket} saknar musikaliska konnotationer.
+följas strikt, likt något form av dogma, ifall den inte intresserar. ((Detta kan vara en meta-dogm
+eventuellt)). Den behöver heller inte ha en tydlig musikalisk koppling, snarare är det bra om \emph{ramverket}
+saknar musikaliska konnotationer.
 
 % beskriv det cybernetiska - hur genom att förflytta fokus från teknologin till något extern så blev
 % teknologin mer förkroppsligad.
@@ -807,6 +829,7 @@ Kan åhöraren förnimma ett narrativ, eller av är det som förmedlas genom mus
 kring detta , men använde det som en del av mitt ramverk vid kompositionen. Min tanke var ifall en
 ``filtrerad'' version, på något sätt frånkopplad sin källa, ett landskap av associationer och  
 förmedla något liknande. Att lyssnaren kunde förnimma gestalten av ett sånt landskap, men inte innehållet. 
+
 
 \pagebreak
 
