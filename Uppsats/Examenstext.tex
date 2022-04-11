@@ -15,6 +15,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
 \usepackage[swedish]{babel}
+% \usepackage[T2A]{fontenc}
 \graphicspath{ {./img/} }
 \renewcommand{\baselinestretch}{1.5}
 \lstset{basicstyle=\ttfamily\footnotesize, tabsize=2} \usepackage[framed, numbered]{sclang-prettifier}
@@ -266,7 +267,10 @@ i luften, eller som innefattas inom de regler för ljud-, form- och harmonilära
 
 Idag benämns motsatsen till den ``absoluta musiken'' som ``programmusik''. Det härstammar från när
 kompositörer skrev musik som ville gestalta något extramusikaliskt, där musiken var det bärande berättande
-elementet, där programbladet på en sådan konsert var en viktig bilaga för att förstå handlingen i musiken. 
+elementet, där programbladet på en sådan konsert var en viktig bilaga för att förstå handlingen i musiken.
+Ett exempel på detta är verket \emph{Tavlor på en utställning}\footcite{Tavlor} av Modest Musorgskij,
+där varje sats motsvarar en tavla på en utställning, där tavlornas motiv blir levande i musiken. Förklaringar
+och målande beskrivningar finns att läsa om varje sats i ett programblad för publiken att orientera sig.
 
 Demers frågar sig var den elektroakustiska musiken platsar in mellan dessa två motstridiga begrepp och
 benämner två kompositörer som har varit viktiga för teoretiserandet kring elektroakustisk musik, \emph{Pierre
@@ -719,6 +723,13 @@ och införa nytt material i det reda upphackade materialet. Det bidrog till en s
 dekonstruktion av ljudmaterialet, och jag tänkte på något jag läst om fjärilar när de förpuppas. Fjärilslarven
 löses upp av enzymer och blir till en soppa av proteiner, som sedan byggstenarna som bygger fjärilen.
 
+Jag upptäckte i efterhand att materialet jag använt som ljudfiler för att testa funktionen av
+SuperCollider-patchen mest var hämtat från min sjukskrivning, inspelningar av sjukhusljud, miljöljud, små
+pianoskisser och den märkliga muzak som spelades utanför en ingång på Huddinge sjukhus. Jag vande mig vid hur
+de lät tillsammans och det var dessa ljud som jag sedan använde när den visades upp. På ett sätt grupperades
+den i det här projektet av misstag, eftersom detta från början var en utforskning av en teknik snarare än en
+estetik.
+
 \renewcommand{\baselinestretch}{1}
 \begin{lstlisting}[style=SuperCollider-IDE, caption=Funktion från \emph{Metamorfos}]
 ~metamorphosis = {|larv, fjril, chunk, x = -1|
@@ -759,32 +770,48 @@ Det liminala kan kopplas till nästan all typ av musik. Jag kan inte se ett scen
 motivera att ens musik på något sätt innehåller strukturer eller referenser som kan beskrivas som liminala.
 Musik, och processen av komponerande handlar mycket om hur man förhåller sig till övergångar, harmoniska och
 rytmiska moduleringar, konsonans och dissonans, tvetydighet och förlösning. Deras gemensamma tråd är att de
-tangerar Genneps ritualmodell, ett före och ett efter, men framförallt övergången, som känns mest intressant
-för de flesta kompositörer. På så sätt är det ett väldigt tacksamt begrepp, men kan förlora sin sin
-besrkivande funktion om man inte gör en smalare definition av vad det innebär i en särskild kontext.
+tangerar Genneps ritualmodell, ett före och ett efter, men det är framförallt övergången som är ett viktigt
+verktyg för kompositörer. Eftersom det kan tolkas så brett blir det ett tacksamt begrepp för att förklara
+vissa musikaliska val, men det kan förlora sin beskrivande funktion om man inte gör en smalare definition av
+vad det innebär i en särskild kontext.
 
 % hur sitter det liminala och associativa ihop med kompositionsmetoden.
 Med denna ``disclaimer'' avklarad, vill jag prata om hur jag definierat det extramusikaliska och liminala i
-relation till mitt musikskrivande. Under kompositionsprocessen av de olika styckena hade jag tydliga bilder,
-platser eller känslor som var förknippade med vart och ett. Det var som att varje stycke var en scen, som
-skulle abstraheras i musiken. Bilderna använde jag som ett ramverk för att kunna bolla idéer mot. Jag kunde
-fråga mig, ``Vilka ljud ryms i det här rummet?'' eller ``Hur låter det här intrycket?'', och kunna komma fram
-till ett godtyckligt svar, som trots det kunde föra processen vidare. 
+relation till mitt eget musikskrivande. De olika styckena, \emph{DEC}, \emph{K87-89} och \emph{Koltrast}, har
+alla på något sätt influerats eller inspirerats av en plats, en tidpunkt eller en känsla. 
+
+Vid början av mitt projekt var denna känsla svår att sätta fingret på. Det var först efter ett tag som jag
+förstod att det handlade om \emph{mellantillstånd}, att det var den röda tråden som musiken delade. Det var
+tydligt i mina anteckningar som tidigt i processen ville tonsätta "den underliga känslan hos övergivna
+platser", men som övergick till att handla om mina egna perioder av mellantillstånd genom min sjukdom. 
+
+Eftersom jag gjort dessa avgränsningar kring vad styckena skulle gestalta kunde jag sedan använda dem som ett
+\emph{ramverk} för kompositionen. Varje stycke var som en scen som skulle abstraheras i musiken. Ramverket
+hjälpte till med detta genom att kunna upplysa om hur musikaliska element skulle fungera. Jag kunde fråga 
+``Vilka ljud ryms i det här rummet?'' eller ``Hur låter det här intrycket?'', och kunna komma fram
+till ett godtyckligt svar, som trots det kunde föra processen vidare. Godtyckligt på grund utav att ramverket
+och min metod enbart byggde på mina subjektiva intryck och tolkningar av det jag ville förmedla.
 
 
-Jag använt det som ett extramusikaliskt \emph{ramverk} för att luta musikaliska idéer mot. Jag ville arbeta
-gestaltande, men inte beskrivande. Distinktionen mellan dem handlar om att jag inte hade en avsikt att göra
-naturtrogna återgivningar av ljudmiljöer på de platser jag inspirerats av. Jag tolkar begreppet gestalt som en
-struktur, eller skepnad, som går att skönja men vars detaljer inte är tydliga. Det är ett sätt för att
-avgränsa uttrycken som ska rymmas i en komposition, och detta \emph{ramverk} kan bestå av av associationer och
-intryck. 
+Jag ville arbeta \emph{gestaltande}, men inte \emph{beskrivande}. Distinktionen mellan dem handlar om att jag
+inte hade en avsikt att göra en naturtrogen återgivning av de ljudmiljöer på de platser jag inspirerats av. 
+Jag tolkar begreppet gestalt som en struktur, eller skepnad, som går att skönja men vars detaljer inte är
+tydliga. Det beskrivande å andra sidan kan kanske beskrivas med ``mickey-mousing'', ett begrepp som i bland
+annat ljudläggning för film innebär att det ska finnas ett 1:1 förhållande mellan det som sker på bild och det
+som hörs. Exemplet Tavlor på en utställning\footcite{Tavlor} använder sig av ``mickey-mousing'' till viss del,
+t ex i satsen \emph{``De okläckta kycklingarnas ballett''}, där kycklingarna dansar inuti sina skal, som
+beskrivs ljudande genom att stråket\footnote{I Ravels orkestrering av stycket 1922} spelar \emph{Col Legno},
+med träsidan av stråken, hoppandes över strängarna. 
+
+Jag ville istället ha ett mer fritt förhållningssätt till materialet, välja bort eller anpassa
+struktur efter vad jag ansåg passade. Det passade även ifall materialet var utan så mycket musikaliska reella
+ljud som möjligt, snarare bra ifall \emph{ramverket} saknade uppenbara musikaliska konnotationer.
 
 % Kopplingen till Mark Fisher - möjligtvis lite tam
 Det jag identifierat som en liminal association är, likt Mark Fishers definition av \emph{the Eerie};
 ``avsaknaden av närvaro, eller en närvaro där vi inte förväntar oss den''. En sådan plats var Huddinge sjukhus,
 en enorm betongbyggnad 8 våningar hög, där hela väggsidor var utan fönster. Det såg ut som ett dystopiskt fort
 från science fiction-film.
-
 
 % Sätt in ett par fotografier från sjukhus här. 
 
@@ -797,12 +824,6 @@ från science fiction-film.
 	\includegraphics[keepaspectratio, width=0.83\textwidth]{innergaard1}
 	\caption{Huddinge Sjukhus}
 \end{figure}
-
-% META-dogm
-Ett viktigt karaktärsdrag för den här metoden var för mig att den ska vara avhängig. Den ska inte behöva
-följas strikt, likt något form av dogma, ifall den inte intresserar. ((Detta kan vara en meta-dogm
-eventuellt)). Den behöver heller inte ha en tydlig musikalisk koppling, snarare är det bra om \emph{ramverket}
-saknar musikaliska konnotationer.
 
 % beskriv det cybernetiska - hur genom att förflytta fokus från teknologin till något extern så blev
 % teknologin mer förkroppsligad.
@@ -825,8 +846,7 @@ associativt landskap. Tanken var att musiken skulle kunna få vara mer lågmäld
 fundering var ifall metoden då skulle tillåta ett mer \emph{figurativiserande} lyssnande hos åhöraren.
 
 % koppla tydligare till wishart
-Kan åhöraren förnimma ett narrativ, eller av är det som förmedlas genom musiken? Jag gjorde ingen undersökning
-kring detta , men använde det som en del av mitt ramverk vid kompositionen. Min tanke var ifall en
+Kan åhöraren förnimma ett narrativ, eller av är det som förmedlas genom musiken? Min tanke var ifall en
 ``filtrerad'' version, på något sätt frånkopplad sin källa, ett landskap av associationer och  
 förmedla något liknande. Att lyssnaren kunde förnimma gestalten av ett sånt landskap, men inte innehållet. 
 

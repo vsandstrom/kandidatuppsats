@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1}Absolute vs Programmatic music.}{7}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}\emph {Liminality} och \emph {The Eerie}}{9}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Koppling till musiken}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}DEC}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}DEC}{13}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Koltrast}{13}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}K87-89}{16}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Metamorfos}{17}{subsection.3.4}%

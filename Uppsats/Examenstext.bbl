@@ -19,6 +19,28 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
+    \entry{Tavlor}{music}{}
+      \name{author}{1}{}{%
+        {{hash=ee0643b71b1971e782ed6418c2f661fd}{%
+           family={Mussorgsky},
+           familyi={M\bibinitperiod},
+           given={Modest\bibnamedelima Petrovich},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee0643b71b1971e782ed6418c2f661fd}
+      \strng{fullhash}{ee0643b71b1971e782ed6418c2f661fd}
+      \strng{bibnamehash}{ee0643b71b1971e782ed6418c2f661fd}
+      \strng{authorbibnamehash}{ee0643b71b1971e782ed6418c2f661fd}
+      \strng{authornamehash}{ee0643b71b1971e782ed6418c2f661fd}
+      \strng{authorfullhash}{ee0643b71b1971e782ed6418c2f661fd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[musik]}
+      \field{title}{Tavlor på en utställning}
+      \field{year}{1874}
+    \endentry
     \entry{PierreSchaeffer}{book}{}
       \name{author}{1}{}{%
         {{hash=319b34a2e0d628fc8b5fc00a78f409e4}{%
