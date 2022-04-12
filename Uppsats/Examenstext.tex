@@ -14,12 +14,14 @@
 \usepackage{listings}
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
+\usepackage{relsize,etoolbox}% http://ctan.org/pkg/{relsize,etoolbox}
 \usepackage[swedish]{babel}
 % \usepackage[T2A]{fontenc}
 \graphicspath{ {./img/} }
 \renewcommand{\baselinestretch}{1.5}
 \lstset{basicstyle=\ttfamily\footnotesize, tabsize=2} \usepackage[framed, numbered]{sclang-prettifier}
 \interfootnotelinepenalty=10000
+\AtBeginEnvironment{quote}{\smaller}% Step font down one size relative to current font.
 
 %%%%% Kompilera med xelatex!!!!! %%%%%
 
@@ -95,17 +97,17 @@ skriva om det jag såg. Jag hade fattat tycke för de märkliga, bortglömda mil
 vårdmottagningar, som existerade mitt i en plats som aldrig sov, som ständigt var i rörelse, men där miljöerna
 själva såg obefolkade och stillastående ut, som att deras funktionalitet hade gått förlorad. En sådan typ av
 plats som jag reagerade starkt på var de innergårdar, som var anlagda med promenadstråk, välskötta buskar
-och träd och små konstellationer av parkmöbler övervuxna med alger, som låg insprängda mellan
-sjukhusbyggnaderna, eller korridorerna runt om i sjukhuset fyllda med offentlig konst. Min
-ursprungliga idé var att tonsätta de här sjukhusmiljöerna, men de speglade även min egen tillvaro som,
-likt dessa platser, kändes stillastående och tidlös. Projektet började över tid frångå den idén, för
-att istället handla om att dokumentera min egen stillastående vardag.
+och träd och små konstellationer av parkmöbler övervuxna med alger som låg insprängda mellan
+sjukhusbyggnaderna. Eller de oändligt långa korridorerna i sjukhuset, tomma på människor, med dammig och
+bortglömd offentlig konst. Min ursprungliga idé var att tonsätta de här miljöerna, men de speglade även
+min egen tillvaro som, likt dessa platser, kändes stillastående och tidlös. Projektet började över tid frångå
+den idén, för att istället handla om att dokumentera min egen stillastående vardag.
 
 % När jag började må bättre ...
 När jag började må bättre fann jag att det inte hade varit tid utan ork jag hade saknat tidigare, och det var
 först då som jag hade orken att arbeta med den här idén. I och med en förbättring av
 mitt mående och ett överskott av ledig tid kunde jag ta mig an att lära mig programmeringsspråket 
-SuperCollider\footnote{\url{https://supercollider.github.io}}, ett språk utvecklat för ljudbehandling och
+SuperCollider\footcite{sc}, ett språk utvecklat för ljudbehandling och
 komposition, ett verktyg som jag tidigare önskat lära mig men inte orkat. I och med detta och ett ökat
 intresse för datorprogrammering i allmänhet föll det sig naturligt att mycket av musiken jag skrev blev
 skriven med hjälp av detta verktyget.
@@ -122,6 +124,11 @@ utbildningens kontext. Musiken var inte ett medel för att uppnå målet att bem
 fanns en känsla av att kunna få utforska tekniken om ett behov fanns, eller av nyfikenhet, men där ett
 estetiskt uttryck fick vara förgrund för processen. 
 
+
+
+% ////////
+
+\section{Bakgrund}
 % Flytta till Bakgrund
 I \emph{François Delalandes} uppsats \emph{Music Analysis and Reception Behaviours: Sommeil by Pierre Henry}
 \footcite[26, 38, 52]{Delalande1998} definierar han tre typer av lyssnarbeteenden, eller analysmetoder, det
@@ -134,29 +141,18 @@ ett narrativ. Lyssnaren förnimmer narrativet eller scenen genom musiken. De gru
 men motsatt till det \emph{taxonomiska}, kopplas ljudet till en entitet, ett ting eller något levande, och
 tolkas som rörelse istället för en serie händelser.
 
-% Koppla Delalande till generativ process
-Delalandes text handlar främst om analys av elektroakustisk musik, och vilka roller olika lyssnare sätter sig
-i. Utifrån mitt perspektiv såg jag snarare det \emph{figurativiserande} som en generativ metod som kunde
-hjälpa mig i mitt komponerande. Den gav mig något att förhålla mig till, en bild som inte hade någon egen
-musikalisk tyngd och därför var öppen för tolkning, men som kunde informera andra tekniska beslut, om klang,
-textur och struktur.
-
-% ////////
-
-\section{Bakgrund}
+\subsection{Elektronisk musik och Teknologi}
 Elektronisk musik har alltid varit intresserat av, och haft ett intimt förhållande till teknologi. Utan nya
 upptäckter under 1800-talet och vidare under 1900-talet, hade elektronisk musik som vi hör den idag, inte
 varit möjlig. Uppfinningar som radion, trådlös och trådburen elektrisk signal, magnetband, mikrofoner, datorer
 och dess språk samt digital
-signalprocessering\footnote{\url{https://en.wikipedia.org/wiki/Digital\_signal\_processor}} etc, har på
+signalprocessering\footcite{dsp} etc, har på
 ett eller annat sätt möjliggjort och utvecklat musiken. Studion som instrument %bygg ut med Brian Eno bli
 har alltid varit central inom elektronisk musik, idag mer än någonsin, med det ständigt sjunkande
 priset av en kapabel persondator, som en produkt av en kapplöpning mellan ``Moore's law''\footnote{Moore's
 Law, En av grundarna för Intel som hävdar att processorer kommer dubbla sin kapacitet varannat år.},
 processeringsförmåga och nya billigare tillverkningsmetoder. Idag kan en produktionsstudio för hemmabruk
-rymmas i en dator som ryms på ett enda kretskort, som Raspberry Pi\footnote{
-\emph{\url{https://www.raspberrypi.com/}}}, med ett pris som ligger mellan 150 -- 350kr. Tillgängligheten till en
-studio, som tidigare var begränsad till institutioner som nationella radiostationer har gradvis hamnat inom
+rymmas i en dator som ryms på ett enda kretskort, som Raspberry Pi\footcite{rpi}, med ett pris som ligger mellan 150 - 350kr. Tillgängligheten till en studio, som tidigare var begränsad till institutioner som nationella radiostationer har gradvis hamnat inom
 räckhåll för individen.
 
   % Demokratiseringen av studion.
@@ -170,7 +166,7 @@ eller avskräckande konfigurationssteg som förutsätter en hög grad av förkun
 tillgång till funktionaliteten du egentligen vill komma åt. Den tidigare nämnda Raspberry Pi-mikrodatorn
 stämmer in på den beskrivningen, som trots sitt överkomliga pris förutsätter att du är bekväm att lämna
 etablerade operativsystemsparadigmer som Windows och MacOS, kunna utföra kommandon i en
-``shell''-miljö\footnote{\url{https://en.wikipedia.org/wiki/Unix\_shell}}, och kunna felsöka när
+``shell''-miljö\footcite{unix}, och kunna felsöka när
 installationer eller konfigurationer inte genomförs
 %som de ska i tidigare nämnda shell-miljö, 
 eftersom dessa kommandon kan vara mycket obskyra för den oinvigde.
@@ -189,10 +185,10 @@ väldigt bra, men de är så dyra att priset stänger dörren för den som som f
 är demoraliserande för den som tänker att verktyget kommer lösa dess problem. De är otillgängliga ekonomiskt
 men ur ett popkulturellt perspektiv mycket tillgängliga, eftersom populära verktyg blir synonyma med ett ljud,
 en stil, en kultur och med musikalisk och ekonomisk framgång. Ett exempel på detta är den legendariska
-TB303\footnote{\url{https://www.vintagesynth.com/roland/303.php}}-synten från Roland, som genom sitt
+TB303\footcite{303}-synten från Roland, som genom sitt
 stilbildande ljud, känt genom Detroit-techno, idag är synonymt med elektronisk dansmusik, som idag säljs för
 mellan 2 -- 5 gånger sitt säljpris, år 1982\footnote{Originalpris: \$395.00 . Efter inflationskompensation:
-\$1,161.32. På Ebay 2022: \$5,543.64}. Fenomenet \emph{G.A.S.} - \emph{Gear acquisision syndrome}
+\$1,161.32. På Ebay 2022: \$5,543.64}. Fenomenet \emph{G.A.S.} - \emph{Gear acquisision syndrome}\footcite{gas}
 (eller på svenska \emph{utrustningsanskaffningssyndrom}), innebär i praktiken att man fullständigt
 accepterat det narrativ som säljs till en. Om ett företag säljer ett nytt verktyg, med en effektiv
 marknadsföring bakom sig, kommer forum och trådar på sociala medier fyllas med ivriga entusiaster som
@@ -253,9 +249,9 @@ extramusikaliskt \footnote{Med extramusikaliskt menas något som ligger utanför
 province of music'', strikt tolkat allt som inte innefattas inom det fysikaliska i ljudvågor som sammanfaller
 i luften, eller som innefattas inom de regler för ljud-, form- och harmonilära används för att beskriva musik.
 \\ Merriam-Webster, \url{https://www.merriam-webster.com/dictionary/extramusical}, [Uppslagsverk]
-(Hämtad 29-03-2022)}.
+(Hämtad 29-03-2022)}\nocite{webster}.
 
-Idag benämns motsatsen till den ``absoluta musiken'' som ``programmusik''. Det härstammar från när
+Ofta benämns motsatsen till den ``absoluta musiken'' som ``programmusik''. Det härstammar från när
 kompositörer skrev musik som ville gestalta något extramusikaliskt, där musiken var det bärande berättande
 elementet, där programbladet på en sådan konsert var en viktig bilaga för att förstå handlingen i musiken.
 Ett exempel på detta är verket \emph{Tavlor på en utställning}\footcite{Tavlor} av Modest Musorgskij,
@@ -273,8 +269,7 @@ Kan de ljud som frammanas inom elektroakustisk och akusmatisk musik existera uta
 självrefererande, eller om de kan existera, likt Pierre Schaeffers teori om ljudobjekt
 \footcite{PierreSchaeffer} , som ett ljud där ursprunget inte längre är urskiljbart?
 
-Begreppet akusmatisk härstammar från Pythagoras\footnote{Oxford English Dictionary, \emph{Acousmatic
-(adjective)}, \url{https://www.lexico.com/definition/acousmatic}, (Hämtad 04-04-2022)} och var en teknik som
+Begreppet akusmatisk härstammar från Pythagoras\footcite{oxford} och var en teknik som
 användes under hans föreläsningar där han pratade från bakom ett skynke för att hans lärlingar inte skulle
 distraheras av det visuella. Det har inom den elektroakustiska traditionen använts för att beskriva de teorier
 Schaeffer lade fram, kring att analysera och tolka ljud utan att se objektet som skapar ljudet.
@@ -442,7 +437,7 @@ internationell knytpunkt med förbindelser och människor från hela världen.
 Den ljudande delen till det här arbetet består av tre stycken från en EP, ett urval som tydligast beskriver
 mitt projekt, samt en ljudinstaltion. EP:n uruppfördes i sin helhet på Skaiv, en scen i Stockholm för
 konstmusik, elektronsk musik och imporvisation, den 6e november 2021. EP:n är planerad att dokumenteras som en
-kassett på bolaget \emph{Kalkatraz Cassettes}\footnote{\url{https://kalkatrazcassettes.bandcamp.com}} under hösten 2022.
+kassett på bolaget \emph{Kalkatraz Cassettes}\footcite{kalkatraz} under hösten 2022.
 Ljudinstallationen, vid namn \emph{Metamorfos}, presenterades under 18-20 februari i lokalen \emph{Galleri
 Resorb} vid Hornstull i Stockholm. 
 
@@ -484,7 +479,7 @@ van vid och det var en surrealistisk känsla där det kändes som att tiden stod
 
 Musiken skrevs först senare, när jag återbesökte min ursprungliga idé. Det började med en process där jag hade
 tänkt att använda en modulärsynt som förlängning av min dator och SuperCollider, genom
-MIDI\footnote{\url{https://midi.org}}- och styrsignal. 
+MIDI\footcite{midi}- och styrsignal. 
 Dock skrevs själva tonmaterialet på ett piano, som sedan fick vidarearbetas i modulärsynten. Det var
 tvåstämmigt, och jag tänkte på det som en duett mellan två oscillatorer. En sequencer i modulärsynten styrde 
 tonhöjd, tonlängd och även förändringar i texturen. 
@@ -493,12 +488,12 @@ Det tonala har en mycket långsam puls och styckets form är en väldigt tydlig 
 den utdragna pulsen har att göra med styckets tema, men nästan lika mycket med min egen förkärlek för långsamt
 utvecklande klanger. Jag har tänkt på vinterns mörker, där även dagen är i halvskymning, som något dovt och
 molande, och använde från början rena sinustoner i instrumenteringen. Jag arbetade med ett
-QPAS-filter\footnote{\url{https://makenoisemusic.com/modules/qpas}}(Quad Peak Animation System) från
+QPAS-filter\footcite{qpas}(Quad Peak Animation System) från
 tillverkaren Make Noise. Med detta filter kunde jag arbeta med ytterligare en stämma, genom att framhäva och
 finstämma vissa övertoner i den styckets klang. Stämman bidrog till variation i en annars väldigt lunkande och
 stillastående ljudbild, Jag upplevde att den bidrog till mer motrörelse, trots att stämman var en en ton med
 en statisk relation till de underliggande tonerna. Tillsammans med filtret och en
-waveshaper\footnote{\url{en.wikipedia.org/wiki/waveshaper}}-effekt kunde jag arbeta med en dramaturgi i
+waveshaper\footcite{waveshaper}-effekt kunde jag arbeta med en dramaturgi i
 stycket, med dynamiska kurvor. Eftersom jag redan placerat stycket i en årstid var det lätt att tänka
 snöstorm, med ett vinande och brusande och böljande, men det kan också handla om hur märklig och obehagligt
 det var att vara sjukskriven under den här perioden.
@@ -526,12 +521,12 @@ lång field-recording av koltrastsång. Efter min operation hade jag haft proble
 gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis när det började
 ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull koltrastar som
 sjöng över hustaken på Doktor Fries Torg. Jag fångade det genom att sätta igång en inspelning på en  
-Zoom\footnote{\url{https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder}} innan
+Zoom\footcite{zoom} innan
 jag gick och lade mig igen. 
 
 När jag sedan bestämt mig för att skriva ett stycke kring fågelsången, ville jag
 testa om jag kunde låta inspelningen styra musikaliska parametrar på något vis. Min första tanke var att
-använda FFT-analys\footnote{\url{https://sv.wikipedia.org/wiki/Snabb\_fouriertransform}} för att kunna följa
+använda FFT-analys\footcite{fft} för att kunna följa
 fågelsångens egen tonhöjd, och tillåta den styra tonhöjden av en synt. Under processen blev jag dock
 mycket fäst vid hur inspelningen lät i sig själv och ville inte bygga ett instrument som skulle göra en
 konstgjord kopia. Istället bestämde jag mig för att bygga ett program i
@@ -543,11 +538,11 @@ Jag bestämde mig då för att utforma stycket så det skulle bli något i stil 
 
 Jag undersökte även ``physical modelling'', tekniken att framställa ljud som liknar akustiska klanger på
 syntetisk väg. Till detta använde jag en färdig klass i SuperCollider som heter DWGBowedTor från biblioteket
-DWG\footnote{\url{https://doc.sccode.org/classes/dwgbowedtor.html}}. Denna typen av physical modelling skulle
+DWG\footcite{dwg}. Denna typen av physical modelling skulle
 härma stråkinstrument och simulera resonanser inuti instrumentet. Tillsammans med en basstämma fick agera
 kontrapunktiskt mot den mer stokastiska koltraststämman och dess ackompanjerande synt, de fick vara mer
 förutsägbara och ha en mer cirkulär form. Här arbetade jag även med att skriva sekvenser med
-``kontrollstrukturer''\footnote{\url{https://doc.sccode.org/Reference/Control-Structures.html}}, och göra
+``kontrollstrukturer''\footcite{ctrl}, och göra
 enkla sekvenser som varierades baserat på vilket varv vi var på i loopen.
 \pagebreak
 
@@ -648,7 +643,7 @@ tog vågformer över en viss amplitud och vände dem inåt mot sig själva 180°
 input, samt två värden för tröskelvärdet på den positiva samt negativa polen av signalen. Ljudet blev till när
 jag av misstag satte en av parametrarna till '0', vilket vände allt ljud in på sig själv i oändlighet, och ena
 polen av ljudet blev i praktiken bortklippt. Det intressanta med detta var att under vissa omständigheter
-kunde ljudet få en DC offset\footnote{\url{https://en.wikipedia.org/wiki/DC\_bias}} och lägga sig i den
+kunde ljudet få en DC offset\footcite{dc} och lägga sig i den
 bortklippta polen, vilket resulterade i fullständigt bortfall av klang, för att sedan bryta igenom som från
 bakom en vägg. Jag rättade till mitt miss men effekten fanns kvar, dock inte lika markant, men framträdde mer
 när jag när jag hade flera i följd, när ljudet passerade genom effektkedjan.
@@ -785,24 +780,21 @@ och min metod enbart byggde på mina subjektiva intryck och tolkningar av det ja
 
 Jag ville arbeta \emph{gestaltande}, men inte \emph{beskrivande}. Distinktionen mellan dem handlar om att jag
 inte hade en avsikt att göra en naturtrogen återgivning av ljudmiljöerna på de platser jag hämtade
-inspiration. 
-Jag tolkar begreppet gestalt som en struktur, eller skepnad, som går att skönja men vars detaljer inte är
-tydliga. Det beskrivande å andra sidan kan kanske beskrivas med ``mickey-mousing'', ett begrepp som i bland
-annat ljudläggning för film innebär att det ska finnas ett 1:1 förhållande mellan det som sker på bild och det
-som hörs. Exemplet Tavlor på en utställning\footcite{Tavlor} använder sig av ``mickey-mousing'' till viss del,
-t ex i satsen \emph{``De okläckta kycklingarnas ballett''}, där kycklingarna dansar inuti sina skal, som
-beskrivs ljudande genom att stråket\footnote{I Ravels orkestrering av stycket 1922} spelar \emph{Col Legno},
-med träsidan av stråken, hoppandes över strängarna. 
-
-Jag ville istället ha ett mer fritt förhållningssätt till materialet, välja bort eller anpassa
-struktur efter vad jag ansåg passade. Det passade även ifall materialet var utan så mycket musikaliska reella
-ljud som möjligt, snarare bra ifall \emph{ramverket} saknade uppenbara musikaliska konnotationer.
+inspiration. Jag tolkar begreppet gestalt som en struktur, eller skepnad, som går att skönja men vars detaljer
+inte är tydliga. Det beskrivande å andra sidan kan kanske beskrivas med ``mickey-mousing'', ett begrepp som i
+bland annat ljudläggning för film innebär att det ska finnas ett 1:1 förhållande mellan det som sker på bild
+och det som hörs. Exemplet Tavlor på en utställning\footcite{Tavlor} använder sig av ``mickey-mousing'' till
+viss del, t ex i satsen \emph{``De okläckta kycklingarnas ballett''}, där kycklingarna dansar inuti sina skal,
+som beskrivs ljudande genom att stråket\footnote{I Ravels orkestrering av stycket 1922} spelar \emph{Col
+Legno}, med träsidan av stråken, hoppandes över strängarna. Jag ville istället ha ett mer fritt
+förhållningssätt till materialet, välja bort eller anpassa struktur efter vad jag ansåg passade.
+%Det passade även ifall materialet var utan så mycket musikaliska reella ljud som möjligt, snarare bra ifall \emph{ramverket} saknade uppenbara musikaliska konnotationer.
 
 % Kopplingen till Mark Fisher - möjligtvis lite tam
 Det jag identifierat som en liminal association är, likt Mark Fishers definition av \emph{the Eerie};
-``avsaknaden av närvaro, eller en närvaro där vi inte förväntar oss den''\footnote{Egen översättning}. En sådan plats var Huddinge sjukhus,
-en enorm betongbyggnad 8 våningar hög, där hela väggsidor var utan fönster. Det såg ut som ett dystopiskt fort
-från science fiction-film.
+``avsaknaden av närvaro, eller en närvaro där vi inte förväntar oss den''\footnote{Egen översättning}. En
+sådan plats var Huddinge sjukhus, en enorm betongbyggnad 8 våningar hög, där hela väggsidor var utan fönster.
+Det såg ut som ett dystopiskt fort från science fiction-film.
 
 % Sätt in ett par fotografier från sjukhus här. 
 
@@ -825,15 +817,15 @@ svårgenomtränglig blev tekniken. Genom att ha fokuset på något externt blev 
 Genom att inte behandla tekniken som ett ideal i sig utan som ett hjälpmedel kunde jag inkorporera teknologin
 i mig själv. Det var inte längre relationen mellan mig och teknologin som skulle utforskas, snarare relationen
 mellan mig själv/teknologin och det externa. 
-
-% Metoden som mycket subjektiv, för kompositören i första hand, men med hoppet om att den ger något av det som
-% kompositören gestaltar tillbaka till lyssnaren
-Genom den här metoden har jag arbetat aktivt med att fundera över associationer som ljud kan ha, men oftast ur
-ett poiesiskt\footnote{Poiesisk, Neutral, Estesisk} perspektiv, utan en tanke på, eller snarare en önskan om
-att det inte skulle kunna kommuniceras genom musiken. Jag tänkte att vissa \emph{figurativiseringar} var
-privata eller för banala för att jag skulle vara bekväm att visa upp den delen av kompositionen. Det var som
-styrkan med metoden snarare var att jag kunde luta mig mot den, utifrån frågeställningen hur mitt ljudlandskap
-förrhåller sig till ett associativt landskap. Tanken var att musiken skulle kunna få vara mer lågmäld med vad
+Jag lånar begreppet \emph{figurativiserande} från Delalande, men använder det för att beskriva en generativ
+metod snarare än en  analysmetod. % Metoden som mycket subjektiv, för kompositören i första hand, men med
+hoppet om att den ger något av det som kompositören gestaltar tillbaka till lyssnaren Genom den här metoden
+har jag arbetat aktivt med att fundera över associationer som ljud kan ha, men oftast ur ett
+poiesiskt\footnote{Poiesisk, Neutral, Estesisk} perspektiv, utan en tanke på, eller snarare en önskan om att
+det inte skulle kunna kommuniceras genom musiken. Jag tänkte att vissa \emph{figurativiseringar} var privata
+eller för banala för att jag skulle vara bekväm att visa upp den delen av kompositionen. Det var som styrkan
+med metoden snarare var att jag kunde luta mig mot den, utifrån frågeställningen hur mitt ljudlandskap
+förhåller sig till ett associativt landskap. Tanken var att musiken skulle kunna få vara mer lågmäld med vad
 den gestaltar. En fundering var ifall metoden då skulle tillåta ett mer \emph{figurativiserande} lyssnande hos
 åhöraren.
 
@@ -845,6 +837,8 @@ förmedla något liknande. Att lyssnaren kunde förnimma gestalten av ett sånt 
 
 \pagebreak
 
-\printbibliography[heading=subbibliography, title={Litteratur}, nottype=music]
+\printbibliography[heading=subbibliography, title={Litteratur}, nottype=music, nottype=web, nottype=dictionary]
 \printbibliography[heading=subbibliography, title={Musik}, type=music]
+\printbibliography[heading=subbibliography, title={Uppslagsverk}, type=dictionary]
+\printbibliography[heading=subbibliography, title={Webb}, type=web]
 \end{document}

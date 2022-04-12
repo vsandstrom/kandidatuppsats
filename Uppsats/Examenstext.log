@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  12 APR 2022 09:36
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  12 APR 2022 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -518,7 +518,9 @@ Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count432
 \U@D=\dimen168
@@ -566,30 +568,30 @@ Package csquotes Info: Redefining alias 'default' -> 'swedish'.
  (./Examenstext.aux)
 \openout1 = `Examenstext.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 67.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -631,57 +633,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 65.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 65.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 65.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 65.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 65.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 65.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 65.
-LaTeX Font Info:    Redeclaring math accent \check on input line 65.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 65.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 65.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 65.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 67.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 67.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 67.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 67.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 67.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 67.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 67.
+LaTeX Font Info:    Redeclaring math accent \check on input line 67.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 67.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 67.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 67.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 65.
+(Font)              `operators' in the math version `normal' on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 65.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 67.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 65.
+(Font)              `operators' in the math version `bold' on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 65.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 65.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 65.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 65.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 65.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 65.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 67.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 65.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 65.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 65.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 67.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/b/n on input line 65.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/b/n on input line 67.
 Package biblatex Info: Trying to load language 'swedish'...
 Package biblatex Info: ... file 'swedish.lbx' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/swedish.lbx
@@ -696,9 +698,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Examenstext.bbl' found.
  (./Examenstext.bbl)
-Package biblatex Info: Reference section=0 on input line 65.
-Package biblatex Info: Reference segment=0 on input line 65.
-Package hyperref Info: Link coloring OFF on input line 65.
+Package biblatex Info: Reference section=0 on input line 67.
+Package biblatex Info: Reference segment=0 on input line 67.
+Package hyperref Info: Link coloring OFF on input line 67.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -708,9 +710,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count435
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
  (./Examenstext.out) (./Examenstext.out)
 \@outlinefile=\write4
 \openout4 = `Examenstext.out'.
@@ -720,11 +722,11 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count436
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 67.
+(Font)              <12> on input line 69.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 67.
+(Font)              <8> on input line 69.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 67.
+(Font)              <6> on input line 69.
  [1
 
 ] (./Examenstext.toc
@@ -738,96 +740,231 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2]
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 5.59998pt on input line 82.
- [3] [4]
+(Font)              scaled to size 5.59998pt on input line 84.
+ [3]
 
-LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 158.
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 110.
 
-[5] [6] [7]
+[4]
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 149.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 155.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 169.
+
+[5]
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 188.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 191.
+
+[6] [7]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 261.
+(biblatex)                Using fallback driver on input line 257.
+
+
+Package biblatex Warning: No driver for entry type 'dictionary'.
+(biblatex)                Using fallback driver on input line 272.
 
 [8] [9]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 363.
+(biblatex)                Using fallback driver on input line 358.
 
+Missing character: There is no — ("2014) in font ec-lmr8!
+Missing character: There is no — ("2014) in font ec-lmr8!
 [10]
-Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no — ("2014) in font ec-lmr10!
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 389.
+(biblatex)                Using fallback driver on input line 384.
 
-Missing character: There is no — ("2014) in font ec-lmr10!
-Missing character: There is no ’ ("2019) in font ec-lmr10!
-Missing character: There is no ’ ("2019) in font ec-lmr10!
-Missing character: There is no ’ ("2019) in font ec-lmr10!
-[11] [12] [13] [14]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 555.
+Missing character: There is no — ("2014) in font ec-lmr8!
+Missing character: There is no ’ ("2019) in font ec-lmr8!
+Missing character: There is no ’ ("2019) in font ec-lmr8!
+Missing character: There is no ’ ("2019) in font ec-lmr8!
+[11]
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 440.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 482.
+
+[12]
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 491.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 496.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 524.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 529.
+
+[13]
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 541.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 545.
+
+[14]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 550.
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 555.
+(Font)              scaled to size 6.99997pt on input line 550.
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 557.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 552.
 
 LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-(Font)              scaled to size 6.99997pt on input line 558.
-[15] [16]
+(Font)              scaled to size 6.99997pt on input line 553.
+[15]
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 646.
+
+[16]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 694.
+(biblatex)                Using fallback driver on input line 689.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 696.
+(biblatex)                Using fallback driver on input line 691.
 
-[17] [18] [19]
+[17] [18]
 File: ./img//innergaard2.jpg Graphic file (type bmp)
 <./img//innergaard2.jpg>
 File: ./img//innergaard1.jpg Graphic file (type bmp)
 <./img//innergaard1.jpg>
- [20] [21]
+ [19] [20] [21]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 849.
-
-
-Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 849.
+(biblatex)                Using fallback driver on input line 841.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 849.
+(biblatex)                Using fallback driver on input line 841.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 849.
+(biblatex)                Using fallback driver on input line 841.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 849.
+(biblatex)                Using fallback driver on input line 841.
 
-[22] (./Examenstext.aux)
+
+Package biblatex Warning: No driver for entry type 'music'.
+(biblatex)                Using fallback driver on input line 841.
+
+
+Package biblatex Warning: No driver for entry type 'dictionary'.
+(biblatex)                Using fallback driver on input line 842.
+
+
+Package biblatex Warning: No driver for entry type 'dictionary'.
+(biblatex)                Using fallback driver on input line 842.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+[22]
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+
+Package biblatex Warning: No driver for entry type 'web'.
+(biblatex)                Using fallback driver on input line 843.
+
+[23] (./Examenstext.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Examenstext.out' has not changed.
-(rerunfilecheck)             Checksum: 3DE0E6EF46AC260FE43DAB4FB8D05126;1103.
+(rerunfilecheck)             Checksum: 996D181B35025552173FDA05E5E71189;1325.
 Package logreq Info: Writing requests to 'Examenstext.run.xml'.
 \openout1 = `Examenstext.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23161 strings out of 476179
- 452618 string characters out of 5809545
- 1534218 words of memory out of 5000000
- 43660 multiletter control sequences out of 15000+600000
+ 23324 strings out of 476179
+ 456293 string characters out of 5809545
+ 1535892 words of memory out of 5000000
+ 43819 multiletter control sequences out of 15000+600000
  520805 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,8n,77p,744b,5314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Examenstext.xdv (22 pages, 165072 bytes).
+Output written on Examenstext.xdv (23 pages, 185376 bytes).
