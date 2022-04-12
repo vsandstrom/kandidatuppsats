@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  12 APR 2022 17:41
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  12 APR 2022 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -780,14 +780,14 @@ Package biblatex Warning: No driver for entry type 'dictionary'.
 [8] [9]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 359.
+(biblatex)                Using fallback driver on input line 360.
 
 Missing character: There is no — ("2014) in font ec-lmr8!
 Missing character: There is no — ("2014) in font ec-lmr8!
 [10]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 385.
+(biblatex)                Using fallback driver on input line 386.
 
 Missing character: There is no — ("2014) in font ec-lmr8!
 Missing character: There is no ’ ("2019) in font ec-lmr8!
@@ -796,62 +796,62 @@ Missing character: There is no ’ ("2019) in font ec-lmr8!
 [11]
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 441.
+(biblatex)                Using fallback driver on input line 416.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 483.
+(biblatex)                Using fallback driver on input line 458.
 
 [12]
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 492.
+(biblatex)                Using fallback driver on input line 467.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 497.
+(biblatex)                Using fallback driver on input line 472.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 525.
+(biblatex)                Using fallback driver on input line 500.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 530.
+(biblatex)                Using fallback driver on input line 505.
 
 [13]
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 542.
+(biblatex)                Using fallback driver on input line 517.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 546.
+(biblatex)                Using fallback driver on input line 521.
 
 [14]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 551.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 526.
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 551.
+(Font)              scaled to size 6.99997pt on input line 526.
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 553.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 528.
 
 LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-(Font)              scaled to size 6.99997pt on input line 554.
+(Font)              scaled to size 6.99997pt on input line 529.
 [15]
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 647.
+(biblatex)                Using fallback driver on input line 622.
 
 [16]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 690.
+(biblatex)                Using fallback driver on input line 665.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 692.
+(biblatex)                Using fallback driver on input line 667.
 
 [17] [18]
 File: ./img//innergaard2.jpg Graphic file (type bmp)
@@ -861,92 +861,92 @@ File: ./img//innergaard1.jpg Graphic file (type bmp)
  [19] [20] [21]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 845.
+(biblatex)                Using fallback driver on input line 821.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 845.
+(biblatex)                Using fallback driver on input line 821.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 845.
+(biblatex)                Using fallback driver on input line 821.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 845.
+(biblatex)                Using fallback driver on input line 821.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 845.
+(biblatex)                Using fallback driver on input line 821.
 
 
 Package biblatex Warning: No driver for entry type 'dictionary'.
-(biblatex)                Using fallback driver on input line 846.
+(biblatex)                Using fallback driver on input line 822.
 
 
 Package biblatex Warning: No driver for entry type 'dictionary'.
-(biblatex)                Using fallback driver on input line 846.
+(biblatex)                Using fallback driver on input line 822.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 [22]
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 
 Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 847.
+(biblatex)                Using fallback driver on input line 823.
 
 [23] (./Examenstext.aux)
 
@@ -967,4 +967,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  73i,8n,77p,744b,5314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Examenstext.xdv (23 pages, 185820 bytes).
+Output written on Examenstext.xdv (23 pages, 186744 bytes).
