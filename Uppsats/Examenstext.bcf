@@ -163,7 +163,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>ynt</bcf:value>
+      <bcf:value>nty</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -2340,50 +2340,89 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">./examen.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">./examen.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">ArthurCClarkeMagic</bcf:citekey>
-    <bcf:citekey order="2">Delalande1998</bcf:citekey>
-    <bcf:citekey order="3">LaMemeYoung</bcf:citekey>
-    <bcf:citekey order="4">JoannaDemers</bcf:citekey>
-    <bcf:citekey order="5">LinusHillborg</bcf:citekey>
-    <bcf:citekey order="6">JoannaDemers</bcf:citekey>
-    <bcf:citekey order="7">PierreSchaeffer</bcf:citekey>
-    <bcf:citekey order="8">TrevorWishart</bcf:citekey>
-    <bcf:citekey order="9">TrevorWishart</bcf:citekey>
-    <bcf:citekey order="10">Gennep</bcf:citekey>
-    <bcf:citekey order="11">Gennep</bcf:citekey>
-    <bcf:citekey order="12">Arpad</bcf:citekey>
-    <bcf:citekey order="13">Thomassen</bcf:citekey>
-    <bcf:citekey order="14">Fisher</bcf:citekey>
-    <bcf:citekey order="15">Fisher</bcf:citekey>
-    <bcf:citekey order="16">EnoLand</bcf:citekey>
-    <bcf:citekey order="17">Fisher</bcf:citekey>
-    <bcf:citekey order="18">Eno</bcf:citekey>
-    <bcf:citekey order="19">Airports</bcf:citekey>
-    <bcf:citekey order="20">Eno</bcf:citekey>
-    <bcf:citekey order="21">Basinski</bcf:citekey>
-    <bcf:citekey order="22">Lucier</bcf:citekey>
-    <bcf:citekey order="23">ArthurCClarkeMagic</bcf:citekey>
-    <bcf:citekey order="24">Delalande1998</bcf:citekey>
-    <bcf:citekey order="25">LaMemeYoung</bcf:citekey>
-    <bcf:citekey order="26">JoannaDemers</bcf:citekey>
-    <bcf:citekey order="27">LinusHillborg</bcf:citekey>
-    <bcf:citekey order="28">PierreSchaeffer</bcf:citekey>
-    <bcf:citekey order="29">TrevorWishart</bcf:citekey>
-    <bcf:citekey order="30">Gennep</bcf:citekey>
-    <bcf:citekey order="31">Arpad</bcf:citekey>
-    <bcf:citekey order="32">Thomassen</bcf:citekey>
-    <bcf:citekey order="33">Fisher</bcf:citekey>
-    <bcf:citekey order="34">EnoLand</bcf:citekey>
-    <bcf:citekey order="35">Eno</bcf:citekey>
-    <bcf:citekey order="36">Airports</bcf:citekey>
-    <bcf:citekey order="37">Basinski</bcf:citekey>
-    <bcf:citekey order="38">Lucier</bcf:citekey>
+    <bcf:citekey order="2">sc</bcf:citekey>
+    <bcf:citekey order="3">Delalande1998</bcf:citekey>
+    <bcf:citekey order="4">dsp</bcf:citekey>
+    <bcf:citekey order="5">rpi</bcf:citekey>
+    <bcf:citekey order="6">unix</bcf:citekey>
+    <bcf:citekey order="7">303</bcf:citekey>
+    <bcf:citekey order="8">gas</bcf:citekey>
+    <bcf:citekey order="9">LaMemeYoung</bcf:citekey>
+    <bcf:citekey order="10">JoannaDemers</bcf:citekey>
+    <bcf:citekey order="11">LinusHillborg</bcf:citekey>
+    <bcf:citekey order="12" nocite="1">webster</bcf:citekey>
+    <bcf:citekey order="13">Tavlor</bcf:citekey>
+    <bcf:citekey order="14">JoannaDemers</bcf:citekey>
+    <bcf:citekey order="15">PierreSchaeffer</bcf:citekey>
+    <bcf:citekey order="16">oxford</bcf:citekey>
+    <bcf:citekey order="17">TrevorWishart</bcf:citekey>
+    <bcf:citekey order="18">TrevorWishart</bcf:citekey>
+    <bcf:citekey order="19">Gennep</bcf:citekey>
+    <bcf:citekey order="20">Gennep</bcf:citekey>
+    <bcf:citekey order="21">Arpad</bcf:citekey>
+    <bcf:citekey order="22">Thomassen</bcf:citekey>
+    <bcf:citekey order="23">Fisher</bcf:citekey>
+    <bcf:citekey order="24">Fisher</bcf:citekey>
+    <bcf:citekey order="25">EnoLand</bcf:citekey>
+    <bcf:citekey order="26">Fisher</bcf:citekey>
+    <bcf:citekey order="27">Eno</bcf:citekey>
+    <bcf:citekey order="28">Airports</bcf:citekey>
+    <bcf:citekey order="29">Eno</bcf:citekey>
+    <bcf:citekey order="30">kalkatraz</bcf:citekey>
+    <bcf:citekey order="31">midi</bcf:citekey>
+    <bcf:citekey order="32">qpas</bcf:citekey>
+    <bcf:citekey order="33">waveshaper</bcf:citekey>
+    <bcf:citekey order="34">zoom</bcf:citekey>
+    <bcf:citekey order="35">fft</bcf:citekey>
+    <bcf:citekey order="36">dwg</bcf:citekey>
+    <bcf:citekey order="37">ctrl</bcf:citekey>
+    <bcf:citekey order="38">dc</bcf:citekey>
+    <bcf:citekey order="39">Basinski</bcf:citekey>
+    <bcf:citekey order="40">Lucier</bcf:citekey>
+    <bcf:citekey order="41">mickeymouse</bcf:citekey>
+    <bcf:citekey order="42">Tavlor</bcf:citekey>
+    <bcf:citekey order="43">ArthurCClarkeMagic</bcf:citekey>
+    <bcf:citekey order="44">sc</bcf:citekey>
+    <bcf:citekey order="45">Delalande1998</bcf:citekey>
+    <bcf:citekey order="46">dsp</bcf:citekey>
+    <bcf:citekey order="47">rpi</bcf:citekey>
+    <bcf:citekey order="48">unix</bcf:citekey>
+    <bcf:citekey order="49">303</bcf:citekey>
+    <bcf:citekey order="50">gas</bcf:citekey>
+    <bcf:citekey order="51">LaMemeYoung</bcf:citekey>
+    <bcf:citekey order="52">JoannaDemers</bcf:citekey>
+    <bcf:citekey order="53">LinusHillborg</bcf:citekey>
+    <bcf:citekey order="54">webster</bcf:citekey>
+    <bcf:citekey order="55">Tavlor</bcf:citekey>
+    <bcf:citekey order="56">PierreSchaeffer</bcf:citekey>
+    <bcf:citekey order="57">oxford</bcf:citekey>
+    <bcf:citekey order="58">TrevorWishart</bcf:citekey>
+    <bcf:citekey order="59">Gennep</bcf:citekey>
+    <bcf:citekey order="60">Arpad</bcf:citekey>
+    <bcf:citekey order="61">Thomassen</bcf:citekey>
+    <bcf:citekey order="62">Fisher</bcf:citekey>
+    <bcf:citekey order="63">EnoLand</bcf:citekey>
+    <bcf:citekey order="64">Eno</bcf:citekey>
+    <bcf:citekey order="65">Airports</bcf:citekey>
+    <bcf:citekey order="66">kalkatraz</bcf:citekey>
+    <bcf:citekey order="67">midi</bcf:citekey>
+    <bcf:citekey order="68">qpas</bcf:citekey>
+    <bcf:citekey order="69">waveshaper</bcf:citekey>
+    <bcf:citekey order="70">zoom</bcf:citekey>
+    <bcf:citekey order="71">fft</bcf:citekey>
+    <bcf:citekey order="72">dwg</bcf:citekey>
+    <bcf:citekey order="73">ctrl</bcf:citekey>
+    <bcf:citekey order="74">dc</bcf:citekey>
+    <bcf:citekey order="75">Basinski</bcf:citekey>
+    <bcf:citekey order="76">Lucier</bcf:citekey>
+    <bcf:citekey order="77">mickeymouse</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="ynt">
+  <bcf:sortingtemplate name="nty">
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
@@ -2391,11 +2430,6 @@
       <bcf:sortitem order="1">sortkey</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="3">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-      <bcf:sortitem literal="1" order="3">9999</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
       <bcf:sortitem order="1">sortname</bcf:sortitem>
       <bcf:sortitem order="2">author</bcf:sortitem>
       <bcf:sortitem order="3">editor</bcf:sortitem>
@@ -2403,16 +2437,24 @@
       <bcf:sortitem order="5">sorttitle</bcf:sortitem>
       <bcf:sortitem order="6">title</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="5">
+    <bcf:sort order="4">
       <bcf:sortitem order="1">sorttitle</bcf:sortitem>
       <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="ynt/global//global/global"
+                name="nty/global//global/global"
                 type="entry"
-                sortingtemplatename="ynt"
+                sortingtemplatename="nty"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
