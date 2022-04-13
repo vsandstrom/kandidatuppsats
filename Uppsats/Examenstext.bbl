@@ -19,6 +19,159 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+<<<<<<< HEAD
+=======
+    \entry{sc}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://supercollider.github.io
+      \endverb
+      \verb{url}
+      \verb https://supercollider.github.io
+      \endverb
+    \endentry
+    \entry{dsp}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
+      \endverb
+    \endentry
+    \entry{rpi}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://www.raspberrypi.com/
+      \endverb
+      \verb{url}
+      \verb https://www.raspberrypi.com/
+      \endverb
+    \endentry
+    \entry{unix}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Unix_shell
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Unix_shell
+      \endverb
+    \endentry
+    \entry{303}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://www.vintagesynth.com/roland/303.php
+      \endverb
+      \verb{url}
+      \verb https://www.vintagesynth.com/roland/303.php
+      \endverb
+    \endentry
+    \entry{gas}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
+      \endverb
+      \verb{url}
+      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
+      \endverb
+    \endentry
+    \entry{kalkatraz}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://kalkatrazcassettes.bandcamp.com
+      \endverb
+      \verb{url}
+      \verb https://kalkatrazcassettes.bandcamp.com
+      \endverb
+    \endentry
+    \entry{midi}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://midi.org
+      \endverb
+      \verb{url}
+      \verb https://midi.org
+      \endverb
+    \endentry
+    \entry{qpas}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://makenoisemusic.com/modules/qpas
+      \endverb
+      \verb{url}
+      \verb https://makenoisemusic.com/modules/qpas
+      \endverb
+    \endentry
+    \entry{waveshaper}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb en.wikipedia.org/wiki/waveshaper
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/wiki/waveshaper
+      \endverb
+    \endentry
+    \entry{zoom}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
+      \endverb
+      \verb{url}
+      \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
+      \endverb
+    \endentry
+    \entry{fft}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://sv.wikipedia.org/wiki/Snabb\_fouriertransform
+      \endverb
+      \verb{url}
+      \verb https://sv.wikipedia.org/wiki/Snabb%5C_fouriertransform
+      \endverb
+    \endentry
+    \entry{dwg}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://doc.sccode.org/classes/dwgbowedtor.html
+      \endverb
+      \verb{url}
+      \verb https://doc.sccode.org/classes/dwgbowedtor.html
+      \endverb
+    \endentry
+    \entry{ctrl}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://doc.sccode.org/Reference/Control-Structures.html
+      \endverb
+      \verb{url}
+      \verb https://doc.sccode.org/Reference/Control-Structures.html
+      \endverb
+    \endentry
+    \entry{dc}{online}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/DC\_bias
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/DC%5C_bias
+      \endverb
+    \endentry
+>>>>>>> save
     \entry{LaMemeYoung}{misc}{}
       \name{author}{1}{}{%
         {{hash=f8f37a403e4dc5f6f3e44e53fe3e4178}{%
@@ -157,7 +310,7 @@
       \verb 10.1093/acprof:oso/9780195387650.001.0001
       \endverb
     \endentry
-    \entry{oxford}{dictionary}{}
+    \entry{oxford}{misc}{}
       \name{author}{1}{}{%
         {{hash=be92cbd7d2ec195294efd0d7765f2a26}{%
            family={Dictionary},
@@ -174,7 +327,12 @@
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
-      \field{howpublished}{\url{https://www.lexico.com/definition/acousmatic}}
+      \verb{urlraw}
+      \verb https://www.lexico.com/definition/acousmatic
+      \endverb
+      \verb{url}
+      \verb https://www.lexico.com/definition/acousmatic
+      \endverb
     \endentry
     \entry{dsp}{web}{}
       \field{sortinit}{D}
@@ -414,6 +572,7 @@
       \field{title}{I am sitting in a room}
       \field{year}{1969}
     \endentry
+<<<<<<< HEAD
     \entry{qpas}{web}{}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -422,6 +581,9 @@
       \field{title}{Make Noise Quad Peak Animation System}
     \endentry
     \entry{webster}{dictionary}{}
+=======
+    \entry{webster}{misc}{}
+>>>>>>> save
       \name{author}{1}{}{%
         {{hash=e5b1539d38a1c6e6e6b1821cd8e54cd9}{%
            family={Mariam-Webster},
@@ -436,7 +598,12 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
-      \field{howpublished}{\url{https://www.merriam-webster.com/dictionary/extramusical}}
+      \verb{urlraw}
+      \verb https://www.merriam-webster.com/dictionary/extramusical
+      \endverb
+      \verb{url}
+      \verb https://www.merriam-webster.com/dictionary/extramusical
+      \endverb
     \endentry
     \entry{midi}{web}{}
       \field{sortinit}{M}

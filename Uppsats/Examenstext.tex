@@ -6,11 +6,11 @@
 \usepackage{fontspec}
 \setmonofont[Scale=0.7]{Monaco}
 \usepackage[backend=biber, sorting=nty, style=verbose]{biblatex}
+\addbibresource{./examen.bib}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
-\bibliography{./examen.bib}
 \usepackage{listings}
 \usepackage[T1]{fontenc}
 \usepackage{csquotes}
@@ -58,7 +58,10 @@
 %	
 
 \title{%
+<<<<<<< HEAD
 	%Liminal Space - An Aesthetic \\
+=======
+>>>>>>> save
 	Gränslandets estetik \\
 	\large{Vad har extramusikaliska referenser för roll i det elektroakustiska komponerandet?}
 }
@@ -817,8 +820,8 @@ skulle kunna något som ändå liknade källan. Att lyssnaren kunde förnimma ge
 
 \pagebreak
 
-\printbibliography[heading=subbibliography, title={Litteratur}, nottype=music, nottype=web, nottype=dictionary]
+\printbibliography[heading=subbibliography, title={Litteratur}, nottype=music, nottype=online, nottype=misc]
 \printbibliography[heading=subbibliography, title={Musik}, type=music]
-\printbibliography[heading=subbibliography, title={Uppslagsverk}, type=dictionary]
-\printbibliography[heading=subbibliography, title={Webb}, type=web]
+\printbibliography[heading=subbibliography, title={Uppslagsverk}, type=misc]
+\printbibliography[heading=subbibliography, title={Webb}, type=online]
 \end{document}

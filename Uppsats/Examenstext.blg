@@ -1,5 +1,6 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Examenstext.blg'
+<<<<<<< HEAD
 [92] biber-darwin:340> INFO - === Tis Apr 12, 2022, 17:50:00
 [111] Biber.pm:418> INFO - Reading 'Examenstext.bcf'
 [223] Biber.pm:972> INFO - Found 34 citekeys in bib section 0
@@ -12,3 +13,17 @@
 [444] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'sv-SE'
 [471] bbl.pm:654> INFO - Writing 'Examenstext.bbl' with encoding 'UTF-8'
 [483] bbl.pm:757> INFO - Output to Examenstext.bbl
+=======
+[102] biber-darwin:340> INFO - === Ons Apr 13, 2022, 13:25:15
+[137] Biber.pm:418> INFO - Reading 'Examenstext.bcf'
+[256] Biber.pm:972> INFO - Found 34 citekeys in bib section 0
+[273] Biber.pm:4383> INFO - Processing section 0
+[286] Biber.pm:4574> INFO - Looking for bibtex file './examen.bib' for section 0
+[287] bibtex.pm:1713> INFO - LaTeX decoding ...
+[311] bibtex.pm:1518> INFO - Found BibTeX data source './examen.bib'
+[466] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[466] UCollate.pm:68> INFO - Overriding locale 'sv-SE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[466] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'sv-SE'
+[493] bbl.pm:654> INFO - Writing 'Examenstext.bbl' with encoding 'UTF-8'
+[505] bbl.pm:757> INFO - Output to Examenstext.bbl
+>>>>>>> save
