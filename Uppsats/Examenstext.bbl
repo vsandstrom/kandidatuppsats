@@ -19,159 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-<<<<<<< HEAD
-=======
-    \entry{sc}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://supercollider.github.io
-      \endverb
-      \verb{url}
-      \verb https://supercollider.github.io
-      \endverb
-    \endentry
-    \entry{dsp}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
-      \endverb
-    \endentry
-    \entry{rpi}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://www.raspberrypi.com/
-      \endverb
-      \verb{url}
-      \verb https://www.raspberrypi.com/
-      \endverb
-    \endentry
-    \entry{unix}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Unix_shell
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Unix_shell
-      \endverb
-    \endentry
-    \entry{303}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://www.vintagesynth.com/roland/303.php
-      \endverb
-      \verb{url}
-      \verb https://www.vintagesynth.com/roland/303.php
-      \endverb
-    \endentry
-    \entry{gas}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
-      \endverb
-      \verb{url}
-      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
-      \endverb
-    \endentry
-    \entry{kalkatraz}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://kalkatrazcassettes.bandcamp.com
-      \endverb
-      \verb{url}
-      \verb https://kalkatrazcassettes.bandcamp.com
-      \endverb
-    \endentry
-    \entry{midi}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://midi.org
-      \endverb
-      \verb{url}
-      \verb https://midi.org
-      \endverb
-    \endentry
-    \entry{qpas}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://makenoisemusic.com/modules/qpas
-      \endverb
-      \verb{url}
-      \verb https://makenoisemusic.com/modules/qpas
-      \endverb
-    \endentry
-    \entry{waveshaper}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb en.wikipedia.org/wiki/waveshaper
-      \endverb
-      \verb{url}
-      \verb en.wikipedia.org/wiki/waveshaper
-      \endverb
-    \endentry
-    \entry{zoom}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
-      \endverb
-      \verb{url}
-      \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
-      \endverb
-    \endentry
-    \entry{fft}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://sv.wikipedia.org/wiki/Snabb\_fouriertransform
-      \endverb
-      \verb{url}
-      \verb https://sv.wikipedia.org/wiki/Snabb%5C_fouriertransform
-      \endverb
-    \endentry
-    \entry{dwg}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://doc.sccode.org/classes/dwgbowedtor.html
-      \endverb
-      \verb{url}
-      \verb https://doc.sccode.org/classes/dwgbowedtor.html
-      \endverb
-    \endentry
-    \entry{ctrl}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://doc.sccode.org/Reference/Control-Structures.html
-      \endverb
-      \verb{url}
-      \verb https://doc.sccode.org/Reference/Control-Structures.html
-      \endverb
-    \endentry
-    \entry{dc}{online}{}
-      \field{sortinit}{}
-      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/DC\_bias
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/DC%5C_bias
-      \endverb
-    \endentry
->>>>>>> save
     \entry{LaMemeYoung}{misc}{}
       \name{author}{1}{}{%
         {{hash=f8f37a403e4dc5f6f3e44e53fe3e4178}{%
@@ -245,12 +92,17 @@
       \verb 10.1126/science.159.3812.255-b
       \endverb
     \endentry
-    \entry{dc}{web}{}
+    \entry{dc}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://en.wikipedia.org/wiki/DC\_bias}}
       \field{title}{DC offset}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/DC\_bias
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/DC%5C_bias
+      \endverb
     \endentry
     \entry{Delalande1998}{article}{}
       \name{author}{1}{}{%
@@ -334,19 +186,29 @@
       \verb https://www.lexico.com/definition/acousmatic
       \endverb
     \endentry
-    \entry{dsp}{web}{}
+    \entry{dsp}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Digital_signal_processor}}
-      \field{title}{Digital Signal Processing}
+      \field{title}{Digital signalprocessering}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
+      \endverb
     \endentry
-    \entry{dwg}{web}{}
+    \entry{dwg}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://doc.sccode.org/classes/dwgbowedtor.html}}
-      \field{title}{DWG}
+      \field{title}{DWF, Supercollider Quark}
+      \verb{urlraw}
+      \verb https://doc.sccode.org/classes/dwgbowedtor.html
+      \endverb
+      \verb{url}
+      \verb https://doc.sccode.org/classes/dwgbowedtor.html
+      \endverb
     \endentry
     \entry{Airports}{music}{}
       \name{author}{1}{}{%
@@ -475,12 +337,17 @@
       \verb 10.1080/0950236X.2017.1358704
       \endverb
     \endentry
-    \entry{gas}{web}{}
+    \entry{gas}{online}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://en.wiktionary.org/wiki/gear_acquisition_syndrome}}
-      \field{title}{G.A.S.}
+      \field{title}{G.A.S. Gear Acquisition Syndrome}
+      \verb{urlraw}
+      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
+      \endverb
+      \verb{url}
+      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
+      \endverb
     \endentry
     \entry{Gennep}{book}{}
       \name{author}{1}{}{%
@@ -536,19 +403,29 @@
       \field{type}{mathesis}
       \field{year}{2021}
     \endentry
-    \entry{kalkatraz}{web}{}
-      \field{sortinit}{K}
+    \entry{kalkatraz}{online}{}
+      \field{sortinit}{k}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://kalkatrazcassettes.bandcamp.com}}
-      \field{title}{Kalkatraz Cassettes}
+      \field{title}{kalkatraz Cassettes}
+      \verb{urlraw}
+      \verb https://kalkatrazcassettes.bandcamp.com
+      \endverb
+      \verb{url}
+      \verb https://kalkatrazcassettes.bandcamp.com
+      \endverb
     \endentry
-    \entry{ctrl}{web}{}
+    \entry{ctrl}{online}{}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://doc.sccode.org/Reference/Control-Structures.html}}
       \field{title}{Kontrollstrukturer}
+      \verb{urlraw}
+      \verb https://doc.sccode.org/Reference/Control-Structures.html
+      \endverb
+      \verb{url}
+      \verb https://doc.sccode.org/Reference/Control-Structures.html
+      \endverb
     \endentry
     \entry{Lucier}{music}{}
       \name{author}{1}{}{%
@@ -572,18 +449,7 @@
       \field{title}{I am sitting in a room}
       \field{year}{1969}
     \endentry
-<<<<<<< HEAD
-    \entry{qpas}{web}{}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://makenoisemusic.com/modules/qpas}}
-      \field{title}{Make Noise Quad Peak Animation System}
-    \endentry
-    \entry{webster}{dictionary}{}
-=======
     \entry{webster}{misc}{}
->>>>>>> save
       \name{author}{1}{}{%
         {{hash=e5b1539d38a1c6e6e6b1821cd8e54cd9}{%
            family={Mariam-Webster},
@@ -605,12 +471,29 @@
       \verb https://www.merriam-webster.com/dictionary/extramusical
       \endverb
     \endentry
-    \entry{midi}{web}{}
+    \entry{mickeymouse}{online}{}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://midi.org}}
+      \field{title}{Mickey Mousing}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Mickey_Mousing
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Mickey_Mousing
+      \endverb
+    \endentry
+    \entry{midi}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
       \field{title}{Midi}
+      \verb{urlraw}
+      \verb https://midi.org
+      \endverb
+      \verb{url}
+      \verb https://midi.org
+      \endverb
     \endentry
     \entry{Tavlor}{music}{}
       \name{author}{1}{}{%
@@ -634,19 +517,29 @@
       \field{title}{Tavlor på en utställning}
       \field{year}{1874}
     \endentry
-    \entry{rpi}{web}{}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+    \entry{qpas}{online}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.raspberrypi.com/}}
-      \field{title}{Raspberry Pi}
+      \field{title}{Quad Peak Animation System}
+      \verb{urlraw}
+      \verb https://makenoisemusic.com/modules/qpas
+      \endverb
+      \verb{url}
+      \verb https://makenoisemusic.com/modules/qpas
+      \endverb
     \endentry
-    \entry{303}{web}{}
+    \entry{rpi}{online}{}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.vintagesynth.com/roland/303.php}}
-      \field{title}{Roland TB-303}
+      \field{title}{Raspberry Pi}
+      \verb{urlraw}
+      \verb https://www.raspberrypi.com/
+      \endverb
+      \verb{url}
+      \verb https://www.raspberrypi.com/
+      \endverb
     \endentry
     \entry{PierreSchaeffer}{book}{}
       \name{author}{1}{}{%
@@ -675,19 +568,29 @@
       \field{title}{Traité des Objets Musicaux}
       \field{year}{1966}
     \endentry
-    \entry{fft}{web}{}
+    \entry{fft}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://sv.wikipedia.org/wiki/Snabb\_fouriertransform}}
-      \field{title}{Snabb Fouriertransform}
+      \field{title}{Snabb fouriertransform}
+      \verb{urlraw}
+      \verb https://sv.wikipedia.org/wiki/Snabb\_fouriertransform
+      \endverb
+      \verb{url}
+      \verb https://sv.wikipedia.org/wiki/Snabb%5C_fouriertransform
+      \endverb
     \endentry
-    \entry{sc}{web}{}
+    \entry{sc}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://supercollider.github.io}}
       \field{title}{SuperCollider}
+      \verb{urlraw}
+      \verb https://supercollider.github.io
+      \endverb
+      \verb{url}
+      \verb https://supercollider.github.io
+      \endverb
     \endentry
     \entry{Arpad}{article}{}
       \name{author}{1}{}{%
@@ -712,6 +615,18 @@
       \field{title}{Liminality and Experience}
       \field{volume}{2}
       \field{year}{2009}
+    \endentry
+    \entry{303}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{TB303 Roland}
+      \verb{urlraw}
+      \verb https://www.vintagesynth.com/roland/303.php
+      \endverb
+      \verb{url}
+      \verb https://www.vintagesynth.com/roland/303.php
+      \endverb
     \endentry
     \entry{Thomassen}{article}{}
       \name{author}{1}{}{%
@@ -739,19 +654,29 @@
       \field{pages}{5\bibrangedash 27}
       \range{pages}{23}
     \endentry
-    \entry{unix}{web}{}
+    \entry{unix}{online}{}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Unix_shell}}
-      \field{title}{Unix Shell}
+      \field{title}{Unix-shell}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Unix_shell
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Unix_shell
+      \endverb
     \endentry
-    \entry{waveshaper}{web}{}
+    \entry{waveshaper}{online}{}
       \field{sortinit}{W}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{en.wikipedia.org/wiki/waveshaper}}
-      \field{title}{Wave Shaping}
+      \field{title}{Waveshaper}
+      \verb{urlraw}
+      \verb en.wikipedia.org/wiki/waveshaper
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/wiki/waveshaper
+      \endverb
     \endentry
     \entry{TrevorWishart}{book}{}
       \name{author}{2}{}{%
@@ -788,12 +713,17 @@
       \verb 10.4324/9781315077895
       \endverb
     \endentry
-    \entry{zoom}{web}{}
+    \entry{zoom}{online}{}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder}}
       \field{title}{Zoom H6}
+      \verb{urlraw}
+      \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
+      \endverb
+      \verb{url}
+      \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  12 APR 2022 18:11
-=======
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  13 APR 2022 13:25
->>>>>>> save
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  13 APR 2022 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -650,7 +646,6 @@ Package csquotes Info: Redefining alias 'default' -> 'swedish'.
 (./Examenstext.aux)
 \openout1 = `Examenstext.aux'.
 
-<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
@@ -660,23 +655,10 @@ LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 68.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
-=======
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-7.
+8.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
->>>>>>> save
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 68.
@@ -795,21 +777,13 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Examenstext.bbl' found.
-<<<<<<< HEAD
- (./Examenstext.bbl)
+
+(./Examenstext.bbl)
 Package biblatex Info: Reference section=0 on input line 68.
 Package biblatex Info: Reference segment=0 on input line 68.
 Package hyperref Info: Link coloring OFF on input line 68.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
-=======
-
-(./Examenstext.bbl)
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
-Package hyperref Info: Link coloring OFF on input line 67.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
->>>>>>> save
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -851,138 +825,49 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2]
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-<<<<<<< HEAD
 (Font)              scaled to size 5.59998pt on input line 85.
- [3]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 111.
-
-[4]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 150.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 156.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 170.
-
-[5]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 189.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 192.
-
-[6] [7]
-=======
-(Font)              scaled to size 5.59998pt on input line 84.
 
 [3] [4] [5] [6] [7]
->>>>>>> save
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 258.
+(biblatex)                Using fallback driver on input line 263.
 
-<<<<<<< HEAD
-
-Package biblatex Warning: No driver for entry type 'dictionary'.
-(biblatex)                Using fallback driver on input line 273.
-
-=======
->>>>>>> save
 [8] [9]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 360.
+(biblatex)                Using fallback driver on input line 365.
 
 Missing character: There is no — ("2014) in font ec-lmr8!
 Missing character: There is no — ("2014) in font ec-lmr8!
 [10]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 386.
+(biblatex)                Using fallback driver on input line 391.
 
 Missing character: There is no — ("2014) in font ec-lmr8!
 Missing character: There is no ’ ("2019) in font ec-lmr8!
 Missing character: There is no ’ ("2019) in font ec-lmr8!
 Missing character: There is no ’ ("2019) in font ec-lmr8!
-<<<<<<< HEAD
-[11]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 416.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 458.
-
-[12]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 467.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 472.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 500.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 505.
-
-[13]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 517.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 521.
-
-[14]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 526.
-=======
 [11] [12] [13] [14]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 550.
->>>>>>> save
+nput line 531.
 LaTeX Font Info:    Font shape `TU/Monaco(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 526.
+(Font)              scaled to size 6.99997pt on input line 531.
 
 
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
-(Font)              using `TU/Monaco(0)/m/n' instead on input line 528.
+(Font)              using `TU/Monaco(0)/m/n' instead on input line 533.
 
 LaTeX Font Info:    Font shape `TU/Monaco(0)/b/n' will be
-<<<<<<< HEAD
-(Font)              scaled to size 6.99997pt on input line 529.
-[15]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 622.
-
-[16]
-=======
-(Font)              scaled to size 6.99997pt on input line 553.
+(Font)              scaled to size 6.99997pt on input line 534.
 [15] [16]
->>>>>>> save
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 665.
+(biblatex)                Using fallback driver on input line 670.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 667.
+(biblatex)                Using fallback driver on input line 672.
 
 [17] [18]
 File: ./img//innergaard2.jpg Graphic file (type bmp)
@@ -992,98 +877,25 @@ File: ./img//innergaard1.jpg Graphic file (type bmp)
  [19] [20] [21]
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 821.
+(biblatex)                Using fallback driver on input line 826.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 821.
+(biblatex)                Using fallback driver on input line 826.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 821.
+(biblatex)                Using fallback driver on input line 826.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 821.
+(biblatex)                Using fallback driver on input line 826.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 821.
+(biblatex)                Using fallback driver on input line 826.
 
-<<<<<<< HEAD
-
-Package biblatex Warning: No driver for entry type 'dictionary'.
-(biblatex)                Using fallback driver on input line 822.
-
-
-Package biblatex Warning: No driver for entry type 'dictionary'.
-(biblatex)                Using fallback driver on input line 822.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-[22]
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-
-Package biblatex Warning: No driver for entry type 'web'.
-(biblatex)                Using fallback driver on input line 823.
-
-[23] (./Examenstext.aux)
-=======
 [22] [23] (./Examenstext.aux)
->>>>>>> save
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1094,23 +906,12 @@ Package logreq Info: Writing requests to 'Examenstext.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 23324 strings out of 476179
- 456293 string characters out of 5809545
- 1535884 words of memory out of 5000000
- 43819 multiletter control sequences out of 15000+600000
-=======
- 23325 strings out of 476179
- 456316 string characters out of 5809545
- 1535930 words of memory out of 5000000
- 43820 multiletter control sequences out of 15000+600000
->>>>>>> save
+ 23330 strings out of 476179
+ 456470 string characters out of 5809545
+ 1535991 words of memory out of 5000000
+ 43825 multiletter control sequences out of 15000+600000
  520805 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,8n,77p,744b,5314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-<<<<<<< HEAD
-Output written on Examenstext.xdv (23 pages, 186744 bytes).
-=======
 Output written on Examenstext.pdf (23 pages).
->>>>>>> save
