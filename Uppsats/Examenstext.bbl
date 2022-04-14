@@ -491,6 +491,7 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
+      \field{note}{[Uppslagsverk]}
       \verb{urlraw}
       \verb https://www.merriam-webster.com/dictionary/extramusical
       \endverb
@@ -579,35 +580,12 @@
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
+      \field{note}{[Uppslagsverk]}
       \verb{urlraw}
       \verb https://www.lexico.com/definition/acousmatic
       \endverb
       \verb{url}
       \verb https://www.lexico.com/definition/acousmatic
-      \endverb
-    \endentry
-    \entry{rpi}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f65fce3768e19eaa05429ba62e6fd133}{%
-           family={Pi},
-           familyi={P\bibinitperiod},
-           given={Raspberry},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{f65fce3768e19eaa05429ba62e6fd133}
-      \strng{fullhash}{f65fce3768e19eaa05429ba62e6fd133}
-      \strng{bibnamehash}{f65fce3768e19eaa05429ba62e6fd133}
-      \strng{authorbibnamehash}{f65fce3768e19eaa05429ba62e6fd133}
-      \strng{authornamehash}{f65fce3768e19eaa05429ba62e6fd133}
-      \strng{authorfullhash}{f65fce3768e19eaa05429ba62e6fd133}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://www.raspberrypi.com/
-      \endverb
-      \verb{url}
-      \verb https://www.raspberrypi.com/
       \endverb
     \endentry
     \entry{qpas}{online}{}
@@ -632,6 +610,28 @@
       \verb https://makenoisemusic.com/modules/qpas
       \endverb
     \endentry
+    \entry{rpi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e941ab0a40b3ca731335ce3483c5a817}{%
+           family={{Raspberry Pi}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e941ab0a40b3ca731335ce3483c5a817}
+      \strng{fullhash}{e941ab0a40b3ca731335ce3483c5a817}
+      \strng{bibnamehash}{e941ab0a40b3ca731335ce3483c5a817}
+      \strng{authorbibnamehash}{e941ab0a40b3ca731335ce3483c5a817}
+      \strng{authornamehash}{e941ab0a40b3ca731335ce3483c5a817}
+      \strng{authorfullhash}{e941ab0a40b3ca731335ce3483c5a817}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://www.raspberrypi.com/
+      \endverb
+      \verb{url}
+      \verb https://www.raspberrypi.com/
+      \endverb
+    \endentry
     \entry{303}{online}{}
       \name{author}{1}{}{%
         {{hash=87b7583ea709a9c4eb15e72b1d11e510}{%
@@ -654,6 +654,118 @@
       \endverb
       \verb{url}
       \verb https://www.vintagesynth.com/roland/303.php
+      \endverb
+    \endentry
+    \entry{DEC}{music}{}
+      \name{author}{1}{}{%
+        {{hash=eceaed92722814595f4a374b2d1f4393}{%
+           family={Sandström},
+           familyi={S\bibinitperiod},
+           given={Viktor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{fullhash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{bibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorbibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authornamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorfullhash}{eceaed92722814595f4a374b2d1f4393}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DEC}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb soundcloud.com/viktorsandstrm/dec
+      \endverb
+      \verb{url}
+      \verb soundcloud.com/viktorsandstrm/dec
+      \endverb
+    \endentry
+    \entry{K87-89}{music}{}
+      \name{author}{1}{}{%
+        {{hash=eceaed92722814595f4a374b2d1f4393}{%
+           family={Sandström},
+           familyi={S\bibinitperiod},
+           given={Viktor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{fullhash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{bibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorbibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authornamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorfullhash}{eceaed92722814595f4a374b2d1f4393}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{K87-89}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb soundcloud.com/viktorsandstrm/fev
+      \endverb
+      \verb{url}
+      \verb soundcloud.com/viktorsandstrm/fev
+      \endverb
+    \endentry
+    \entry{KOLTRAST}{music}{}
+      \name{author}{1}{}{%
+        {{hash=eceaed92722814595f4a374b2d1f4393}{%
+           family={Sandström},
+           familyi={S\bibinitperiod},
+           given={Viktor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{fullhash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{bibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorbibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authornamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorfullhash}{eceaed92722814595f4a374b2d1f4393}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Koltrast}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb soundcloud.com/viktorsandstrm/koltrast
+      \endverb
+      \verb{url}
+      \verb soundcloud.com/viktorsandstrm/koltrast
+      \endverb
+    \endentry
+    \entry{META}{music}{}
+      \name{author}{1}{}{%
+        {{hash=eceaed92722814595f4a374b2d1f4393}{%
+           family={Sandström},
+           familyi={S\bibinitperiod},
+           given={Viktor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{fullhash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{bibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorbibnamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authornamehash}{eceaed92722814595f4a374b2d1f4393}
+      \strng{authorfullhash}{eceaed92722814595f4a374b2d1f4393}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metamorfos}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/vsandstrom/metamorphosis
+      \endverb
+      \verb{url}
+      \verb https://github.com/vsandstrom/metamorphosis
       \endverb
     \endentry
     \entry{PierreSchaeffer}{book}{}

@@ -8,6 +8,8 @@
 \usepackage[backend=biber, sorting=nty, doi=false, style=verbose]{biblatex}
 \addbibresource{./examen.bib}
 \usepackage{hyperref}
+\usepackage{afterpage}
+\usepackage{pdfpages}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -18,6 +20,11 @@
 \usepackage[swedish]{babel}
 % \usepackage[T2A]{fontenc}
 \graphicspath{ {./img/} }
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\newpage
+}
 \renewcommand{\baselinestretch}{1.5}
 \lstset{basicstyle=\ttfamily\footnotesize, tabsize=2} \usepackage[framed, numbered]{sclang-prettifier}
 \interfootnotelinepenalty=10000
@@ -53,17 +60,21 @@
 
 %	
 
-\title{%
-	%Liminal Space - An Aesthetic \\
-	Gränslandets estetik \\
-	\large{Vad har extramusikaliska referenser för roll i det elektroakustiska komponerandet?}
-}
-\author{Viktor Sandström}
+%\title{%
+%	%Liminal Space - An Aesthetic \\
+%	Gränslandets estetik \\
+%	\large{Vad har extramusikaliska referenser för roll i det elektroakustiska komponerandet?}
+%}
+%\author{Viktor Sandström}
 % \date{Februari 2022}
 
+
 \begin{document}
-\maketitle
-\newpage
+% \maketitle
+\begin{titlepage}
+	\includepdf[pages={1-2}]{./Framsidauppsats.pdf}
+\end{titlepage}
+
 \tableofcontents
 \newpage
 % Vad jag vill prata om och varför jag tycker att det är intressant.
@@ -113,7 +124,7 @@ Under min utbildning har det ofta känts som att jag jagat ett ideal av vad elek
 känsla av att inte hinna lära sig alla tekniker som är aktuella inom det elektroakustiska fältet, och att
 ständigt göra musik som på ett eller annat sätt är en del av en lärandeprocess, men som är påeldad av
 prestationsångest och en känsla av att inte veta vad man gör. En insikt var att mycket, om inte allt jag gjort
-under åren varit något likt en emph{tech-demo}, ett ljudande exempel på vad en teknik kan erbjuda, utan att jag
+under åren varit något likt en \emph{tech-demo}, ett ljudande exempel på vad en teknik kan erbjuda, utan att jag
 haft en känslomässig förankring i materialet.
 
 Den kompositionsmetod jag använde kändes annorlunda från min erfarenhet av att skriva musik inom
@@ -132,15 +143,18 @@ liknade dess källa? Att lyssnaren kunde förnimma gestalten av ett sånt landsk
 
 \section{Bakgrund}
 % Flytta till Bakgrund
+
 I \emph{François Delalandes} uppsats \emph{Music Analysis and Reception Behaviours: Sommeil by Pierre Henry}
-\footcite[26, 38, 52]{Delalande1998} definierar han tre typer av lyssnarbeteenden, eller analysmetoder, det
-\emph{taxonomiska}, det \emph{empatiska} och det \emph{figurativiserande}. Det \emph{taxonomiska} påminner om
+\footcite[26, 38, 52]{Delalande1998} presenterar han tre typer av lyssnarbeteenden, eller analysmetoder, det
+\emph{taxonomiska}, det \emph{empatiska} och det \emph{figurativiserande}. \footnote{Det \emph{taxonomiska} påminner om
 traditionell musikanalys, att försöka strukturera och klassificera ljud längs en tidslinje. Det
 \emph{empatiska} intresserar sig för de känslointryck som musiken ger lyssnaren i stunden, utan att tänka så mycket på
-form. Det tredje, \emph{figurativiserande}, lyssnar med ett perspektiv som tillåts associera fritt kring de
+form.} Det \emph{figurativiserande} lyssnar med ett perspektiv som tillåts associera fritt kring de
 ljud den hör, använda ljuden som scener som beskriver ett narrativ. Lyssnaren förnimmer narrativet eller
 scenen genom musiken. De grupperar liknande ljud, men motsatt till det \emph{taxonomiska}, kopplas ljudet till
-en entitet, ett ting eller något levande, och tolkas som rörelse istället för en serie diskreta händelser.
+en entitet, ett ting eller något levande, och tolkas som rörelse istället för en serie diskreta händelser. Jag
+kommer senare i texten utgå från det figurativa lyssnadet för att diskutera generativa metoder som arbetar med
+extramusikaliska associationer. 
 
 % Utveckla och binda över till tekniken.
 
@@ -160,7 +174,7 @@ individen.
 
 % Demokratiseringen av studion.
 I och med att denna teknik förflyttats närmare individen har den demokratiserats. Musikteknik har i teorin
-aldrig varit så tillgängligt. Dessa hjälpmedel för att skriva, spela in och producera kan ibland rymmas i
+aldrig varit så tillgängligt. Dessa hjälpmedel för att skriva, spela in och producera kan rymmas i
 fickan på sin användare.
 
 % Bygg ut, vad finns det för några hjälpmedel / verktyg idag? Garageband etc
@@ -174,11 +188,11 @@ eftersom dessa kommandon kan vara mycket obskyra för den oinvigde.
 	
   % Skyll på att det är den fria marknadens fel att vi inte använder open source
 På detta vis är vi också fast i en marknad där dessa open source-verktyg drunknar på grund av sin egen
-otillgänglighet, verktyg\footnote{Jag använder termen ``verktyg'' för att prata om musikutrustning och
+otillgänglighet, verktyg\footnote{Jag använder termen \emph{verktyg} för att prata om musikutrustning och
 teknologier i en bred bemärkelse, från hårdvara till mjukvara} som annars skulle kunna öppna dörrar för många
 till experimentell, algoritmisk elektronisk musik, och musikproduktion i stort. Denna marknad består av
 musikteknologi som säljs för höga summor, något som med open source-teknologi skulle kunna vara mycket lätt
-att ersätta, men som marknadsförs till oss som en ``easy fix'', något som inte bara underlättar och överbryggar
+att ersätta, men som marknadsförs till oss som en \emph{easy fix}, något som inte bara underlättar och överbryggar
 tröskeln till det tekniska, men också till det estetiska. Dessa verktyg säljs med idén att om du bara behöver
 skaffa dig en sista pryl kommer kreativiteten att flöda. Tidigare banbrytade verktygstillverkare, som
 Moog, eller Dave Smith Instruments, säljer nu sina instrument om high-end-utrustning. De är brukbara och låter
@@ -444,7 +458,7 @@ tanke på att detta faller inom ramen för ämnet av denna uppsats nämner jag d
 % Min EP skrevs i huvudsak under min tid som sjukskriven efter min njurtransplantation. De fyra spåren har
 % namn som refererar till tidpunkter eller platser som fastnat tydligt i minnet hos mig. 
 
-\subsection{DEC}
+\subsection{DEC}\nocite{DEC}
 \emph{Dec} var det första stycket jag började arbeta med. Det skulle ursprungligen vara en form av ljudläggning
 av platser på sjukhus som känns bortglömda, med fokus på innergårdar och utrymmen runtomkring och mellan
 husen, ofta lite gråa, deprimerande och med offentlig konst som kändes som den kommit till i en eftertanke. En
@@ -455,7 +469,7 @@ van vid och det var en surrealistisk känsla där det kändes som att tiden stod
 
 Musiken skrevs först senare, när jag återbesökte min ursprungliga idé. Det började med en process där jag hade
 tänkt att använda en modulärsynt som förlängning av min dator och SuperCollider, genom
-MIDI\footcite{midi}- och styrsignal. 
+\emph{MIDI}\footcite{midi}- och styrsignal. 
 Dock skrevs själva tonmaterialet på ett piano, som sedan fick vidarearbetas i modulärsynten. Det var
 tvåstämmigt, och jag tänkte på det som en duett mellan två oscillatorer. En sequencer i modulärsynten styrde 
 tonhöjd, tonlängd och även förändringar i texturen. 
@@ -464,12 +478,12 @@ Det tonala har en mycket långsam puls och styckets form är en väldigt tydlig 
 den utdragna pulsen har att göra med styckets tema, men nästan lika mycket med min egen förkärlek för långsamt
 utvecklande klanger. Jag har tänkt på vinterns mörker, där även dagen är i halvskymning, som något dovt och
 molande, och använde från början rena sinustoner i instrumenteringen. Jag arbetade med ett
-QPAS-filter\footcite{qpas}(Quad Peak Animation System) från
+\emph{QPAS-filter}\footcite{qpas}(Quad Peak Animation System) från
 tillverkaren Make Noise. Med detta filter kunde jag arbeta med ytterligare en stämma, genom att framhäva och
 finstämma vissa övertoner i den styckets klang. Stämman bidrog till variation i en annars väldigt lunkande och
 stillastående ljudbild, Jag upplevde att den bidrog till mer motrörelse, trots att stämman var en en ton med
 en statisk relation till de underliggande tonerna. Tillsammans med filtret och en
-waveshaper\footcite{waveshaper}-effekt kunde jag arbeta med en dramaturgi i
+\emph{waveshaper}\footcite{waveshaper}-effekt kunde jag arbeta med en dramaturgi i
 stycket, med dynamiska kurvor. Eftersom jag redan placerat stycket i en årstid var det lätt att tänka
 snöstorm, med ett vinande och brusande och böljande, men det kan också handla om hur märklig och obehagligt
 det var att vara sjukskriven under den här perioden.
@@ -491,18 +505,18 @@ det var att vara sjukskriven under den här perioden.
 % spela musiken som en solokonsert, och med tanken på min bakgrund som pianist kändes det rätt att ha
 % något att påverka musiken med. 
 
-\subsection{Koltrast}
+\subsection{Koltrast}\nocite{KOLTRAST}
 Stycket \emph{Koltrast} skrevs under sommaren 2021, när jag spenderade tid i Göteborg. Stommen i stycket är en
 lång field-recording av koltrastsång. Efter min operation hade jag haft problem med att sova, och inspelningen
 gjordes under en natt som var så varm att det var tvunget att ha balkongdörren öppen. Precis när det började
 ljusna vaknade jag av att det lät som fåglar inuti rummet. Det visade sig vara en handfull koltrastar som
 sjöng över hustaken på Doktor Fries Torg. Jag fångade det genom att sätta igång en inspelning på en  
-Zoom\footcite{zoom} innan
+\emph{Zoom}\footcite{zoom} innan
 jag gick och lade mig igen. 
 
 När jag sedan bestämt mig för att skriva ett stycke kring fågelsången, ville jag
 testa om jag kunde låta inspelningen styra musikaliska parametrar på något vis. Min första tanke var att
-använda FFT-analys\footcite{fft} för att kunna följa
+använda \emph{FFT-analys}\footcite{fft} för att kunna följa
 fågelsångens egen tonhöjd, och tillåta den styra tonhöjden av en synt. Under processen blev jag dock
 mycket fäst vid hur inspelningen lät i sig själv och ville inte bygga ett instrument som skulle göra en
 konstgjord kopia. Istället bestämde jag mig för att bygga ett program i
@@ -514,7 +528,7 @@ Jag bestämde mig då för att utforma stycket så det skulle bli något i stil 
 
 Jag undersökte även \emph{physical modelling}, tekniken att framställa ljud som liknar akustiska klanger på
 syntetisk väg. Till detta använde jag en färdig klass i SuperCollider som heter \emph{DWGBowedTor} från biblioteket
-DWG\footcite{dwg}. Denna typen av physical modelling skulle
+\emph{DWG}\footcite{dwg}. Denna typen av physical modelling skulle
 härma stråkinstrument och simulera resonanser inuti instrumentet. Tillsammans med en basstämma fick agera
 kontrapunktiskt mot den mer stokastiska koltraststämman och dess ackompanjerande synt, de fick vara mer
 förutsägbara och ha en mer cirkulär form. Här arbetade jag även med att skriva sekvenser med
@@ -597,7 +611,7 @@ SynthDef(\demandSynth2, {
 % \end{lstlisting}
 % \renewcommand{\baselinestretch}{1.5}
 
-\subsection{K87-89}
+\subsection{K87-89}\nocite{K87-89}
 \emph{K87-89} heter sjukhusavdelningen på Huddinge sjukhus där jag och min pappa låg inne efter vår operation. 
 Eftersom det var mitt under Covid19-pandemin var vi tvungna att stanna på sjukhusavdelningen i en vecka, med bara
 varandra och sjukhuspersonal som sällskap. Det hela var en rätt unik upplevelse på flera sätt, som jag inte
@@ -655,7 +669,7 @@ SynthDef(\fold, {
 \end{lstlisting}
 \renewcommand{\baselinestretch}{1.5}
 
-\subsection{Metamorfos}
+\subsection{Metamorfos}\nocite{META}
 Under min sjukskrivning hade jag fått uppmaningen att gå promenader, och jag passade på att spela in ljud i
 min omgivning. Dessa ljud använde jag senare i ljudinstallationen \emph{Metamorfos}, som ställdes ut en helg i
 februari 2022 på Galleri Resorb i Stockholm. Ljudinstallationen hade börjat som ett experiment på
@@ -831,4 +845,6 @@ figurativt lyssnande hos åhöraren.
 \printbibliography[heading=subbibliography, title={Uppslagsverk}, type=misc]
 \pagebreak
 \printbibliography[heading=subbibliography, title={Webb}, type=online]
+
+\includepdf[pages={6}]{./Framsidauppsats.pdf}
 \end{document}
