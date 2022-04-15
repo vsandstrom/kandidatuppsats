@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Inledning}{3}{section.1}%
 \contentsline {section}{\numberline {2}Bakgrund}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Elektronisk musik och Teknologi}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Absolute vs Programmatic music.}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Absolut- vs Programmusik.}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}\emph {Liminality} och \emph {The Eerie}}{8}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Musik}{11}{section.3}%
 \contentsline {subsection}{\numberline {3.1}DEC}{11}{subsection.3.1}%
