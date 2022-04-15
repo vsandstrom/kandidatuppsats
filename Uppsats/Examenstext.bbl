@@ -177,6 +177,28 @@
       \verb 10.1093/acprof:oso/9780195387650.001.0001
       \endverb
     \endentry
+    \entry{dsp}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bfbc48f6b43a52fdb713498c94091a3f}{%
+           family={{Digital signalprocessering}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfbc48f6b43a52fdb713498c94091a3f}
+      \strng{fullhash}{bfbc48f6b43a52fdb713498c94091a3f}
+      \strng{bibnamehash}{bfbc48f6b43a52fdb713498c94091a3f}
+      \strng{authorbibnamehash}{bfbc48f6b43a52fdb713498c94091a3f}
+      \strng{authornamehash}{bfbc48f6b43a52fdb713498c94091a3f}
+      \strng{authorfullhash}{bfbc48f6b43a52fdb713498c94091a3f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
+      \endverb
+    \endentry
     \entry{dwg}{online}{}
       \name{author}{1}{}{%
         {{hash=24cf539fe2e641fdbe48d19a1a159455}{%
@@ -355,6 +377,28 @@
       \field{note}{[Audio Essay]}
       \field{title}{On Vanishing Land}
       \field{year}{2019}
+    \endentry
+    \entry{gas}{online}{}
+      \name{author}{1}{}{%
+        {{hash=93ddf5eaa54af56bf9c25285935bab9e}{%
+           family={{G.A.S. Gear Acquisition Syndrome}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{93ddf5eaa54af56bf9c25285935bab9e}
+      \strng{fullhash}{93ddf5eaa54af56bf9c25285935bab9e}
+      \strng{bibnamehash}{93ddf5eaa54af56bf9c25285935bab9e}
+      \strng{authorbibnamehash}{93ddf5eaa54af56bf9c25285935bab9e}
+      \strng{authornamehash}{93ddf5eaa54af56bf9c25285935bab9e}
+      \strng{authorfullhash}{93ddf5eaa54af56bf9c25285935bab9e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
+      \endverb
+      \verb{url}
+      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
+      \endverb
     \endentry
     \entry{Gennep}{book}{}
       \name{author}{1}{}{%
@@ -795,30 +839,6 @@
       \field{title}{Traité des Objets Musicaux}
       \field{year}{1966}
     \endentry
-    \entry{dsp}{online}{}
-      \name{author}{1}{}{%
-        {{hash=d50a31ff98c9c2a19d0dbc79194cd1cf}{%
-           family={signalprocessering},
-           familyi={s\bibinitperiod},
-           given={Digital},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{d50a31ff98c9c2a19d0dbc79194cd1cf}
-      \strng{fullhash}{d50a31ff98c9c2a19d0dbc79194cd1cf}
-      \strng{bibnamehash}{d50a31ff98c9c2a19d0dbc79194cd1cf}
-      \strng{authorbibnamehash}{d50a31ff98c9c2a19d0dbc79194cd1cf}
-      \strng{authornamehash}{d50a31ff98c9c2a19d0dbc79194cd1cf}
-      \strng{authorfullhash}{d50a31ff98c9c2a19d0dbc79194cd1cf}
-      \field{sortinit}{s}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
-      \endverb
-    \endentry
     \entry{fft}{online}{}
       \name{author}{1}{}{%
         {{hash=f460c53689226a9045365bbae1b47ef2}{%
@@ -861,30 +881,6 @@
       \endverb
       \verb{url}
       \verb https://supercollider.github.io
-      \endverb
-    \endentry
-    \entry{gas}{online}{}
-      \name{author}{1}{}{%
-        {{hash=b13c62a2bed9621aa7d8125fd5ac9823}{%
-           family={Syndrome},
-           familyi={S\bibinitperiod},
-           given={G.A.S.\bibnamedelimi Gear\bibnamedelima Acquisition},
-           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b13c62a2bed9621aa7d8125fd5ac9823}
-      \strng{fullhash}{b13c62a2bed9621aa7d8125fd5ac9823}
-      \strng{bibnamehash}{b13c62a2bed9621aa7d8125fd5ac9823}
-      \strng{authorbibnamehash}{b13c62a2bed9621aa7d8125fd5ac9823}
-      \strng{authornamehash}{b13c62a2bed9621aa7d8125fd5ac9823}
-      \strng{authorfullhash}{b13c62a2bed9621aa7d8125fd5ac9823}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
-      \endverb
-      \verb{url}
-      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
       \endverb
     \endentry
     \entry{Arpad}{article}{}
