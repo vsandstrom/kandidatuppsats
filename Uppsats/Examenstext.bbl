@@ -722,10 +722,10 @@
       \field{title}{DEC}
       \field{year}{2021}
       \verb{urlraw}
-      \verb soundcloud.com/viktorsandstrm/dec
+      \verb https://soundcloud.com/viktorsandstrm/dec
       \endverb
       \verb{url}
-      \verb soundcloud.com/viktorsandstrm/dec
+      \verb https://soundcloud.com/viktorsandstrm/dec
       \endverb
     \endentry
     \entry{K87-89}{music}{}
@@ -750,10 +750,10 @@
       \field{title}{K87-89}
       \field{year}{2021}
       \verb{urlraw}
-      \verb soundcloud.com/viktorsandstrm/fev
+      \verb https://soundcloud.com/viktorsandstrm/fev
       \endverb
       \verb{url}
-      \verb soundcloud.com/viktorsandstrm/fev
+      \verb https://soundcloud.com/viktorsandstrm/fev
       \endverb
     \endentry
     \entry{KOLTRAST}{music}{}
@@ -778,10 +778,10 @@
       \field{title}{Koltrast}
       \field{year}{2021}
       \verb{urlraw}
-      \verb soundcloud.com/viktorsandstrm/koltrast
+      \verb https://soundcloud.com/viktorsandstrm/koltrast
       \endverb
       \verb{url}
-      \verb soundcloud.com/viktorsandstrm/koltrast
+      \verb https://soundcloud.com/viktorsandstrm/koltrast
       \endverb
     \endentry
     \entry{META}{music}{}
