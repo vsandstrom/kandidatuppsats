@@ -490,20 +490,20 @@ SynthDef(\demandSynth2, {
 			[ 0, 0.01, 1, 0 ],
 			[
 				0.05,
-				\atk.kr(0.1).linexp(0, 1, 0.01, 0.3),
-				\rel.kr(1).linexp(0, 1, 0.01, 0.39) 
+				\atk.kr(0.1).linexp( 0, 1, 0.01, 0.3 ),
+				\rel.kr(1).linexp( 0, 1, 0.01, 0.39 ) 
 			], curve: -4
 		), trigger
 	);
 
-	sig = DPW3Tri.ar( Demand.kr(trigger, 0, demandUGens: Dseq( [ 
-			[ fund, (fund*3) / 2], // Db, Ab
-			[ (fund*5) / 4, (fund*5) / 3], // F, Bb
-			[ (fund*15) / 8, (fund*9) / 8], // C, Eb
-			[ (fund*3) / 2, (fund*45) / 32],  // Ab, G
-			[ (fund*15) / 16, (fund*5) / 4]
+	sig = DPW3Tri.ar(Demand.kr(trigger, 0, demandUGens: Dseq([ 
+			[ fund, (fund*3) / 2 ], 
+			[ (fund*5) / 4, (fund*5) / 3 ], 
+			[ (fund*15) / 8, (fund*9) / 8 ], 
+			[ (fund*3) / 2, (fund*45) / 32 ],  
+			[ (fund*15) / 16, (fund*5) / 4 ]
 			] * 2, inf
-		) * Dwrand([1, 2, 0.75], [0.6,0.2, 0.1], inf)).lag(0.1)
+		) * Dwrand([ 1, 2, 0.75 ], [ 0.6,0.2, 0.1 ], inf)).lag(0.1)
 	);
 
 	sig = sig * fade * EnvFollow.kr( in ).lag(0.7) * \vol.kr(0.7) ;
@@ -518,7 +518,7 @@ SynthDef(\demandSynth2, {
 	);
 
 	Out.ar( \out.kr(0), 0.8 * env * sig!2.tanh + ( 
-		verb * \verbVol.kr(0.3).linexp(0, 1, 0.01, 0.6))
+		verb * \verbVol.kr(0.3).linexp( 0, 1, 0.01, 0.6 ))
 	);  
 }).add;
 \end{lstlisting}
@@ -564,9 +564,10 @@ SynthDef(\fold, {
 
 	env = EnvGen.kr(
 		envelope: Env(
-			[0,1,0], [\atk.kr(0.4), \rel.kr(2.6)], curve: \lin
+			[ 0, 1, 0 ], [ \atk.kr(0.4), \rel.kr(2.6) ], curve: \lin
 			), 
-		gate: \t_trig.kr(0), levelScale: 1, timeScale: 1, doneAction: 2);
+		gate: \t_trig.kr(0), levelScale: 1, timeScale: 1, doneAction: 2
+	);
 
 	dirt = LFDNoise3.kr(25);
 
@@ -574,10 +575,10 @@ SynthDef(\fold, {
 		Fold.ar(
 			XFade2.ar(
 				SinOsc.ar(\freq.kr(64).midicps), 
-				DPW3Tri.ar(\freq.kr.midicps), \fold.kr(0.1).linlin(0, 1, -1, 1) + (dirt * 0.1)
+				DPW3Tri.ar(\freq.kr.midicps), \fold.kr(0.1).linlin( 0, 1, -1, 1 ) + (dirt * 0.1)
 			),
-			-1 * (\fold.kr + dirt.linexp(0, 1, 0.01, 0.05)),
-			\fold.kr + dirt.linexp(0, 1, 0.01, 0.05)
+			-1 * (\fold.kr + dirt.linexp( 0, 1, 0.01, 0.05 )),
+			\fold.kr + dirt.linexp( 0, 1, 0.01, 0.05 )
 		) * env, 5000 );
 
 	Out.ar(\out.kr(0), Splay.ar(sig*(\vol.kr(0.1) * 0.35))).tanh;
@@ -622,11 +623,11 @@ löses upp av enzymer och blir till en soppa av proteiner, som sedan blir de byg
 \begin{figure}[hb]
 \renewcommand{\baselinestretch}{1}
 \begin{lstlisting}[style=SuperCollider-IDE, , captionpos=b]
-~metamorphosis = {|larv, fjril, chunk, x = -1|
+~metamorphosis = {| larv, fjril, chunk, x = -1 |
 	var rand = rrand(0, larv.size);
 	var i = 0;
 	if (x == rand && larv[rand] == fjril[rand]) {
-		thisFunction.value(larv, fjril, chunk, rand);
+		thisFunction.value( larv, fjril, chunk, rand );
 	} {
 		for(0, chunk, {|i|
 			larv.wrapPut((rand + i), fjril.wrapAt((rand + i)));
