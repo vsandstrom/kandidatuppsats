@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  30 APR 2022 23:03
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  30 APR 2022 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -864,64 +864,64 @@ File: ./img//innergaard1.jpg Graphic file (type bmp)
  [24] [25] [26]
 
 Package biblatex Warning: No driver for entry type 'podcast'.
-(biblatex)                Using fallback driver on input line 758.
+(biblatex)                Using fallback driver on input line 764.
 
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 758.
+(biblatex)                Using fallback driver on input line 764.
 
 
 Package biblatex Warning: No driver for entry type 'audiothesis'.
-(biblatex)                Using fallback driver on input line 758.
+(biblatex)                Using fallback driver on input line 764.
 
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 758.
+(biblatex)                Using fallback driver on input line 764.
 
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 758.
+(biblatex)                Using fallback driver on input line 764.
 
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 758.
+(biblatex)                Using fallback driver on input line 764.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 761.
+(biblatex)                Using fallback driver on input line 767.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 761.
+(biblatex)                Using fallback driver on input line 767.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 761.
+(biblatex)                Using fallback driver on input line 767.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 761.
+(biblatex)                Using fallback driver on input line 767.
 
 
 Package biblatex Warning: No driver for entry type 'music'.
-(biblatex)                Using fallback driver on input line 761.
+(biblatex)                Using fallback driver on input line 767.
 
 [27]
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 771.
+(biblatex)                Using fallback driver on input line 777.
 
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 771.
+(biblatex)                Using fallback driver on input line 777.
 
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 771.
+(biblatex)                Using fallback driver on input line 777.
 
 
 Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 771.
+(biblatex)                Using fallback driver on input line 777.
 
 File: ./Framsidauppsats.pdf Graphic file (type pdf)
 <use ./Framsidauppsats.pdf>
@@ -957,4 +957,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  73i,17n,80p,744b,5243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Examenstext.xdv (31 pages, 205176 bytes).
+Output written on Examenstext.xdv (31 pages, 205348 bytes).
