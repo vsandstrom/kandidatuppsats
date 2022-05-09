@@ -1,15 +1,15 @@
 # Fdb version 3
-["biber Examenstext"] 1652103634 "Examenstext.bcf" "Examenstext.bbl" "Examenstext" 1652103642
+["biber Examenstext"] 1652103634 "Examenstext.bcf" "Examenstext.bbl" "Examenstext" 1652103892
   "./examen.bib" 1652103634 6220 d49fa2c53e1ee51446dcd91fe7565676 ""
-  "Examenstext.bcf" 1652103642 111557 d3eb40551b780a5d8c8415a19bbc2bca "xelatex"
+  "Examenstext.bcf" 1652103891 111557 d3eb40551b780a5d8c8415a19bbc2bca "xelatex"
   (generated)
   "Examenstext.bbl"
   "Examenstext.blg"
-["xdvipdfmx"] 1652103642 "Examenstext.xdv" "Examenstext.pdf" "Examenstext" 1652103642
-  "Examenstext.xdv" 1652103642 201632 a8a3b487410b088d06d69a46be11ab2e "xelatex"
+["xdvipdfmx"] 1652103891 "Examenstext.xdv" "Examenstext.pdf" "Examenstext" 1652103892
+  "Examenstext.xdv" 1652103891 201632 8083cf278337ed0e4b91c87d09e1fa0f "xelatex"
   (generated)
   "Examenstext.pdf"
-["xelatex"] 1652103639 "Examenstext.tex" "Examenstext.xdv" "Examenstext" 1652103642
+["xelatex"] 1652103889 "Examenstext.tex" "Examenstext.xdv" "Examenstext" 1652103892
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -124,12 +124,12 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1649153372 5419899 0a5d1638b587257431aa04870550672f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Examenstext.aux" 1652103642 10970 cb76a431863c3c50d149a1a85734e79a "xelatex"
+  "Examenstext.aux" 1652103891 10970 cb76a431863c3c50d149a1a85734e79a "xelatex"
   "Examenstext.bbl" 1652103636 41682 bd090e380a74dfa3f6871f6738658b0c "biber Examenstext"
-  "Examenstext.out" 1652103642 1897 21db0994f39e0598b2dc5669f7562579 "xelatex"
-  "Examenstext.run.xml" 1652103642 2422 ac3b68c6967418173bb44dcb01719252 "xelatex"
-  "Examenstext.tex" 1652102139 52888 c21212d3980b3a04cd005b4d327f2f3c ""
-  "Examenstext.toc" 1652103642 1248 95d55db33269e884f95eedfbaffe0169 "xelatex"
+  "Examenstext.out" 1652103891 1897 21db0994f39e0598b2dc5669f7562579 "xelatex"
+  "Examenstext.run.xml" 1652103891 2422 ac3b68c6967418173bb44dcb01719252 "xelatex"
+  "Examenstext.tex" 1652103888 53001 9af4374cf2a8732e463c421dea786390 ""
+  "Examenstext.toc" 1652103891 1248 95d55db33269e884f95eedfbaffe0169 "xelatex"
   "Framsidauppsats.pdf" 1652098670 103076 fb66fc8f2a10a12add92ffa2d937aef2 ""
   "geometry.sty" 1647031740 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "img//innergaard1.jpg" 1649618802 621344 d68a2f03d87c8c274e328aa4ecc09fdf ""
