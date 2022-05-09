@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  4 MAY 2022 19:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.5)  9 MAY 2022 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -892,34 +892,35 @@ Package biblatex Warning: No driver for entry type 'music'.
 Package biblatex Warning: No driver for entry type 'bilaga'.
 (biblatex)                Using fallback driver on input line 780.
 
-
-Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 780.
-
-
-Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 780.
-
-
-Package biblatex Warning: No driver for entry type 'bilaga'.
-(biblatex)                Using fallback driver on input line 780.
-
-File: ./Framsidauppsats.pdf Graphic file (type pdf)
-<use ./Framsidauppsats.pdf>
-File: ./Framsidauppsats.pdf Graphic file (type pdf)
-<use ./Framsidauppsats.pdf>
-File: ./Framsidauppsats.pdf Graphic file (type pdf)
-<use ./Framsidauppsats.pdf, page 6>
-File: ./Framsidauppsats.pdf Graphic file (type pdf)
-<use ./Framsidauppsats.pdf, page 6>
 [28]
+
+Package biblatex Warning: No driver for entry type 'bilaga'.
+(biblatex)                Using fallback driver on input line 780.
+
+
+Package biblatex Warning: No driver for entry type 'bilaga'.
+(biblatex)                Using fallback driver on input line 780.
+
+
+Package biblatex Warning: No driver for entry type 'bilaga'.
+(biblatex)                Using fallback driver on input line 780.
+
+File: ./Framsidauppsats.pdf Graphic file (type pdf)
+<use ./Framsidauppsats.pdf>
+File: ./Framsidauppsats.pdf Graphic file (type pdf)
+<use ./Framsidauppsats.pdf>
+File: ./Framsidauppsats.pdf Graphic file (type pdf)
+<use ./Framsidauppsats.pdf, page 6>
+File: ./Framsidauppsats.pdf Graphic file (type pdf)
+<use ./Framsidauppsats.pdf, page 6>
+[29]
 File: ./Framsidauppsats.pdf Graphic file (type pdf)
 <use ./Framsidauppsats.pdf, page 6>
 File: ./Framsidauppsats.pdf Graphic file (type pdf)
 <use ./Framsidauppsats.pdf, page 6>
 File: ./Framsidauppsats.pdf Graphic file (type pdf)
 <use ./Framsidauppsats.pdf, page 6>
- [29] (./Examenstext.aux)
+ [30] (./Examenstext.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -938,4 +939,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  73i,17n,80p,744b,5243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Examenstext.xdv (31 pages, 197552 bytes).
+Output written on Examenstext.xdv (32 pages, 201632 bytes).

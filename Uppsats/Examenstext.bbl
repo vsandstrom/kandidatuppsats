@@ -44,7 +44,16 @@
       \field{labeltitlesource}{title}
       \field{note}{[Podcast]}
       \field{title}{THE JESSICA EKOMANE TALK}
-      \field{year}{2021}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://podtail.se/podcast/la-meme-young/the-jessica-ekomane-talk/
+      \endverb
+      \verb{url}
+      \verb https://podtail.se/podcast/la-meme-young/the-jessica-ekomane-talk/
+      \endverb
     \endentry
     \entry{Basinski}{music}{}
       \name{author}{1}{}{%
@@ -112,6 +121,10 @@
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://manual.audacityteam.org/man/dc_offset.html#Removing_DC_offset
       \endverb
@@ -206,6 +219,10 @@
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://doc.sccode.org/classes/dwgbowedtor.html
       \endverb
@@ -490,6 +507,10 @@
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://kalkatrazcassettes.bandcamp.com
       \endverb
@@ -526,6 +547,10 @@
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://doc.sccode.org/Reference/Control-Structures.html
       \endverb
@@ -571,6 +596,10 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{note}{[Uppslagsverk]}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.merriam-webster.com/dictionary/extramusical
       \endverb
@@ -607,6 +636,10 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://midi.org
       \endverb
@@ -679,6 +712,10 @@
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
       \field{note}{[Uppslagsverk]}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.lexico.com/definition/acousmatic
       \endverb
@@ -701,6 +738,10 @@
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://makenoisemusic.com/modules/qpas
       \endverb
@@ -755,6 +796,10 @@
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.raspberrypi.com/
       \endverb
@@ -811,6 +856,10 @@
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.vintagesynth.com/roland/303.php
       \endverb
@@ -862,6 +911,10 @@
       \field{sortinit}{s}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.man7.org/linux/man-pages/man1/bash.1.html
       \endverb
@@ -884,6 +937,10 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://skaiv.se/
       \endverb
@@ -906,6 +963,10 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://supercollider.github.io
       \endverb
@@ -978,6 +1039,10 @@
       \field{sortinit}{W}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://ccrma.stanford.edu/~jatin/ComplexNonlinearities/Wavefolder.html
       \endverb
@@ -1035,6 +1100,10 @@
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
       \endverb
