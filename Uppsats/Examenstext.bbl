@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{LaMemeYoung}{podcast}{}
+    \entry{LaMemeYoung}{online}{}
       \name{author}{2}{}{%
         {{hash=f8f37a403e4dc5f6f3e44e53fe3e4178}{%
            family={Alper},
@@ -44,7 +44,16 @@
       \field{labeltitlesource}{title}
       \field{note}{[Podcast]}
       \field{title}{THE JESSICA EKOMANE TALK}
-      \field{year}{2021}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://podtail.se/podcast/la-meme-young/the-jessica-ekomane-talk/
+      \endverb
+      \verb{url}
+      \verb https://podtail.se/podcast/la-meme-young/the-jessica-ekomane-talk/
+      \endverb
     \endentry
     \entry{Basinski}{music}{}
       \name{author}{1}{}{%
@@ -112,11 +121,15 @@
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/DC_bias
+      \verb https://manual.audacityteam.org/man/dc_offset.html#Removing_DC_offset
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/wiki/DC_bias
+      \verb https://manual.audacityteam.org/man/dc_offset.html#Removing_DC_offset
       \endverb
     \endentry
     \entry{DEC}{bilaga}{}
@@ -191,28 +204,6 @@
       \verb 10.1093/acprof:oso/9780195387650.001.0001
       \endverb
     \endentry
-    \entry{dsp}{online}{}
-      \name{author}{1}{}{%
-        {{hash=bfbc48f6b43a52fdb713498c94091a3f}{%
-           family={{Digital signalprocessering}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{bfbc48f6b43a52fdb713498c94091a3f}
-      \strng{fullhash}{bfbc48f6b43a52fdb713498c94091a3f}
-      \strng{bibnamehash}{bfbc48f6b43a52fdb713498c94091a3f}
-      \strng{authorbibnamehash}{bfbc48f6b43a52fdb713498c94091a3f}
-      \strng{authornamehash}{bfbc48f6b43a52fdb713498c94091a3f}
-      \strng{authorfullhash}{bfbc48f6b43a52fdb713498c94091a3f}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Digital_signal_processor
-      \endverb
-    \endentry
     \entry{dwg}{online}{}
       \name{author}{1}{}{%
         {{hash=24cf539fe2e641fdbe48d19a1a159455}{%
@@ -228,6 +219,10 @@
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://doc.sccode.org/classes/dwgbowedtor.html
       \endverb
@@ -392,28 +387,6 @@
       \field{title}{On Vanishing Land}
       \field{year}{2019}
     \endentry
-    \entry{gas}{online}{}
-      \name{author}{1}{}{%
-        {{hash=93ddf5eaa54af56bf9c25285935bab9e}{%
-           family={{G.A.S. Gear Acquisition Syndrome}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{93ddf5eaa54af56bf9c25285935bab9e}
-      \strng{fullhash}{93ddf5eaa54af56bf9c25285935bab9e}
-      \strng{bibnamehash}{93ddf5eaa54af56bf9c25285935bab9e}
-      \strng{authorbibnamehash}{93ddf5eaa54af56bf9c25285935bab9e}
-      \strng{authornamehash}{93ddf5eaa54af56bf9c25285935bab9e}
-      \strng{authorfullhash}{93ddf5eaa54af56bf9c25285935bab9e}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
-      \endverb
-      \verb{url}
-      \verb https://en.wiktionary.org/wiki/gear_acquisition_syndrome
-      \endverb
-    \endentry
     \entry{Gennep}{book}{}
       \name{author}{1}{}{%
         {{hash=92bfdb890ac8eabd445fae54447b19dc}{%
@@ -443,7 +416,39 @@
       \field{title}{The Rites of Passage}
       \field{year}{1977}
     \endentry
-    \entry{LinusHillborg}{thesis}{}
+    \entry{gas}{book}{}
+      \name{author}{2}{}{%
+        {{hash=4d7ac40d3a4f37aabb89454c430b1439}{%
+           family={Herbst},
+           familyi={H\bibinitperiod},
+           given={Jan-Peter},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=5a0e8f50663d7271b810a1f89b1f62a5}{%
+           family={Menze},
+           familyi={M\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Huddersfield}%
+      }
+      \list{publisher}{1}{%
+        {University of Huddersfield Press}%
+      }
+      \strng{namehash}{f15c2c21f800fe3a8f89adfdd7885424}
+      \strng{fullhash}{f15c2c21f800fe3a8f89adfdd7885424}
+      \strng{bibnamehash}{f15c2c21f800fe3a8f89adfdd7885424}
+      \strng{authorbibnamehash}{f15c2c21f800fe3a8f89adfdd7885424}
+      \strng{authornamehash}{f15c2c21f800fe3a8f89adfdd7885424}
+      \strng{authorfullhash}{f15c2c21f800fe3a8f89adfdd7885424}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gear Acquisition Syndrome}
+      \field{year}{2021}
+    \endentry
+    \entry{LinusHillborg}{book}{}
       \name{author}{1}{}{%
         {{hash=150cd89cd59cc66409af690c30744d5c}{%
            family={Hillborg},
@@ -465,7 +470,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Återbruk och återgivning}
-      \field{type}{mathesis}
       \field{year}{2021}
       \verb{urlraw}
       \verb http://urn.kb.se/resolve?urn=urn:nbn:se:kmh:diva-4110
@@ -503,6 +507,10 @@
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://kalkatrazcassettes.bandcamp.com
       \endverb
@@ -539,6 +547,10 @@
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://doc.sccode.org/Reference/Control-Structures.html
       \endverb
@@ -584,6 +596,10 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{note}{[Uppslagsverk]}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.merriam-webster.com/dictionary/extramusical
       \endverb
@@ -605,28 +621,6 @@
       \verb https://github.com/vsandstrom/metamorphosis
       \endverb
     \endentry
-    \entry{mickeymouse}{online}{}
-      \name{author}{1}{}{%
-        {{hash=a156e0bfd46725d00af145a78a4badc9}{%
-           family={{Mickey Mousing}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{a156e0bfd46725d00af145a78a4badc9}
-      \strng{fullhash}{a156e0bfd46725d00af145a78a4badc9}
-      \strng{bibnamehash}{a156e0bfd46725d00af145a78a4badc9}
-      \strng{authorbibnamehash}{a156e0bfd46725d00af145a78a4badc9}
-      \strng{authornamehash}{a156e0bfd46725d00af145a78a4badc9}
-      \strng{authorfullhash}{a156e0bfd46725d00af145a78a4badc9}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Mickey_Mousing
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Mickey_Mousing
-      \endverb
-    \endentry
     \entry{midi}{online}{}
       \name{author}{1}{}{%
         {{hash=3fec520e33032983ea108fcaba30a74d}{%
@@ -642,12 +636,43 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://midi.org
       \endverb
       \verb{url}
       \verb https://midi.org
       \endverb
+    \endentry
+    \entry{mickeymouse}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dca38ee7f26a3e3d27e3dd69fdc133d4}{%
+           family={Moorman},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Weisbaden}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien Wiesbaden}%
+      }
+      \strng{namehash}{dca38ee7f26a3e3d27e3dd69fdc133d4}
+      \strng{fullhash}{dca38ee7f26a3e3d27e3dd69fdc133d4}
+      \strng{bibnamehash}{dca38ee7f26a3e3d27e3dd69fdc133d4}
+      \strng{authorbibnamehash}{dca38ee7f26a3e3d27e3dd69fdc133d4}
+      \strng{authornamehash}{dca38ee7f26a3e3d27e3dd69fdc133d4}
+      \strng{authorfullhash}{dca38ee7f26a3e3d27e3dd69fdc133d4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{year}{2013}
+      \field{pages}{97\bibrangedash 98}
+      \range{pages}{2}
     \endentry
     \entry{Tavlor}{music}{}
       \name{author}{1}{}{%
@@ -687,6 +712,10 @@
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
       \field{note}{[Uppslagsverk]}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.lexico.com/definition/acousmatic
       \endverb
@@ -709,12 +738,48 @@
       \field{sortinit}{Q}
       \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://makenoisemusic.com/modules/qpas
       \endverb
       \verb{url}
       \verb https://makenoisemusic.com/modules/qpas
       \endverb
+    \endentry
+    \entry{dsp}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fc5e10874f928d24803009f43a119ad9}{%
+           family={Rabiner},
+           familyi={R\bibinitperiod},
+           given={Lawrence\bibnamedelima R.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=94856cec51fffe5becfdb662f67d2373}{%
+           family={Fold},
+           familyi={F\bibinitperiod},
+           given={Bernald},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall Inc}%
+      }
+      \strng{namehash}{3e1075d3e9d41f1b092428b36f52ca38}
+      \strng{fullhash}{3e1075d3e9d41f1b092428b36f52ca38}
+      \strng{bibnamehash}{3e1075d3e9d41f1b092428b36f52ca38}
+      \strng{authorbibnamehash}{3e1075d3e9d41f1b092428b36f52ca38}
+      \strng{authornamehash}{3e1075d3e9d41f1b092428b36f52ca38}
+      \strng{authorfullhash}{3e1075d3e9d41f1b092428b36f52ca38}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Theory and Application of Digital Signal Processing}
+      \field{year}{1975}
     \endentry
     \entry{rpi}{online}{}
       \name{author}{1}{}{%
@@ -731,12 +796,48 @@
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.raspberrypi.com/
       \endverb
       \verb{url}
       \verb https://www.raspberrypi.com/
       \endverb
+    \endentry
+    \entry{audioFX}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6feb0767f57229346e3eba3ed48f7bf5}{%
+           family={Reiss},
+           familyi={R\bibinitperiod},
+           given={Joshua\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b7cdf92b737b8f855f96371825f6ba4c}{%
+           family={McPherson},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{d89817c905dab02747e192e6028c6df8}
+      \strng{fullhash}{d89817c905dab02747e192e6028c6df8}
+      \strng{bibnamehash}{d89817c905dab02747e192e6028c6df8}
+      \strng{authorbibnamehash}{d89817c905dab02747e192e6028c6df8}
+      \strng{authornamehash}{d89817c905dab02747e192e6028c6df8}
+      \strng{authorfullhash}{d89817c905dab02747e192e6028c6df8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Audio Effects, Theory, Implementation and Application}
+      \field{year}{2015}
     \endentry
     \entry{303}{online}{}
       \name{author}{1}{}{%
@@ -755,6 +856,10 @@
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.vintagesynth.com/roland/303.php
       \endverb
@@ -789,26 +894,58 @@
       \field{title}{Traité des Objets Musicaux}
       \field{year}{1966}
     \endentry
-    \entry{fft}{online}{}
+    \entry{unix}{online}{}
       \name{author}{1}{}{%
-        {{hash=f460c53689226a9045365bbae1b47ef2}{%
-           family={{Snabb fouriertransform}},
+        {{hash=f1f137c9ba28da335f276650524cdd4d}{%
+           family={shell},
+           familyi={s\bibinitperiod},
+           given={Unix/Linux},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1f137c9ba28da335f276650524cdd4d}
+      \strng{fullhash}{f1f137c9ba28da335f276650524cdd4d}
+      \strng{bibnamehash}{f1f137c9ba28da335f276650524cdd4d}
+      \strng{authorbibnamehash}{f1f137c9ba28da335f276650524cdd4d}
+      \strng{authornamehash}{f1f137c9ba28da335f276650524cdd4d}
+      \strng{authorfullhash}{f1f137c9ba28da335f276650524cdd4d}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.man7.org/linux/man-pages/man1/bash.1.html
+      \endverb
+      \verb{url}
+      \verb https://www.man7.org/linux/man-pages/man1/bash.1.html
+      \endverb
+    \endentry
+    \entry{skaiv}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ebb2afc8ced14db4e3ccf10c091127a9}{%
+           family={{Skaiv}},
            familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{f460c53689226a9045365bbae1b47ef2}
-      \strng{fullhash}{f460c53689226a9045365bbae1b47ef2}
-      \strng{bibnamehash}{f460c53689226a9045365bbae1b47ef2}
-      \strng{authorbibnamehash}{f460c53689226a9045365bbae1b47ef2}
-      \strng{authornamehash}{f460c53689226a9045365bbae1b47ef2}
-      \strng{authorfullhash}{f460c53689226a9045365bbae1b47ef2}
+      \strng{namehash}{ebb2afc8ced14db4e3ccf10c091127a9}
+      \strng{fullhash}{ebb2afc8ced14db4e3ccf10c091127a9}
+      \strng{bibnamehash}{ebb2afc8ced14db4e3ccf10c091127a9}
+      \strng{authorbibnamehash}{ebb2afc8ced14db4e3ccf10c091127a9}
+      \strng{authornamehash}{ebb2afc8ced14db4e3ccf10c091127a9}
+      \strng{authorfullhash}{ebb2afc8ced14db4e3ccf10c091127a9}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://sv.wikipedia.org/wiki/Snabb_fouriertransform
+      \verb https://skaiv.se/
       \endverb
       \verb{url}
-      \verb https://sv.wikipedia.org/wiki/Snabb_fouriertransform
+      \verb https://skaiv.se/
       \endverb
     \endentry
     \entry{sc}{online}{}
@@ -826,6 +963,10 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://supercollider.github.io
       \endverb
@@ -883,48 +1024,30 @@
       \field{pages}{5\bibrangedash 27}
       \range{pages}{23}
     \endentry
-    \entry{unix}{online}{}
+    \entry{wavefolder}{online}{}
       \name{author}{1}{}{%
-        {{hash=4ec7d281056dc46c65a4f3bbef04cf16}{%
-           family={Unix-shell},
-           familyi={U\bibinithyphendelim s\bibinitperiod}}}%
-      }
-      \strng{namehash}{4ec7d281056dc46c65a4f3bbef04cf16}
-      \strng{fullhash}{4ec7d281056dc46c65a4f3bbef04cf16}
-      \strng{bibnamehash}{4ec7d281056dc46c65a4f3bbef04cf16}
-      \strng{authorbibnamehash}{4ec7d281056dc46c65a4f3bbef04cf16}
-      \strng{authornamehash}{4ec7d281056dc46c65a4f3bbef04cf16}
-      \strng{authorfullhash}{4ec7d281056dc46c65a4f3bbef04cf16}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labelnamesource}{author}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Unix_shell
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Unix_shell
-      \endverb
-    \endentry
-    \entry{waveshaper}{online}{}
-      \name{author}{1}{}{%
-        {{hash=053b3b2264a4629bfe6225eff21465bd}{%
-           family={Waveshaper},
+        {{hash=d6d65ce8eef7a4a9a6778b43919badde}{%
+           family={Wavefolder},
            familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{053b3b2264a4629bfe6225eff21465bd}
-      \strng{fullhash}{053b3b2264a4629bfe6225eff21465bd}
-      \strng{bibnamehash}{053b3b2264a4629bfe6225eff21465bd}
-      \strng{authorbibnamehash}{053b3b2264a4629bfe6225eff21465bd}
-      \strng{authornamehash}{053b3b2264a4629bfe6225eff21465bd}
-      \strng{authorfullhash}{053b3b2264a4629bfe6225eff21465bd}
+      \strng{namehash}{d6d65ce8eef7a4a9a6778b43919badde}
+      \strng{fullhash}{d6d65ce8eef7a4a9a6778b43919badde}
+      \strng{bibnamehash}{d6d65ce8eef7a4a9a6778b43919badde}
+      \strng{authorbibnamehash}{d6d65ce8eef7a4a9a6778b43919badde}
+      \strng{authornamehash}{d6d65ce8eef7a4a9a6778b43919badde}
+      \strng{authorfullhash}{d6d65ce8eef7a4a9a6778b43919badde}
       \field{sortinit}{W}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb en.wikipedia.org/wiki/waveshaper
+      \verb https://ccrma.stanford.edu/~jatin/ComplexNonlinearities/Wavefolder.html
       \endverb
       \verb{url}
-      \verb en.wikipedia.org/wiki/waveshaper
+      \verb https://ccrma.stanford.edu/~jatin/ComplexNonlinearities/Wavefolder.html
       \endverb
     \endentry
     \entry{TrevorWishart}{book}{}
@@ -977,6 +1100,10 @@
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6-audio-recorder
       \endverb
