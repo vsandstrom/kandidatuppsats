@@ -1,29 +1,15 @@
 # Fdb version 3
-<<<<<<< HEAD
-["biber Examenstext"] 1651341936 "Examenstext.bcf" "Examenstext.bbl" "Examenstext" 1651347243
-  "./examen.bib" 1651341935 5399 8704673332427f97e04304e73b4de8a9 ""
-  "Examenstext.bcf" 1651347242 111403 783eed617e8fbb0e2b6719acea1564ba "xelatex"
+["biber Examenstext"] 1653119354 "Examenstext.bcf" "Examenstext.bbl" "Examenstext" 1653662693
+  "./examen.bib" 1653662550 6219 728796e15ae2a2259a1ff5ccf20b8b9a ""
+  "Examenstext.bcf" 1653662550 111671 b5238e468d996c0632d43de179252a10 "xelatex"
   (generated)
   "Examenstext.bbl"
   "Examenstext.blg"
-["xdvipdfmx"] 1651347242 "Examenstext.xdv" "Examenstext.pdf" "Examenstext" 1651347243
-  "Examenstext.xdv" 1651347242 205088 655772cbbf669ec5ad04aed778740c47 "xelatex"
+["xdvipdfmx"] 1653662692 "Examenstext.xdv" "Examenstext.pdf" "Examenstext" 1653662693
+  "Examenstext.xdv" 1653662550 205088 655772cbbf669ec5ad04aed778740c47 "xelatex"
   (generated)
   "Examenstext.pdf"
-["xelatex"] 1651347240 "Examenstext.tex" "Examenstext.xdv" "Examenstext" 1651347243
-=======
-["biber Examenstext"] 1653119354 "Examenstext.bcf" "Examenstext.bbl" "Examenstext" 1653131286
-  "./examen.bib" 1653117273 6219 728796e15ae2a2259a1ff5ccf20b8b9a ""
-  "Examenstext.bcf" 1653131286 111671 b5238e468d996c0632d43de179252a10 "xelatex"
-  (generated)
-  "Examenstext.bbl"
-  "Examenstext.blg"
-["xdvipdfmx"] 1653131286 "Examenstext.xdv" "Examenstext.pdf" "Examenstext" 1653131286
-  "Examenstext.xdv" 1653131286 202376 f69bade4006a2fb883a31e83be9e8b5c "xelatex"
-  (generated)
-  "Examenstext.pdf"
-["xelatex"] 1653131283 "Examenstext.tex" "Examenstext.xdv" "Examenstext" 1653131286
->>>>>>> dev
+["xelatex"] 1653131283 "Examenstext.tex" "Examenstext.xdv" "Examenstext" 1653662693
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -138,23 +124,13 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1649153372 5419899 0a5d1638b587257431aa04870550672f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-<<<<<<< HEAD
-  "Examenstext.aux" 1651347242 10753 2a2a69db23945a9913675a9267b5f3cd "xelatex"
-  "Examenstext.bbl" 1651341938 37677 ad166c96ec04abb57331ce6a18fc3828 "biber Examenstext"
-  "Examenstext.out" 1651347242 1840 3acfea8fa4caba2abdb13124c509b137 "xelatex"
-  "Examenstext.run.xml" 1651347242 2422 ac3b68c6967418173bb44dcb01719252 "xelatex"
-  "Examenstext.tex" 1651347239 51939 33c628e3de5f4da99bd4edcbbf33d9a0 ""
-  "Examenstext.toc" 1651347242 1198 d68263d9f7d3aa312aad0bbbea93a798 "xelatex"
-  "Framsidauppsats.pdf" 1651341935 103595 eb04bec9377346f2781106f9a42f0d83 ""
-=======
-  "Examenstext.aux" 1653131286 11155 c0929283782c2d6c8f7ca5f479ad833e "xelatex"
-  "Examenstext.bbl" 1653119356 41681 30403c471858b18884f2c1f05e125cef "biber Examenstext"
-  "Examenstext.out" 1653131286 1902 c5eaa8446eae1f400f79e5c94f46f96a "xelatex"
+  "Examenstext.aux" 1653662550 11155 c0929283782c2d6c8f7ca5f479ad833e "xelatex"
+  "Examenstext.bbl" 1653662550 41681 30403c471858b18884f2c1f05e125cef "biber Examenstext"
+  "Examenstext.out" 1653662550 1902 c5eaa8446eae1f400f79e5c94f46f96a "xelatex"
   "Examenstext.run.xml" 1653131286 2422 ac3b68c6967418173bb44dcb01719252 "xelatex"
-  "Examenstext.tex" 1653131283 52743 39be612aa005b6d7e42f2d2e2d2419a1 ""
-  "Examenstext.toc" 1653131286 1249 b806006176ba29d500ee652019aab42b "xelatex"
-  "Framsidauppsats.pdf" 1653126888 103047 8a67c6690163cf6424fced54bbc93546 ""
->>>>>>> dev
+  "Examenstext.tex" 1653662550 52743 39be612aa005b6d7e42f2d2e2d2419a1 ""
+  "Examenstext.toc" 1653662550 1249 b806006176ba29d500ee652019aab42b "xelatex"
+  "Framsidauppsats.pdf" 1653662550 103047 8a67c6690163cf6424fced54bbc93546 ""
   "geometry.sty" 1647031740 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "img//innergaard1.jpg" 1649618802 621344 d68a2f03d87c8c274e328aa4ecc09fdf ""
   "img//innergaard2.jpg" 1649618802 361068 9238d5fd56cae036636cac629050c484 ""
