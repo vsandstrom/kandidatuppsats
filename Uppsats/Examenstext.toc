@@ -2,17 +2,17 @@
 \contentsline {section}{\numberline {1}Inledning}{3}{section.1}%
 \contentsline {section}{\numberline {2}Bakgrund}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Elektronisk musik och teknologi}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Absolut musik och programmusik.}{8}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}\emph {Liminality} och \emph {The Eerie}}{11}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Musik}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}\emph {DEC}}{15}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}\emph {Koltrast}}{16}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}\emph {K87-89}}{18}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Metamorfos}{20}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Diskussion}{23}{section.4}%
-\contentsline {section}{\numberline {5}Referenser}{27}{section.5}%
-\contentsline {subsection}{Litteratur}{27}{section*.6}%
-\contentsline {subsection}{Musik}{28}{section*.8}%
-\contentsline {subsection}{Uppslagsverk}{28}{section*.10}%
-\contentsline {subsection}{Webb}{28}{section*.12}%
-\contentsline {section}{6 \ \ Bilagor}{28}{section*.14}%
+\contentsline {subsection}{\numberline {2.2}Absolut musik och programmusik.}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\emph {Liminality} och \emph {The Eerie}}{9}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Musik}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}\emph {DEC}}{13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}\emph {Koltrast}}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}\emph {K87-89}}{16}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Metamorfos}{18}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Diskussion}{21}{section.4}%
+\contentsline {section}{\numberline {5}Referenser}{25}{section.5}%
+\contentsline {subsection}{Litteratur}{25}{section*.6}%
+\contentsline {subsection}{Musik}{26}{section*.8}%
+\contentsline {subsection}{Uppslagsverk}{26}{section*.10}%
+\contentsline {subsection}{Webb}{26}{section*.12}%
+\contentsline {section}{6 \ \ Bilagor}{26}{section*.14}%
