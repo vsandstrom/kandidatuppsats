@@ -136,7 +136,7 @@
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labeltitlesource}{title}
-      \field{note}{Bilaga nr. 1}
+      \field{note}{[Musik], Bilaga nr. 1}
       \field{title}{DEC}
       \field{year}{2021}
       \verb{urlraw}
@@ -144,6 +144,20 @@
       \endverb
       \verb{url}
       \verb https://soundcloud.com/viktorsandstrm/dec
+      \endverb
+    \endentry
+    \entry{DEC2}{bilaga}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{note}{[Kod] Bilaga nr. 2}
+      \field{title}{DEC}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/vsandstrom/EP/tree/main/DEC
+      \endverb
+      \verb{url}
+      \verb https://github.com/vsandstrom/EP/tree/main/DEC
       \endverb
     \endentry
     \entry{Delalande1998}{article}{}
@@ -482,7 +496,7 @@
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labeltitlesource}{title}
-      \field{note}{Bilaga nr. 2}
+      \field{note}{[Musik], Bilaga nr. 3}
       \field{title}{K87-89}
       \field{year}{2021}
       \verb{urlraw}
@@ -490,6 +504,20 @@
       \endverb
       \verb{url}
       \verb https://soundcloud.com/viktorsandstrm/fev
+      \endverb
+    \endentry
+    \entry{K87-892}{bilaga}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labeltitlesource}{title}
+      \field{note}{[Kod], Bilaga nr. 4}
+      \field{title}{K87-89}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/vsandstrom/EP/tree/main/K87-89
+      \endverb
+      \verb{url}
+      \verb https://github.com/vsandstrom/EP/tree/main/K87-89
       \endverb
     \endentry
     \entry{kalkatraz}{online}{}
@@ -522,7 +550,7 @@
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labeltitlesource}{title}
-      \field{note}{Bilaga nr. 3}
+      \field{note}{[Musik], Bilaga nr. 5}
       \field{title}{Koltrast}
       \field{year}{2021}
       \verb{urlraw}
@@ -530,6 +558,20 @@
       \endverb
       \verb{url}
       \verb https://soundcloud.com/viktorsandstrm/koltrast
+      \endverb
+    \endentry
+    \entry{KOLTRAST2}{bilaga}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labeltitlesource}{title}
+      \field{note}{[Kod], Bilaga nr. 6}
+      \field{title}{Koltrast}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/vsandstrom/EP/tree/main/KOLTRAST
+      \endverb
+      \verb{url}
+      \verb https://github.com/vsandstrom/EP/tree/main/KOLTRAST
       \endverb
     \endentry
     \entry{ctrl}{online}{}
@@ -611,7 +653,7 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labeltitlesource}{title}
-      \field{note}{Bilaga nr. 4}
+      \field{note}{[Kod], Bilaga nr. 7}
       \field{title}{Metamorfos}
       \field{year}{2021}
       \verb{urlraw}

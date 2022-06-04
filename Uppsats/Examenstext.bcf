@@ -2379,64 +2379,70 @@
     <bcf:citekey order="34">skaiv</bcf:citekey>
     <bcf:citekey order="35">kalkatraz</bcf:citekey>
     <bcf:citekey order="36" nocite="1">DEC</bcf:citekey>
-    <bcf:citekey order="37">midi</bcf:citekey>
-    <bcf:citekey order="38">qpas</bcf:citekey>
-    <bcf:citekey order="39">wavefolder</bcf:citekey>
-    <bcf:citekey order="40" nocite="1">KOLTRAST</bcf:citekey>
-    <bcf:citekey order="41">zoom</bcf:citekey>
-    <bcf:citekey order="42">audioFX</bcf:citekey>
-    <bcf:citekey order="43">dwg</bcf:citekey>
-    <bcf:citekey order="44">ctrl</bcf:citekey>
-    <bcf:citekey order="45" nocite="1">K87-89</bcf:citekey>
-    <bcf:citekey order="46">dc</bcf:citekey>
-    <bcf:citekey order="47" nocite="1">META</bcf:citekey>
-    <bcf:citekey order="48">Basinski</bcf:citekey>
-    <bcf:citekey order="49">Lucier</bcf:citekey>
-    <bcf:citekey order="50">audioFX</bcf:citekey>
-    <bcf:citekey order="51">Fisher</bcf:citekey>
-    <bcf:citekey order="52">mickeymouse</bcf:citekey>
-    <bcf:citekey order="53">Tavlor</bcf:citekey>
-    <bcf:citekey order="54">ArthurCClarkeMagic</bcf:citekey>
-    <bcf:citekey order="55">sc</bcf:citekey>
-    <bcf:citekey order="56">Delalande1998</bcf:citekey>
-    <bcf:citekey order="57">dsp</bcf:citekey>
-    <bcf:citekey order="58">rpi</bcf:citekey>
-    <bcf:citekey order="59">unix</bcf:citekey>
-    <bcf:citekey order="60">303</bcf:citekey>
-    <bcf:citekey order="61">gas</bcf:citekey>
-    <bcf:citekey order="62">LaMemeYoung</bcf:citekey>
-    <bcf:citekey order="63">JoannaDemers</bcf:citekey>
-    <bcf:citekey order="64">LinusHillborg</bcf:citekey>
-    <bcf:citekey order="65">webster</bcf:citekey>
-    <bcf:citekey order="66">Tavlor</bcf:citekey>
-    <bcf:citekey order="67">PierreSchaeffer</bcf:citekey>
-    <bcf:citekey order="68">TrevorWishart</bcf:citekey>
-    <bcf:citekey order="69">oxford</bcf:citekey>
-    <bcf:citekey order="70">Gennep</bcf:citekey>
-    <bcf:citekey order="71">Arpad</bcf:citekey>
-    <bcf:citekey order="72">Thomassen</bcf:citekey>
-    <bcf:citekey order="73">Fisher</bcf:citekey>
-    <bcf:citekey order="74">onvanishingland</bcf:citekey>
-    <bcf:citekey order="75">EnoLand</bcf:citekey>
-    <bcf:citekey order="76">Eno</bcf:citekey>
-    <bcf:citekey order="77">Airports</bcf:citekey>
-    <bcf:citekey order="78">skaiv</bcf:citekey>
-    <bcf:citekey order="79">kalkatraz</bcf:citekey>
-    <bcf:citekey order="80">DEC</bcf:citekey>
-    <bcf:citekey order="81">midi</bcf:citekey>
-    <bcf:citekey order="82">qpas</bcf:citekey>
-    <bcf:citekey order="83">wavefolder</bcf:citekey>
-    <bcf:citekey order="84">KOLTRAST</bcf:citekey>
-    <bcf:citekey order="85">zoom</bcf:citekey>
-    <bcf:citekey order="86">audioFX</bcf:citekey>
-    <bcf:citekey order="87">dwg</bcf:citekey>
-    <bcf:citekey order="88">ctrl</bcf:citekey>
-    <bcf:citekey order="89">K87-89</bcf:citekey>
-    <bcf:citekey order="90">dc</bcf:citekey>
-    <bcf:citekey order="91">META</bcf:citekey>
-    <bcf:citekey order="92">Basinski</bcf:citekey>
-    <bcf:citekey order="93">Lucier</bcf:citekey>
-    <bcf:citekey order="94">mickeymouse</bcf:citekey>
+    <bcf:citekey order="37" nocite="1">DEC2</bcf:citekey>
+    <bcf:citekey order="38">midi</bcf:citekey>
+    <bcf:citekey order="39">qpas</bcf:citekey>
+    <bcf:citekey order="40">wavefolder</bcf:citekey>
+    <bcf:citekey order="41" nocite="1">KOLTRAST</bcf:citekey>
+    <bcf:citekey order="42" nocite="1">KOLTRAST2</bcf:citekey>
+    <bcf:citekey order="43">zoom</bcf:citekey>
+    <bcf:citekey order="44">audioFX</bcf:citekey>
+    <bcf:citekey order="45">dwg</bcf:citekey>
+    <bcf:citekey order="46">ctrl</bcf:citekey>
+    <bcf:citekey order="47" nocite="1">K87-89</bcf:citekey>
+    <bcf:citekey order="48" nocite="1">K87-892</bcf:citekey>
+    <bcf:citekey order="49">dc</bcf:citekey>
+    <bcf:citekey order="50" nocite="1">META</bcf:citekey>
+    <bcf:citekey order="51">Basinski</bcf:citekey>
+    <bcf:citekey order="52">Lucier</bcf:citekey>
+    <bcf:citekey order="53">audioFX</bcf:citekey>
+    <bcf:citekey order="54">Fisher</bcf:citekey>
+    <bcf:citekey order="55">mickeymouse</bcf:citekey>
+    <bcf:citekey order="56">Tavlor</bcf:citekey>
+    <bcf:citekey order="57">ArthurCClarkeMagic</bcf:citekey>
+    <bcf:citekey order="58">sc</bcf:citekey>
+    <bcf:citekey order="59">Delalande1998</bcf:citekey>
+    <bcf:citekey order="60">dsp</bcf:citekey>
+    <bcf:citekey order="61">rpi</bcf:citekey>
+    <bcf:citekey order="62">unix</bcf:citekey>
+    <bcf:citekey order="63">303</bcf:citekey>
+    <bcf:citekey order="64">gas</bcf:citekey>
+    <bcf:citekey order="65">LaMemeYoung</bcf:citekey>
+    <bcf:citekey order="66">JoannaDemers</bcf:citekey>
+    <bcf:citekey order="67">LinusHillborg</bcf:citekey>
+    <bcf:citekey order="68">webster</bcf:citekey>
+    <bcf:citekey order="69">Tavlor</bcf:citekey>
+    <bcf:citekey order="70">PierreSchaeffer</bcf:citekey>
+    <bcf:citekey order="71">TrevorWishart</bcf:citekey>
+    <bcf:citekey order="72">oxford</bcf:citekey>
+    <bcf:citekey order="73">Gennep</bcf:citekey>
+    <bcf:citekey order="74">Arpad</bcf:citekey>
+    <bcf:citekey order="75">Thomassen</bcf:citekey>
+    <bcf:citekey order="76">Fisher</bcf:citekey>
+    <bcf:citekey order="77">onvanishingland</bcf:citekey>
+    <bcf:citekey order="78">EnoLand</bcf:citekey>
+    <bcf:citekey order="79">Eno</bcf:citekey>
+    <bcf:citekey order="80">Airports</bcf:citekey>
+    <bcf:citekey order="81">skaiv</bcf:citekey>
+    <bcf:citekey order="82">kalkatraz</bcf:citekey>
+    <bcf:citekey order="83">DEC</bcf:citekey>
+    <bcf:citekey order="84">DEC2</bcf:citekey>
+    <bcf:citekey order="85">midi</bcf:citekey>
+    <bcf:citekey order="86">qpas</bcf:citekey>
+    <bcf:citekey order="87">wavefolder</bcf:citekey>
+    <bcf:citekey order="88">KOLTRAST</bcf:citekey>
+    <bcf:citekey order="89">KOLTRAST2</bcf:citekey>
+    <bcf:citekey order="90">zoom</bcf:citekey>
+    <bcf:citekey order="91">audioFX</bcf:citekey>
+    <bcf:citekey order="92">dwg</bcf:citekey>
+    <bcf:citekey order="93">ctrl</bcf:citekey>
+    <bcf:citekey order="94">K87-89</bcf:citekey>
+    <bcf:citekey order="95">K87-892</bcf:citekey>
+    <bcf:citekey order="96">dc</bcf:citekey>
+    <bcf:citekey order="97">META</bcf:citekey>
+    <bcf:citekey order="98">Basinski</bcf:citekey>
+    <bcf:citekey order="99">Lucier</bcf:citekey>
+    <bcf:citekey order="100">mickeymouse</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
